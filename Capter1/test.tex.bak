@@ -71,6 +71,7 @@
 \newtheorem{guess}{\textbf{猜想}}[section]
 \renewcommand{\figurename}{图}
 \begin{document}
+\pagestyle{empty}  %取消页码
 \chapter{基本概念}
 \chapter{道路与回路}
 \section{道路与回路}
@@ -210,7 +211,7 @@ $P(i=3)=\begin{bmatrix}
 \end{bmatrix}\quad P(i=4)=P(i=3),
 $\\
 \begin{figure}[h]
-\vspace{-90pt}
+\vspace{-50pt}
 \parbox[t]{0.5\textwidth}{$
 P(i=5)=\begin{bmatrix}
 1&1&1&1&1\\
@@ -220,13 +221,35 @@ P(i=5)=\begin{bmatrix}
 1&1&1&1&1\\
 \end{bmatrix}$}
 \centering
-\includegraphics[width=0.4\textwidth]{2.2.png}%
-\vspace{-50pt}
+\includegraphics[width=0.4\textwidth]{2.5.png}%
+\captionsetup{margin=3em}
+\caption{}
+\vspace{-30pt}
 \end{figure}
 \end{sample}
+\begin{theorem}\K Warshall算法的结果是图G的道路矩阵。
+\end{theorem}
+\textbf{证明：}该定理的严格证明需要对三层循环分别使用归纳法。现只证其最外层循环。\\
+基始：当i=1时，\\
+$p_{jk}^{(l)}=p_{jk}\bigvee (p_{jl}\bigwedge p_{lk}),k=1,2,\cdots,n;j=1,2,\cdots,n$\\
+$p_{jk}^{(1)}=1$当且仅当$p_{jk}=1$或$p_{j1}=p_{1k}=1$，其中$p_{jk}=1$表明$v_j$直接可达$v_k$，$p_{j1}=p_{1k}=1$表明$v_j$直接经过$v_1$可达$v_k$。因此$p_{jk}^{(l) }=1$ 当且仅当结点集{$v_j,v_1,v_k$ } 之间有$v_j$到$v_k$的路。\\
+ \indent i=2时，$p_{jk}^{(2)}=p_{jk}^{(1)}∨(p_{j2}^{(1)}∧p_{2k}^{(1)})$，$k=1,2,\cdots,n$；$j=1,2,\cdots,n$。$p_{jk}^{(2)}=1$当且仅当$p_{jk}^{(1)}=1$或$ p_{j2}^{(1)}=p_{2k}^{(1)} =1$，其中$p_{jk}^{(1)}=1$表明结点集{$v_j,v_1,v_k$ }之间有$v_j$到$v_k$的道路；$p_{j2}^{(1)} $和$p_{2k}^{(1)}$为1表明{$v_j,v_1,v_2,v_k $} 之间$v_j$有必通过$v_2$到达$v_k$的道路，因此，$p_{jk}^{(2)}=1$当且仅当结点集{$v_j,v_1,v_2,v_k $}中有$v_j$到$v_k$的道路。\\
+\indent 设i=n-1时，$p_{jk}^{(n-1)}=1$当且仅当结点集{$v_j,v_1,v_2,\cdots,v_{n-1},v_k$}之中有$v_j$到$v_k$的道路。\\
+\indent 则i=n时，$p_{jk}^{(n)}=p_{jk}^{(n-1)}\bigvee(p_{jn}^{(n-1)}\bigwedge p_{nk}^{(n-1)})，k=1,2,\cdots,n；j=1,2,\cdots,n$。\\由归纳假设，$p_{jk}^{(n-1)}=1 $ 表明结点集{$v_j,v_1,v_2,\cdots,v_{n-1},v_k$ }中有$v_j$到$v_k$的路，$p_{jn}^{(n-1)}=p_{nk}^{(n-1)}=1$表明结点集{$v_j,v_1,v_2,\cdots,v_{n-1},v_k$ }中$v_j$有通过$v_n$ 到达$v_k$ 的道路。因此，$p_{jk}^{(n)}=1$即是结点集{$v_j,v_1,\cdots,v_n,v_k $}之中有$v_j$到$v_k$的道路。\\
+\indent 采用搜索的方法判断G中某一结点$v_0$到另一结点$v_j$是否存在道路经常更加方便。常用的搜索法有广探法(Breadth First Search)和深探法(Depth First Search)。
+\\ \indent \textbf{广探法(BFS)}是从G的任一结点$v_0$开始, 找它的直接后继集$Γ^+ (v_0)$，记为$A_1$，然后对$A_1$中的每一结点分别找它们的直接后继集，这些直接后继集的并记为$A_2$。 依此类推，直至达到目的。为了避免结点的重复搜索，可以首先对全部结点都给一个标记“0”，当$v_i$被搜索到时，如果其标记为0，则$v_i$进入直接后继集，同时标记改为1，否则由于$v_i$ 已被搜索因此不再进入直接后继集。
+
+% 改编到14页
+
+
+
+
+
+
+
 \section{哈密尔顿回路}
 
-\subsection{哈密尔顿回路的引入} 一个包含一个无向图中所有的点的初级回路被称作\textbf{哈密尔顿回路}(Hamilton Cycle)。这源于1857年Sir William Hamilton发明的一种游戏——遍历一个正十二面体，不能经过一个点两次。一个含有哈密尔顿回路的图称作\textbf{哈密尔顿图}(Hamiltonian)。 事实上，在哈密尔顿之前，1759年，欧拉就已经研究了在一个国际象棋棋盘上骑士的遍历问题(Knight's Tour on a Chess Board)(图a给出了一个解)。如果我们对旅行商问题再加上一重限制，两个城市之间的旅行费用只有$1$ 和$\infty$（也就是说不可能经过这条边），那么这个TSP问题就变成了这个图中所有的旅行费用为1 的边中是否存在一条哈密尔顿回路。然而，直到现在，即使这种TSP 问题的特殊情况仍然没有解决：没有有效算法构造图中的哈密尔顿回路，虽然是否真的有这样的算法也不知道。
+\subsection{哈密尔顿回路的引入} 一个包含一个无向图中所有的点的初级回路被称作\textbf{哈密尔顿回路}(Hamilton Cycle)。这源于1857年Sir William Hamilton发明的一种游戏——遍历一个正十二面体，不能经过一个点两次。一个含有哈密尔顿回路的图称作\textbf{哈密尔顿图}(Hamiltonian)。 事实上，在哈密尔顿之前，1759年，欧拉就已经研究了在一个国际象棋棋盘上骑士的遍历问题(Knight's Tour on a Chess Board)(图a给出了一个解)。如果我们对旅行商问题再加上一重限制，两个城市之间的旅行费用只有$1$ 和$\infty$ （也就是说不可能经过这条边），那么这个TSP问题就变成了这个图中所有的旅行费用为1 的边中是否存在一条哈密尔顿回路。然而，直到现在，即使这种TSP 问题的特殊情况仍然没有解决：没有有效算法构造图中的哈密尔顿回路，虽然是否真的有这样的算法也不知道。
 \begin{figure}[H]
 \centering
 \subfigure[骑士遍历问题的一个解]{

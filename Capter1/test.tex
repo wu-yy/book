@@ -71,6 +71,7 @@
 \newtheorem{guess}{\textbf{猜想}}[section]
 \renewcommand{\figurename}{图}
 \begin{document}
+\pagestyle{plain}  %取消页码
 \chapter{基本概念}
 \chapter{道路与回路}
 \section{道路与回路}
@@ -119,7 +120,7 @@
 \end{adjustwidth}
 \end{sample}
 \begin{sample}
-设G=(V,E)是无向图，如果V(G)可以划分为子集X和Y，使得对所有的e=(u,v)∈E(G)，u和v都分属于X和Y，则称G是二分图。证明：如果二分图G中存在回路，则它们都是由偶数条边组成的。\\
+设G=(V,E)是无向图，如果V(G)可以划分为子集X和Y，使得对所有的e=(u,v)∈E(G)，u和v都分属于X和Y，则称G是二分图。证明：如果二分图G中存在回路，则它们都是由偶数条边组成的。
 \begin{adjustwidth}{0.62cm}{0.62cm}
 \textbf{证明：}设C是二分图G的任一回路，不妨设$v_0$∈X是C的始点，由于G是二分图, 所以沿回路C 必须经过偶数条边才能达到某结点$v_i$∈X，因而只有经过偶数边才能回到$v_0$
 \end{adjustwidth}
