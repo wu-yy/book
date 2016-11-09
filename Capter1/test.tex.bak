@@ -19,6 +19,7 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{picinpar}
+\usepackage{picinpar}
 \usepackage{float}
 \usepackage{algorithm} %format of the algorithm
 \usepackage{algorithmic} %format of the algorithm
@@ -71,7 +72,7 @@
 \newtheorem{guess}{\textbf{猜想}}[section]
 \renewcommand{\figurename}{图}
 \begin{document}
-\pagestyle{empty}  %取消页码
+\pagestyle{plain}  %取消页码
 \chapter{基本概念}
 \chapter{道路与回路}
 \section{道路与回路}
@@ -120,7 +121,7 @@
 \end{adjustwidth}
 \end{sample}
 \begin{sample}
-设G=(V,E)是无向图，如果V(G)可以划分为子集X和Y，使得对所有的e=(u,v)∈E(G)，u和v都分属于X和Y，则称G是二分图。证明：如果二分图G中存在回路，则它们都是由偶数条边组成的。\\
+设G=(V,E)是无向图，如果V(G)可以划分为子集X和Y，使得对所有的e=(u,v)∈E(G)，u和v都分属于X和Y，则称G是二分图。证明：如果二分图G中存在回路，则它们都是由偶数条边组成的。
 \begin{adjustwidth}{0.62cm}{0.62cm}
 \textbf{证明：}设C是二分图G的任一回路，不妨设$v_0$∈X是C的始点，由于G是二分图, 所以沿回路C 必须经过偶数条边才能达到某结点$v_i$∈X，因而只有经过偶数边才能回到$v_0$
 \end{adjustwidth}
@@ -238,8 +239,15 @@ $p_{jk}^{(1)}=1$当且仅当$p_{jk}=1$或$p_{j1}=p_{1k}=1$，其中$p_{jk}=1$表
 \indent 则i=n时，$p_{jk}^{(n)}=p_{jk}^{(n-1)}\bigvee(p_{jn}^{(n-1)}\bigwedge p_{nk}^{(n-1)})，k=1,2,\cdots,n；j=1,2,\cdots,n$。\\由归纳假设，$p_{jk}^{(n-1)}=1 $ 表明结点集{$v_j,v_1,v_2,\cdots,v_{n-1},v_k$ }中有$v_j$到$v_k$的路，$p_{jn}^{(n-1)}=p_{nk}^{(n-1)}=1$表明结点集{$v_j,v_1,v_2,\cdots,v_{n-1},v_k$ }中$v_j$有通过$v_n$ 到达$v_k$ 的道路。因此，$p_{jk}^{(n)}=1$即是结点集{$v_j,v_1,\cdots,v_n,v_k $}之中有$v_j$到$v_k$的道路。\\
 \indent 采用搜索的方法判断G中某一结点$v_0$到另一结点$v_j$是否存在道路经常更加方便。常用的搜索法有广探法(Breadth First Search)和深探法(Depth First Search)。
 \\ \indent \textbf{广探法(BFS)}是从G的任一结点$v_0$开始, 找它的直接后继集$Γ^+ (v_0)$，记为$A_1$，然后对$A_1$中的每一结点分别找它们的直接后继集，这些直接后继集的并记为$A_2$。 依此类推，直至达到目的。为了避免结点的重复搜索，可以首先对全部结点都给一个标记“0”，当$v_i$被搜索到时，如果其标记为0，则$v_i$进入直接后继集，同时标记改为1，否则由于$v_i$ 已被搜索因此不再进入直接后继集。
-
 % 改编到14页
+
+\textbf{解：}如果采用正向表的输入结构，则有,
+\begin{figure}[h]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.4\textwidth]{2.6BFS.png}\\
+  \caption*{}\label{}
+\end{figure}
 
 
 

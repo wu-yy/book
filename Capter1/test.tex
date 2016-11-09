@@ -19,6 +19,7 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{picinpar}
+\usepackage{picins}
 \usepackage{float}
 \usepackage{algorithm} %format of the algorithm
 \usepackage{algorithmic} %format of the algorithm
@@ -238,9 +239,50 @@ $p_{jk}^{(1)}=1$当且仅当$p_{jk}=1$或$p_{j1}=p_{1k}=1$，其中$p_{jk}=1$表
 \indent 则i=n时，$p_{jk}^{(n)}=p_{jk}^{(n-1)}\bigvee(p_{jn}^{(n-1)}\bigwedge p_{nk}^{(n-1)})，k=1,2,\cdots,n；j=1,2,\cdots,n$。\\由归纳假设，$p_{jk}^{(n-1)}=1 $ 表明结点集{$v_j,v_1,v_2,\cdots,v_{n-1},v_k$ }中有$v_j$到$v_k$的路，$p_{jn}^{(n-1)}=p_{nk}^{(n-1)}=1$表明结点集{$v_j,v_1,v_2,\cdots,v_{n-1},v_k$ }中$v_j$有通过$v_n$ 到达$v_k$ 的道路。因此，$p_{jk}^{(n)}=1$即是结点集{$v_j,v_1,\cdots,v_n,v_k $}之中有$v_j$到$v_k$的道路。\\
 \indent 采用搜索的方法判断G中某一结点$v_0$到另一结点$v_j$是否存在道路经常更加方便。常用的搜索法有广探法(Breadth First Search)和深探法(Depth First Search)。
 \\ \indent \textbf{广探法(BFS)}是从G的任一结点$v_0$开始, 找它的直接后继集$Γ^+ (v_0)$，记为$A_1$，然后对$A_1$中的每一结点分别找它们的直接后继集，这些直接后继集的并记为$A_2$。 依此类推，直至达到目的。为了避免结点的重复搜索，可以首先对全部结点都给一个标记“0”，当$v_i$被搜索到时，如果其标记为0，则$v_i$进入直接后继集，同时标记改为1，否则由于$v_i$ 已被搜索因此不再进入直接后继集。
-
 % 改编到14页
-
+\begin{sample}
+用BFS方法找图2.6中$v_1$到$v_4$的一条道路。
+\begin{figure}[!ht]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.4\textwidth]{2.6.png}\\
+  \caption{}\label{fig:2.6}
+\end{figure}
+\textbf{解：}如果采用正向表的输入结构，则有\\
+\begin{figure}[h]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.4\textwidth]{2.6BFS.png}\\
+  \caption*{}\label{}
+\end{figure}
+$\because \Gamma^{+}(v_1)={v_2,v_6},\therefore A_1={v_2,v_6}$。\\
+$\because \Gamma^{+}(v_2)={v_3,v_6}$,\\
+$\Gamma^{+}(v_6)={v_3,v_5},\therefore A_2={v_3,v_5}$。\\
+$\because  \Gamma^{+}(v_3)={v_1},\Gamma^{+}(v_5)={v_3,v_4}$,\\
+$\therefore A_3={v_4}$\\
+\indent 从上例中可知，用BFS方法求两点间道路的计算复杂性是O(m)。
+\end{sample}
+\begin{figure}[h]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.4\textwidth]{2.6DFS.png}
+  \caption{}\label{fig:2.7}
+\end{figure}
+\indent \textbf{深探法(DFS)}的特点与BFS截然不同。它从某一结点$v_0$开始，只查找$v_0$的某个直接后继$v_1$，记下$v_1$的父亲$v_0$，然后再找$v_1$的某个未搜索过的直接后继$v_2$。 依此类推。当从某个结点$v_j$无法再向下搜索时，退回到它的父亲$v_{j-1}$，然后再找$v_{j-1}$的另一个未查过的直接后继。形象地说，DFS的特点是尽量向下搜索，只有碰壁才回头。\\
+\indent 采用栈结构以及前述的标记结点的方法可以完成DFS的搜索过程。\\
+\begin{sample}
+ 用DFS方法找图2.6中$v_1$到$v_4$的一条道路。\\
+ \textbf{解：}数据输入依然采用正向表。$v_1$的第一个直接后继是$v_2，v_1$进栈；$v_2$的第一个后继是 $v_3，v_2$进栈。$v_3$的后继是$v_1$，但已标记，故退栈。$v_2$的另一个后继是$v_6$，$v_2$进栈；$v_6$的第1个后继是已标记结点$v_3$，第2个后继是$v_5$，$v_6$进栈。$v_5$的后继是$v_4$。至此，已搜索到$v_1$到$v_4$的一条道路。整个搜索过程可用图2.7 形象地表示。其计算复杂性也是O(m)。
+\end{sample}
+\section{欧拉道路与回路}
+\subsection{欧拉道路的引入}
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.5\textwidth]{2.3.1.jpg}
+  \caption*{哥尼斯堡七桥}
+\end{figure}
+1736年瑞士著名数学家欧拉(Leonhard Euler)发表了图论的第一篇论文“哥尼斯堡七桥问题”。这个问题是这样的：哥尼斯堡城被Pregel河分成了4部分，它们之间有7座桥。如图2.8所示。当时人们提出了一个问题，能否从城市的某处出发，过每座桥一次且仅一次最后回到原处。欧拉的文章漂亮地解决了这个问题。他把4块陆地设想为4 个结点，分别用A、B、C、D表示，而将桥画成相应的边，如图2.9。于是问题转化为在该图中是否存在经过每条边一次且仅一次的回路。欧拉的论文给出了解决这类问题的准则，并对七桥问题给出了否定的结论。\\
 
 
 

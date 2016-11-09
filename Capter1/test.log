@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.11.3)  9 NOV 2016 13:32
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.11.3)  9 NOV 2016 16:20
 entering extended mode
 **test.tex
 (C:\Users\lenovo\Desktop\图论v.1\book\Capter1\test.tex
@@ -1142,13 +1142,59 @@ Pictures in Paragraphs. Version 1.2a, July 13, 1993
 \waslice=\box49
 \wbslice=\box50
 \fslice=\box51
-) (D:\CTEX\MiKTeX\tex\latex\float\float.sty
+) (D:\CTEX\MiKTeX\tex\latex\picins\picins.sty
+Option `picins' Version 3.0 Sep. 1992, TH Darmstadt/HRZ
+\@BILD=\box52
+\@TEXT=\box53
+\d@breite=\dimen174
+\d@hoehe=\dimen175
+\d@xoff=\dimen176
+\d@yoff=\dimen177
+\d@shad=\dimen178
+\d@dash=\dimen179
+\d@boxl=\dimen180
+\d@pichskip=\dimen181
+\d@tmp=\dimen182
+\d@tmpa=\dimen183
+\d@bskip=\dimen184
+\hsiz@=\dimen185
+\p@getot@l=\dimen186
+\c@breite=\count291
+\c@hoehe=\count292
+\c@xoff=\count293
+\c@yoff=\count294
+\c@pos=\count295
+\c@shad=\count296
+\c@dash=\count297
+\c@boxl=\count298
+\c@zeilen=\count299
+\@changemode=\count300
+\c@piccaption=\count301
+\c@piccaptionpos=\count302
+\c@picpos=\count303
+\c@whole=\count304
+\c@half=\count305
+\c@tmp=\count306
+\c@tmpa=\count307
+\c@tmpb=\count308
+\c@tmpc=\count309
+\c@tmpd=\count310
+\d@leftskip=\skip56
+\ptoti=\dimen187
+\ptotii=\dimen188
+\env@box=\box54
+\d@envdp=\dimen189
+\c@hsize=\count311
+\c@envdp=\count312
+\d@envb=\dimen190
+)
+(D:\CTEX\MiKTeX\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count291
+\c@float@type=\count313
 \float@exts=\toks39
-\float@box=\box52
+\float@box=\box55
 \@float@everytoks=\toks40
-\@floatcapt=\box53
+\@floatcapt=\box56
 )
 (D:\CTEX\MiKTeX\tex\latex\algorithms\algorithm.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
@@ -1159,54 +1205,55 @@ nment
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks41
-\c@algorithm=\count292
+\c@algorithm=\count314
 )
 (D:\CTEX\MiKTeX\tex\latex\algorithms\algorithmic.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count293
-\c@ALC@line=\count294
-\c@ALC@rem=\count295
-\c@ALC@depth=\count296
-\ALC@tlm=\skip56
-\algorithmicindent=\skip57
+\c@ALC@unique=\count315
+\c@ALC@line=\count316
+\c@ALC@rem=\count317
+\c@ALC@depth=\count318
+\ALC@tlm=\skip57
+\algorithmicindent=\skip58
 )
 (D:\CTEX\MiKTeX\tex\latex\subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip58
-\subfigcapskip=\skip59
-\subfigcaptopadj=\dimen174
-\subfigbottomskip=\skip60
-\subfigcapmargin=\dimen175
-\subfiglabelskip=\skip61
-\c@subfigure=\count297
-\c@lofdepth=\count298
-\c@subtable=\count299
-\c@lotdepth=\count300
+\subfigtopskip=\skip59
+\subfigcapskip=\skip60
+\subfigcaptopadj=\dimen191
+\subfigbottomskip=\skip61
+\subfigcapmargin=\dimen192
+\subfiglabelskip=\skip62
+\c@subfigure=\count319
+\c@lofdepth=\count320
+\c@subtable=\count321
+\c@lotdepth=\count322
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 (D:\CTEX\MiKTeX\tex\latex\subfigure\subfigure.cfg)
-\subfig@top=\skip62
-\subfig@bottom=\skip63
+\subfig@top=\skip63
+\subfig@bottom=\skip64
 )
 (D:\CTEX\MiKTeX\tex\latex\caption\caption.sty
 Package: caption 2011/11/10 v3.2e Customizing captions (AR)
 
 (D:\CTEX\MiKTeX\tex\latex\caption\caption3.sty
 Package: caption3 2011/11/01 v1.4a caption3 kernel (AR)
-\captionmargin=\dimen176
-\captionmargin@=\dimen177
-\captionwidth=\dimen178
-\caption@indent=\dimen179
-\caption@parindent=\dimen180
-\caption@hangindent=\dimen181
+\captionmargin=\dimen193
+\captionmargin@=\dimen194
+\captionwidth=\dimen195
+\caption@indent=\dimen196
+\caption@parindent=\dimen197
+\caption@hangindent=\dimen198
 )
-\c@ContinuedFloat=\count301
+\c@ContinuedFloat=\count323
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: picinpar package is loaded.
+Package caption Info: picins package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
@@ -1219,7 +1266,7 @@ Requested font "å®^^8bä½^^93/ICU" at 10.0pt
 . 
 . Font 宋体 does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_宋体_int=\count302
+\g_fontspec_family_宋体_int=\count324
 Requested font "å®^^8bä½^^93/ICU" at 10.0pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 Requested font "å®^^8bä½^^93/ICU" at 10.0pt
@@ -1266,7 +1313,7 @@ Requested font "Courier New" at 10.0pt
  -> C:/Windows/Fonts/cour.ttf
 Requested font "Courier New/ICU" at 10.0pt
  -> C:/Windows/Fonts/cour.ttf
-\g_fontspec_family_Courier New_int=\count303
+\g_fontspec_family_Courier New_int=\count325
 Requested font "Courier New/B/ICU" at 10.0pt
  -> C:/Windows/Fonts/courbd.ttf
 Requested font "Courier New/B/B/ICU" at 10.0pt
@@ -1308,7 +1355,7 @@ Requested font "é»^^91ä½^^93/ICU" at 10.0pt
 . 
 . Font 黑体 does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_黑体_int=\count304
+\g_fontspec_family_黑体_int=\count326
 Requested font "é»^^91ä½^^93/ICU" at 10.0pt
  -> C:/Windows/Fonts/simhei.ttf
 Requested font "é»^^91ä½^^93/ICU" at 10.0pt
@@ -1349,7 +1396,7 @@ Requested font "é»^^91ä½^^93/BI/ICU" at 10.0pt
 . * 'normal' with NFSS spec.:
 . <->"黑体/ICU:mapping=tex-text;"
 .................................................
-LaTeX Info: Redefining \H on input line 32.
+LaTeX Info: Redefining \H on input line 33.
 Requested font "æ¥·ä½^^93" at 10.0pt
  -> C:/Windows/Fonts/simkai.ttf
 Requested font "æ¥·ä½^^93/ICU" at 10.0pt
@@ -1359,7 +1406,7 @@ Requested font "æ¥·ä½^^93/ICU" at 10.0pt
 . 
 . Font 楷体 does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_楷体_int=\count305
+\g_fontspec_family_楷体_int=\count327
 Requested font "æ¥·ä½^^93/ICU" at 10.0pt
  -> C:/Windows/Fonts/simkai.ttf
 Requested font "æ¥·ä½^^93/ICU" at 10.0pt
@@ -1417,12 +1464,12 @@ Requested font "é»^^91ä½^^93/ICU" at 10.0pt
 . 
 . This font family consists of the following shapes:
 .................................................
-LaTeX Info: Redefining \S on input line 34.
-\c@theorem=\count306
-\c@defination=\count307
-\c@coro=\count308
-\c@sample=\count309
-\c@guess=\count310
+LaTeX Info: Redefining \S on input line 35.
+\c@theorem=\count328
+\c@defination=\count329
+\c@coro=\count330
+\c@sample=\count331
+\c@guess=\count332
 
 (C:\Users\lenovo\Desktop\图论v.1\book\Capter1\test.aux
 
@@ -1432,51 +1479,51 @@ LaTeX Warning: Label `Fig.sub.2' multiply defined.
 LaTeX Warning: Label `sub@Fig.sub.2' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 73.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 74.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 74.
  (D:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
 Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.95pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 
 *** you should *not* be loading the inputenc package
 *** XeTeX expects the source to be in UTF8 encoding
 *** some features of other encodings may conflict, resulting in poor output.
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 73.
+\AtBeginShipoutBox=\box57
+Package hyperref Info: Link coloring OFF on input line 74.
 (D:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 (D:\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count311
+\c@section@level=\count333
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
 
 (C:\Users\lenovo\Desktop\图论v.1\book\Capter1\test.out)
 (C:\Users\lenovo\Desktop\图论v.1\book\Capter1\test.out)
@@ -1493,7 +1540,7 @@ Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 20.74pt
 
 
 LaTeX Font Warning: Font shape `EU1/宋体(0)/bx/n' undefined
-(Font)              using `EU1/宋体(0)/m/n' instead on input line 75.
+(Font)              using `EU1/宋体(0)/m/n' instead on input line 76.
 
 Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 24.88pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
@@ -1582,7 +1629,7 @@ Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;embolden=4;" at 14.4pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 
 LaTeX Font Warning: Font shape `EU1/宋体(0)/m/it' undefined
-(Font)              using `EU1/宋体(0)/m/n' instead on input line 78.
+(Font)              using `EU1/宋体(0)/m/n' instead on input line 79.
 
 Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.95pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
@@ -1609,7 +1656,7 @@ Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;embolden=4;" at 10.95pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 
 LaTeX Font Warning: Font shape `EU1/楷体(0)/m/it' undefined
-(Font)              using `EU1/楷体(0)/m/n' instead on input line 78.
+(Font)              using `EU1/楷体(0)/m/n' instead on input line 79.
 
 Requested font "æ¥·ä½^^93/ICU:mapping=tex-text;" at 10.95pt
  -> C:/Windows/Fonts/simkai.ttf
@@ -1632,13 +1679,13 @@ Requested font "å®^^8bä½^^93/ICU" at 10.95pt
 .................................................
 
 LaTeX Font Warning: Font shape `EU1/宋体(1)/m/it' undefined
-(Font)              using `EU1/宋体(1)/m/n' instead on input line 78.
+(Font)              using `EU1/宋体(1)/m/n' instead on input line 79.
 
 Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.95pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.95pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 78.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 79.
 (D:\CTEX\MiKTeX\tex\latex\lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1648,7 +1695,7 @@ Requested font "rm-lmr8" at 8.0pt
  -> rm-lmr8
 Requested font "rm-lmr6" at 6.0pt
  -> rm-lmr6
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 78.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 79.
  (D:\CTEX\MiKTeX\tex\latex\lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1658,7 +1705,7 @@ Requested font "lmmi8" at 8.0pt
  -> lmmi8
 Requested font "lmmi6" at 6.0pt
  -> lmmi6
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 78.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 79.
 
 (D:\CTEX\MiKTeX\tex\latex\lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1669,21 +1716,21 @@ Requested font "lmsy8" at 8.0pt
  -> lmsy8
 Requested font "lmsy6" at 6.0pt
  -> lmsy6
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 78.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 79.
 
 
 (D:\CTEX\MiKTeX\tex\latex\lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 78.
+(Font)              <10.95> on input line 79.
 Requested font "lmex10" scaled 1000
  -> lmex10
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 78.
+(Font)              <8> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 78.
-LaTeX Font Info:    Try loading font information for U+msa on input line 78.
+(Font)              <6> on input line 79.
+LaTeX Font Info:    Try loading font information for U+msa on input line 79.
 
 (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
@@ -1694,7 +1741,7 @@ Requested font "msam10" at 8.0pt
  -> msam10
 Requested font "msam7" at 6.0pt
  -> msam7
-LaTeX Font Info:    Try loading font information for U+msb on input line 78.
+LaTeX Font Info:    Try loading font information for U+msb on input line 79.
 
 (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -1714,7 +1761,7 @@ Requested font "lasy6" at 6.0pt
 
 
 LaTeX Font Warning: Font shape `EU1/楷体(0)/bx/it' undefined
-(Font)              using `EU1/楷体(0)/m/n' instead on input line 78.
+(Font)              using `EU1/楷体(0)/m/n' instead on input line 79.
 
 Requested font "å®^^8bä½^^93" at 10.95pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
@@ -1735,7 +1782,7 @@ Requested font "å®^^8bä½^^93/ICU" at 10.95pt
 .................................................
 
 LaTeX Font Warning: Font shape `EU1/宋体(1)/bx/it' undefined
-(Font)              using `EU1/宋体(1)/bx/n' instead on input line 78.
+(Font)              using `EU1/宋体(1)/bx/n' instead on input line 79.
 
 Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;embolden=4;" at 10.95pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
@@ -1767,7 +1814,7 @@ Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.95pt
 
 
 LaTeX Font Warning: Font shape `EU1/黑体(0)/m/it' undefined
-(Font)              using `EU1/黑体(0)/m/n' instead on input line 87.
+(Font)              using `EU1/黑体(0)/m/n' instead on input line 88.
 
 Requested font "é»^^91ä½^^93/ICU:mapping=tex-text;" at 10.95pt
  -> C:/Windows/Fonts/simhei.ttf
@@ -1779,7 +1826,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Requested font "æ¥·ä½^^93/ICU:mapping=tex-text;" at 10.95pt
  -> C:/Windows/Fonts/simkai.ttf
 
-Overfull \hbox (32.85085pt too wide) in paragraph at lines 96--98
+Overfull \hbox (32.85085pt too wide) in paragraph at lines 97--99
 [][]\xeCJK@rm/bx/it/10.95 定 义 \EU1/宋体(0)/m/it/10.95 2.1.2. []无 向 �
 � \EU1/楷体(0)/m/it/10.95 G=(V,E) \EU1/宋体(0)/m/it/10.95 中，| 若 点 �
 �� 交 替 序 列 \EU1/楷体(0)/m/it/10.95 P=$\OT1/lmr/m/n/10.95 (\OML/lmm/m/
@@ -1794,17 +1841,12 @@ Missing character: There is no ∈ in font rm-lmr10!
 
 
 LaTeX Font Warning: Font shape `EU1/黑体(0)/bx/it' undefined
-(Font)              using `EU1/黑体(0)/m/n' instead on input line 112.
+(Font)              using `EU1/黑体(0)/m/n' instead on input line 113.
 
 [4]
 
 LaTeX Font Warning: Font shape `EU1/宋体(0)/bx/it' undefined
-(Font)              using `EU1/宋体(0)/bx/n' instead on input line 119.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-
- []
+(Font)              using `EU1/宋体(0)/bx/n' instead on input line 120.
 
 Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.95pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
@@ -1816,20 +1858,19 @@ Missing character: There is no ≤ in font rm-lmr10!
 Missing character: There is no ≠ in font rm-lmr10!
 Missing character: There is no 。 in font rm-lmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--174
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
 
  []
 
-[7]
 File: 2.5.png Graphic file (type QTm)
- <use  "2.5.png" >
+<use  "2.5.png" > [7]
 Missing character: There is no ∨ in font rm-lmr10!
 Missing character: There is no ∧ in font rm-lmr10!
 Missing character: There is no ， in font rm-lmr10!
 Missing character: There is no ； in font rm-lmr10!
 Missing character: There is no Γ in font lmmi10!
 
-Overfull \hbox (9.39502pt too wide) in paragraph at lines 232--241
+Overfull \hbox (9.39502pt too wide) in paragraph at lines 233--243
 []\EU1/宋体(0)/bx/it/10.95 则 i=n 时，| $\OML/lmm/m/it/10.95 p[] \OT1/lmr/
 m/n/10.95 = \OML/lmm/m/it/10.95 p[] []\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 p
 [] [] p[]\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 k \OT1/lmr/m/n/10.95 = 1\OML/l
@@ -1839,6 +1880,22 @@ mm/m/it/10.95 ; \OT1/lmr/m/n/10.95 2\OML/lmm/m/it/10.95 ; []  ; nj \OT1/lmr/m/n
  []
 
 [8]
+File: 2.6.png Graphic file (type QTm)
+ <use  "2.6.png" >
+File: 2.6BFS.png Graphic file (type QTm)
+ <use  "2.6BFS.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9]
+File: 2.6DFS.png Graphic file (type QTm)
+ <use  "2.6DFS.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 271--273
+
+ []
+
+Missing character: There is no ， in font rm-lmr10!
+Missing character: There is no ， in font rm-lmr10!
 Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 12.0pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 12.0pt
@@ -1864,8 +1921,23 @@ Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;embolden=4;" at 12.0pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;embolden=4;" at 12.0pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+File: 2.3.1.jpg Graphic file (type QTm)
+<use  "2.3.1.jpg" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
 File: 图0.png Graphic file (type QTm)
- <use  "图0.png" >
+
+<use  "图0.png" >
 Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 9.0pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 Requested font "å®^^8bä½^^93" at 9.0pt
@@ -1892,38 +1964,38 @@ Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 9.0pt
 File: 图1.png Graphic file (type QTm)
  <use  "图1.png" >
 File: 图2.png Graphic file (type QTm)
- <use  "图2.png" > [9]
-Underfull \hbox (badness 10000) in paragraph at lines 268--271
+ <use  "图2.png" > [11]
+Underfull \hbox (badness 10000) in paragraph at lines 306--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--271
+Underfull \hbox (badness 10000) in paragraph at lines 306--309
 
  []
 
 File: 图3.png Graphic file (type QTm)
 <use  "图3.png" >
-Overfull \hbox (0.64984pt too wide) in paragraph at lines 272--283
+Overfull \hbox (0.64984pt too wide) in paragraph at lines 310--321
 \OML/lmm/m/it/10.95 v[]$ \EU1/宋体(0)/bx/it/10.95 放 在 圆 心。| 联 结
  $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 v[]; v[]; v[]; v[]; v[]; v[]; [] ; v[
 ]; v[]; v[]; v[]; v[]; v[]\OT1/lmr/m/n/10.95 )$
  []
 
-[10] [11] [12]
+[12] [13] [14]
 File: 图4.png Graphic file (type QTm)
- <use  "图4.png" > [13]
-Underfull \hbox (badness 10000) in paragraph at lines 329--333
+ <use  "图4.png" > [15]
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
 
  []
 
-[14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
+[16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 387.
+ [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 387.
  (C:\Users\lenovo\Desktop\图论v.1\book\Capter1\test.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 349.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 349.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 387.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 387.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1933,12 +2005,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22826 strings out of 430478
- 424252 string characters out of 3191502
- 469264 words of memory out of 3000000
- 25595 multiletter control sequences out of 15000+200000
+ 22941 strings out of 430478
+ 425293 string characters out of 3191502
+ 473325 words of memory out of 3000000
+ 25702 multiletter control sequences out of 15000+200000
  16826 words of font info for 73 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,13n,92p,836b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,13n,92p,836b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on test.pdf (15 pages).
+Output written on test.pdf (17 pages).
