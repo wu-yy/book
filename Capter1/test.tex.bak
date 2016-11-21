@@ -28,6 +28,7 @@
 \usepackage{varwidth}
 \usepackage{caption}
 \usepackage{lipsum}
+\usepackage{framed}
 \usepackage[colorlinks]{hyperref}
 %\setmainfont{宋体}
 \setmonofont{Courier New} % 等寬字型
@@ -37,10 +38,13 @@
 \newfontfamily{\S}{黑体}
 \captionsetup[figure]{name=图}
 
+\definecolor{shadecolor}{rgb}{0.92,0.92,0.92}
+
 \makeatletter
 \makeatother
 \newtheorem{theorem}{\textbf{定理}}[section]
 \newtheorem{defination}{\textbf{定义}}[section]
+\newtheorem{lemma}{\textbf{引理}}[section]
 \newtheorem{coro}{\textbf{推论}}[section]
 \newtheorem{sample}{\textbf{例}}[section]
 \newtheorem{guess}{\textbf{猜想}}[section]
@@ -282,9 +286,11 @@ $p_{jn}^{(n-1)}=p_{nk}^{(n-1)}=1$表明结点集{$v_j,v_1,v_2,\cdots,v_{n-1},v_k
   \includegraphics[width=0.8\textwidth]{2.6BFS.png}\\
   \caption*{}\label{} \vspace{-40pt}
 \end{figure}
-$\because \Gamma^{+}(v_1)={v_2,v_6},\therefore A_1={v_2,v_6}$。\\
-$\because \Gamma^{+}(v_2)={v_3,v_6}$,\\
-$\Gamma^{+}(v_6)={v_3,v_5},\therefore A_2={v_3,v_5}$。\\
+$\because \Gamma^{+}(v_1)={v_2,v_6}$\\
+$\therefore A_1={v_2,v_6}$。\\
+$\because \Gamma^{+}(v_2)={v_3,v_6}$\\
+$\Gamma^{+}(v_6)={v_3,v_5}$\\
+$\therefore A_2={v_3,v_5}$。\\
 $\because  \Gamma^{+}(v_3)={v_1},\Gamma^{+}(v_5)={v_3,v_4}$,\\
 $\therefore A_3={v_4}$\\
 \indent 从上例中可知，用BFS方法求两点间道路的计算复杂性是O(m)。
@@ -424,12 +430,6 @@ $\therefore A_3={v_4}$\\
 \textbf{解：}我们发现如果从状态$a_1 a_2 a_3 a_4 (a_i=0或1)$逆时针方向旋转一个扇面，那么新的输出是$a_2 a_3 a_4 a_5$，其中有三位数字不变。因此可以用8个结点表示从000 到111 这8 个二进制数。这样从结点($a_{i-1} a_i a_{i+1}$)可以到达结点($a_i a_{i+1} 0$)或($a_i a_{i+1} 1$)，其输出分别为($a_{i-1} a_i a_{i+1} 0$)和($a_{i-1} a_i a_{i+1} 1$)，这样可以得到图2.13。它是有向连通图，共有16 条边，且每结点的正、负度相等。由推论2.3.2，它存在有向欧拉回路。其中任一条都是原问题的解，比如(0000101001101111)就是一种方案。\\
 \end{sample}
 \subsection{科学家的故事-莱昂哈德$\centerdot$欧拉}
-\begin{figure}[h]
-  \centering
-  % Requires \usepackage{graphicx}
-  \includegraphics[width=0.3\textwidth]{oula.jpg}
-  \caption*{莱昂哈德$\centerdot$欧拉}
-\end{figure}
 \indent 莱昂哈德$\centerdot$欧拉（Leonhard Euler ，1707 年4 月15 日～ 1783 年9 月18 日），瑞士数学家、自然科学家。1707 年4 月15 日出生于瑞士的巴塞尔，1783 年9 月18 日于俄国圣彼得堡去世。欧拉出生于牧师家庭，自幼受父亲的影响。13 岁时入读巴塞尔大学，15 岁大学毕业，16 岁获得硕士学位。\\
 \indent 欧拉是18 世纪数学界最杰出的人物之一，他不但为数学界作出贡献，更把整个数学推至物理的领域。他是数学史上最多产的数学家，平均每年写出八百多页的论文，还写了大量的力学、分析学、几何学、变分法等的课本，《无穷小分析引论》、《微分学原理》、《积分学原理》等都成为数学界中的经典著作。在几何方面，欧拉解决了哥尼斯堡七桥问题，成为图论、拓扑学的滥觞。欧拉对数学的研究如此之广泛，因此在许多数学的分支中也可经常见到以他的名字命名的重要常数、公式和定理。\\
 \indent 此外欧拉还涉及建筑学、弹道学、航海学等领域。\\
@@ -648,7 +648,7 @@ $$\left[
 \begin{figure}[H]
   \centering
   % Requires \usepackage{graphicx}
-  \includegraphics[width=0.6\textwidth]{2.19.png}
+  \includegraphics[width=0.9\textwidth]{2.19.png}
   \caption{}
 \end{figure}
 
@@ -697,10 +697,132 @@ $$\left[
 \end{enumerate}
 容易分析，模型(2)如果能够解决，模型(1)和(3)自然可以解决。
 \paragraph{最短路径}相关概念及前提：\\
-\begin{itemize}{-}
+\begin{itemize}
   \item 不失一般性，我们研究$v_1$到其他各结点的最短路径
-  \item $v_1$到$v_i$的一条路径的长度记为$\pi_{(i)}$，且$$\pi_{(i)}=\Sigma_{e\in P(i)}{w(e)}$$\\
-  
-  \item 最短路径
+  \item $v_1$到$v_i$的一条路径的长度记为$\pi_{(i)}$，且$$\pi_{(i)}=\sum_{e\in P(i)}w(e)$$\\
+  其中，$w(e)$表示$e=(v_j,v_k)$的权，也记为$w_{jk}$
+  \item $v_1$到$v_i$的最短路径就是$\pi(i)$的最小值
 \end{itemize}
+\subsection{最短路径-正权图}
+\begin{lemma}\K
+正权图$G$中，如果是$v_1$到$v_i$的一条最短路，且$v_j\in P(i)$，则$P(j)$是$v_1$到$v_j$的一条最短路。\\
+\textbf{证明：}
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{2.6.1.png}\\
+  \caption*{}
+\end{figure}
+\end{lemma}
+\begin{lemma}\K
+正权图中任意一条最短路径的长度大于其局部路径长度。\\
+\textbf{证明:}结论显然
+\end{lemma}
+\subsection{Dijkstra(迪克斯特拉)算法}
+\textbf{算法过程描述:}\\
+\begin{enumerate}
+  \item 每个结点用从源结点沿已知最佳路径到本结点的距离来\textcolor[rgb]{1.00,0.00,0.00}{标注}，标注分为\textcolor[rgb]{1.00,0.00,0.00}{临时性标注}和\textcolor[rgb]{1.00,0.00,0.00}{永久性标注}，最新永久标注节点为\textcolor[rgb]{1.00,0.00,0.00}{工作节点}。
+  \item 初始时，所有结点都为临时性标注，标注为无穷大；
+  \item 将源结点标注为$0$，且为永久性标注，并令其为工作结点；
+  \item 检查与工作结点相邻的临时性结点，若该结点到工作结点的距离与工作结点的标注之和小于该结点的临时标注，则用新计算得到的和重新标注该结点
+  \item 在整个图中查找具有最小值的临时性标注结点，将其变为永久性结点，并成为下一轮检查的工作结点；
+  \item 重复第四、五步，直到目的结点成为工作结点。
+\end{enumerate}
+\paragraph{Dijkstra算法应用举}找出从A到D的最短路径\\
+$1)$每个结点用从源结点沿已知最佳路径到本结点的距离来标注，标注分为临时性标注和永久性标注
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{dj1.png}\\
+  \caption*{}
+\end{figure}
+$2)$初始时，所有结点都为临时性标注，标注为无穷大；
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{dj2.png}\\
+  \caption*{}
+\end{figure}
+3)将源结点标注为$0$，且为永久性标注，并令其为工作结点；
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{dj3.png}\\
+  \caption*{}
+\end{figure}
+4)检查与工作结点相邻的临时性结点，若该结点到工作结点的距离与工作结点的标注之和小于该结点的临时标注，则用新计算得到的和重新标注该结点
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{dj4.png}\\
+  \caption*{}
+\end{figure}
+5)在整个图中查找具有最小值的临时性标注结点，将其变为永久性结点，并成为下一轮检查的工作结点；
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{dj5.png}\\
+  \caption*{}
+\end{figure}
+6)重复第四、五步，直到目的结点成为工作结点。
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{dj6.png}\\
+  \caption*{}
+\end{figure}
+最终结果：
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{dj8.png}\\
+  \caption*{}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{dj9.png}\\
+  \caption*{}
+\end{figure}
+Dijkstra算法的计算复杂度为O(n2)\\
+\subsection{边权为1 时v1 到各点的最短路}
+\indent 边权值均为1 的图，Dijkstra 算法就等价于广探法。因而我们可以直接用广探法求得最短路径。\\
+\paragraph{算法流程}使用队列Q模拟广探法
+\begin{shaded}
+\textbf{算法：广探法}
+\begin{enumerate}
+  \item 置\begin{equation*}
+    S=\emptyset ,Q={v_1} ,\pi(i)=
+   \begin{cases}
+   0 &\mbox{i=1}\\
+    \infty &\mbox{$i\neq 1$}
+   \end{cases}
+  \end{equation*}
+  \item 取出队头元素，记此元素为$v_j$，并弹出队头。置$S\leftarrow S +{v_j}$。若$S = V$ ，算法结束，否则转3。
+  \item 对所有$v_i\in V-S\bigwedge(v_j,v_i)\in E$,$\pi(i)=\pi(j)+1$,并将$v_j$加入队尾。转2
+\end{enumerate}
+\end{shaded}
+\indent 同样，为了求出路径，我们可以加入一个$n$ 维向量$prev$，初始所有分量皆为$-1$。对步骤3稍加修改：\\
+\indent $v_i\in V-S\bigwedge(v_j,v_i)\in E$,\\
+\indent $\pi(i)=\pi(j)+1$,\\
+\indent $prev(i)\leftarrow j$
+\begin{sample}
+使用广探法求图 中$v_1$到其余各点的最短路径过程如下:\\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.7\textwidth]{2.201.png}\\
+  \caption{}
+\end{figure}
+\begin{align*}
+  1. &S=\emptyset,Q=\{v_1\},\pi=\{0,\infty,\infty,\infty \},prev=\{-1,-1,-1,-1\} \\
+  2. &j=1,S=\{v_1\},Q=\{v_2,v_3\},\pi=\{0,1,1,\infty\},prev=\{-1,1,1,-1\}\\
+  3. &j=2,S=\{v_1,v_2\},Q=\{v_3,v_4\},\pi=\{0,1,1,2\},prev=\{-1,1,1,2\}\\
+  4. &j=3,S=\{v_1,v_2,v_3\},Q=\{v_4\},\pi=\{0,1,1,2\},prev=\{-1,1,1,2\}\\
+  5. &j=4,S=\{v_1,v_2,v_3,v_4\}\\
+\end{align*}
+
+
+\end{sample}
+
 \end{document}
