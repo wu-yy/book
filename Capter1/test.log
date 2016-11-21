@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.11.3)  16 NOV 2016 11:44
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.11.3)  21 NOV 2016 15:17
 entering extended mode
 **test.tex
 (C:\Users\lenovo\Desktop\图论v.1\book\Capter1\test.tex
@@ -2084,33 +2084,58 @@ Missing character: There is no − in font rm-lmr10!
 File: 2.19.png Graphic file (type QTm)
  <use  "2.19.png" >
 Missing character: There is no − in font rm-lmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 657--662
+File: 2.20.png Graphic file (type QTm)
+ <use  "2.20.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 657--668
 
  []
 
 [26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 666.
+Underfull \hbox (badness 10000) in paragraph at lines 673--675
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [27]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 666.
+Underfull \hbox (badness 10000) in paragraph at lines 688--689
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 692--694
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 699--700
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 702--703
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 706.
+[29]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 706.
  (C:\Users\lenovo\Desktop\图论v.1\book\Capter1\test.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 666.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 666.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 706.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 706.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 23748 strings out of 430478
- 435111 string characters out of 3191502
+ 23753 strings out of 430478
+ 435170 string characters out of 3191502
  568547 words of memory out of 3000000
- 26470 multiletter control sequences out of 15000+200000
+ 26474 multiletter control sequences out of 15000+200000
  20997 words of font info for 85 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,13n,92p,836b,910s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on test.pdf (27 pages).
+Output written on test.pdf (29 pages).
