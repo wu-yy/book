@@ -34,7 +34,7 @@
 %\setmainfont{宋体}
 %\setmonofont{Courier New} % 等寬字型
 \setCJKmainfont[BoldFont=SimHei,ItalicFont=KaiTi]{宋体}
-\XeTeXlinebreaklocale "zh" 
+\XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
 \newfontfamily{\H}{SimHei}
 \newfontfamily{\K}{KaiTi}
@@ -65,8 +65,8 @@
 \captionsetup[table]{name=表}
 \definecolor{shadecolor}{rgb}{0.92,0.92,0.92}
 
-\makeatletter
-\makeatother
+%\makeatletter
+%\makeatother
 \newtheorem{theorem}{\textbf{定理}}[section]
 \newtheorem{defination}{\textbf{定义}}[section]
 \newtheorem{lemma}{\textbf{引理}}[section]
@@ -114,7 +114,7 @@
 \begin{figure}[H]
   \centering
   % Requires \usepackage{graphicx}
-  \includegraphics[width=0.5\textwidth]{2.1.png}\\
+  \includegraphics[width=0.5\textwidth]{2_1.eps}\\
 \caption{}\label{fig:2.1}
 \end{figure}
 \end{sample}
@@ -134,7 +134,7 @@
 \begin{figure}[H]
   \centering
   % Requires \usepackage{graphicx}
-  \includegraphics[width=0.5\textwidth]{2.2.png}\\
+  \includegraphics[width=0.5\textwidth]{2_2.eps}\\
 \caption{}\label{fig:2.2}
 \end{figure}
 \end{sample}
@@ -271,7 +271,7 @@ P(i=5)=\begin{bmatrix}
 1&1&1&1&1\\
 \end{bmatrix}$}
 \centering
-\includegraphics[width=0.4\textwidth]{2.5.png}%
+\includegraphics[width=0.4\textwidth]{2_5.eps}%
 \captionsetup{margin=3em}
 \caption{}
 \vspace{-30pt}
@@ -300,7 +300,7 @@ $p_{jn}^{(n-1)}=p_{nk}^{(n-1)}=1$表明结点集{$v_j,v_1,v_2,\cdots,v_{n-1},v_k
 \begin{figure}[!ht]
   \centering
   % Requires \usepackage{graphicx}
-  \includegraphics[width=0.8\textwidth]{2.6.png}\\
+  \includegraphics[width=0.8\textwidth]{2_6.eps}\\
   \caption{}\label{fig:2.6}
 \end{figure}
 \textbf{解：}如果采用正向表的输入结构，则有\\
@@ -308,7 +308,7 @@ $p_{jn}^{(n-1)}=p_{nk}^{(n-1)}=1$表明结点集{$v_j,v_1,v_2,\cdots,v_{n-1},v_k
   \centering
    \vspace{-10pt}
   % Requires \usepackage{graphicx}
-  \includegraphics[width=0.8\textwidth]{2.6BFS.png}\\
+  \includegraphics[width=0.8\textwidth]{2_6BFS.eps}\\
   \caption*{}\label{} \vspace{-40pt}
 \end{figure}
 $\because \Gamma^{+}(v_1)={v_2,v_6}$\\
@@ -324,7 +324,7 @@ $\therefore A_3={v_4}$\\
   \centering
   \vspace{-10pt}
   % Requires \usepackage{graphicx}
-  \includegraphics[width=0.8\textwidth]{2.6DFS.png}
+  \includegraphics[width=0.8\textwidth]{2_6DFS.eps}
   \caption{}\label{fig:2.7}\vspace{-10pt}
 \end{figure}
 \indent \textbf{深探法(DFS)}的特点与BFS截然不同。它从某一结点$v_0$开始，只查找$v_0$的某个直接后继$v_1$，记下$v_1$ 的父亲$v_0$，然后再找$v_1$的某个未搜索过的直接后继$v_2$。 依此类推。当从某个结点$v_j$无法再向下搜索时，退回到它的父亲$v_{j-1}$，然后再找$v_{j-1}$的另一个未查过的直接后继。形象地说，DFS的特点是尽量向下搜索，只有碰壁才回头。\\
@@ -355,7 +355,7 @@ $\therefore A_3={v_4}$\\
   \centering
   \vspace{-10pt}
   \begin{minipage}[!ht]{.35\linewidth}
-  \includegraphics[width=1.0\linewidth]{2.8.png}
+  \includegraphics[width=1.0\linewidth]{2_8.eps}
   \caption{}
   \end{minipage}
   \begin{minipage}[!ht]{.35\linewidth}
@@ -447,7 +447,7 @@ $\therefore A_3={v_4}$\\
   \caption{}
   \end{minipage}
   \begin{minipage}[!ht]{.6\linewidth}
-   \includegraphics[width=1.0\linewidth]{2.12.png}
+   \includegraphics[width=1.0\linewidth]{2_12.eps}
   \caption{}
   \end{minipage}
   \vspace{-20pt}
@@ -674,7 +674,7 @@ $$\left[
 \begin{figure}[H]
   \centering
   % Requires \usepackage{graphicx}
-  \includegraphics[width=0.9\textwidth]{2.19.png}
+  \includegraphics[width=0.9\textwidth]{2_19.eps}
   \caption{}
 \end{figure}
 
@@ -689,7 +689,7 @@ $$\left[
 \begin{figure}[H]
   \centering
   % Requires \usepackage{graphicx}
-  \includegraphics[width=0.8\textwidth]{2.20.png}
+  \includegraphics[width=0.8\textwidth]{2_20.eps}
   \caption{}
 \end{figure}
 \indent 此时,$O_n$中肯定会有一些尚未被删去的边与T中的点相关联，否则与$O_n$ 是H回路矛盾。\\
@@ -736,7 +736,7 @@ $$\left[
 \begin{figure}[H]
   \centering
   % Requires \usepackage{graphicx}
-  \includegraphics[width=0.8\textwidth]{2.6.1.png}\\
+  \includegraphics[width=0.8\textwidth]{2_6_1.eps}\\
   \caption*{}
 \end{figure}
 \end{lemma}
@@ -992,7 +992,7 @@ $$\pi(s)=min(\pi(s),min((\pi(t_1)+w(t_1,s)),\cdots ))$$
   \item[-] 同理,可证$d^{+}(v_j)=0$
 \end{itemize}
 \end{lemma}
-\begin{lemma}\kaiti
+\begin{lemma}
 设G不存在有向回路，可以将G的结点重新编号为$v_1',v_2',\cdots,v_n'$，使得对任意的边$(v_i',v_j')\in E(G)$，都有$i<j$\\
 \textbf{证明:}\\
 \begin{itemize}
@@ -1003,6 +1003,67 @@ $$\pi(s)=min(\pi(s),min((\pi(t_1)+w(t_1,s)),\cdots ))$$
   \item[-] 此时，G中所有边的编号均为从编号小的结点指向编号大的结点，否则与编号原则相悖
 \end{itemize}
 \end{lemma}
-
-
+\begin{shaded}
+PT图中最长路径算法:\\
+\\
+-(1) 对结点重新编号$v_1',v_2',\cdots,v_n'$\\
+-(2) $\pi(v_1')\leftarrow 0$\\
+-(3) 对于j从2到n，令$$\pi(v_j')=\mathop{max}\limits_{v_i'\in \Gamma^{-}(v_j')}(\pi(v_i')+w(v_i',v_j'))$$\\
+-(4)End!\\
+该算法计算复杂性为O(m)\\
+\end{shaded}
+\indent 上述算法将得到最长路径就是工程的关键路径。\textcolor[rgb]{1.00,0.00,0.00}{路径长度即为工程的最早完成时间}。\\
+\textbf{思考:}\\
+对于非关键路径上的工序，是否可以延误，如果可以，最多可延误多长时间？\\
+\begin{sample}
+在例子2.8.1 中设$\pi(v_n)$是工程完工的最早时间，设工序$i$到工程完工最少需要的时间为$\pi(v_i,v_n)$，则工序$i$的最晚启动时间应该是\\
+\begin{equation}
+    \tau(v_i)=\pi(v_n)-\pi(v_i,v_n)
+\end{equation}
+其中$\pi(v_i,v_n)$表示$v_i$到$v_n$的最长路长度。\\
+ 这样每个节点$v_i$有两个值：\\
+(1)最早启动时间$\pi(v_i)$\\
+(2)最晚启动时间$\tau(v_i)$\\
+ 允许延误的时间为：$t(v_i)=\pi(v_i)-\tau(v_i)$\\
+则重新计算例子2.8.1中各点的$\pi(v_i),\tau(v_i)$\\
+\begin{table}[H]
+  \centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+   结点& 1& 2 & 3 &4 & 5 & 6 & 7& 8 & 9 & 10 & 11 \\
+   \hline
+  $\pi(v_i)$ & 0 & 15 & 15 & 20 & 20 & 24 & 24 & 20 & 27 & 27 & 30 \\
+  \hline
+  $\tau(v_i)$ & 0 & 15 & 26 & 21 & 20 & 25 & 24 & 23 & 28 & 27 & 20 \\
+  \hline
+\end{tabular}
+\end{table}
+从上面可以看出，最长路径即关键路径上各工序是不允许延误的，否则会延误整个工程进度。\\
+\end{sample}
+\subsection{PERT(Programme evaluation and review technique)图}
+\indent PERT图采用有向边表示工序，权值表示工序所需要的时间，关键路径算法与PT图相同，工序最晚启动时间算法略有不同。\\
+\indent 在PERT图中，采用有向边表示工序，其权值表示该工序所需时间。如果工序$e_i$完成后$e_j$ 才能开始，则令$v_k$ 是$e_i$ 的终点，$e_j$ 的始点。\\
+根据这种约定，例2.8.1 的PERT 图如图2.24，其中$\mathop{i}\limits_{-} $表示工序i。
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.6\textwidth]{2_24.eps}\\
+  \caption{}
+\end{figure}
+ 同样，PERT 图中不存在有向回路。而且与PT 图类似，PERT 图中工程的最早完工时间是$v_1$ 到$v_n$ 的最长路径长度，这条路径就是\textbf{关键路径}。\\
+工序$e_k=(v_i,v_j)$的最早启动时间是$\pi(v_i)$,最晚启动时间是$\tau(v_i,v_j)=\pi(v_n)-\pi(v_i,v_n)-w(v_i,v_j)$。其中$\pi(v_i,v_n)$是$v_i$到$v_n$的最长路径，$w(v_i,v_j)$是该工序所需的时间。\\
+这样工序$e_k=(v_i,v_j)$的允许延误的时间$t(v_i,v_j)=\tau(v_i,v_j)-\pi(v_i)$。\\
+\indent 由最长路径算法可以求出$\pi(v_i')$，为了便于计算$\tau(v_i',v_j')$，可先作简单变换。由于$$\tau(v_j')=\pi(v_n')-\pi(v_j',v_n')$$
+故$$\tau(v_i',v_j')=\tau(v_j')-w(v_i',v_j')$$
+即得$$\tau(v_i',v_j')=\tau(v_j')-\pi(v_i')-w(v_i',v_j')$$
+这样可以使用PT图中最长路径算法求$\tau(v_j')$。\\
+以图2.24为例，其计算结果是(设已回到原结点号):
+\begin{align}
+             &\pi(1)=0,\pi(2)=15,\pi(3)=20,\pi(4)=27,\pi(5)=24,\pi(6)=30        \\
+             &\tau(1)=0, \tau(2)=15,\tau(3)=20,\tau(4)=27,\tau(5)=24,\tau(6)=30\\
+             &\tau(\mathop{1}\limits_{-})=0,\tau(\mathop{2}\limits_{-})=0,\tau(\mathop{3}\limits_{-})=11,\tau(\mathop{4}\limits_{-})=1,\tau(\mathop{5}\limits_{-})=0,\tau(\mathop{6}\limits_{-})=1\\
+              &  \tau(\mathop{7}\limits_{-})=1,\tau(\mathop{8}\limits_{-})=0,\tau(\mathop{9}\limits_{-})=0,\tau(\mathop{10}\limits_{-})=3
+\end{align}
+\indent 与PT图一样，PERT图的计算复杂度也是O(m)。\\
 \end{document}
