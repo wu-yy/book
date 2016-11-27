@@ -4,7 +4,6 @@
 \usepackage{changepage}
 \usepackage{amsmath,amsthm}
 \usepackage{amssymb}
-%\usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage{graphicx}
 \usepackage{epstopdf}
@@ -25,41 +24,34 @@
 \usepackage{algorithm} %format of the algorithm
 \usepackage{algorithmic} %format of the algorithm
 \usepackage{subfigure}
-%\usepackage{xeCJK}
+\usepackage{xeCJK}
 \usepackage{varwidth}
 \usepackage{caption}
 \usepackage{lipsum}
 \usepackage{framed}
 \usepackage[colorlinks]{hyperref}
-%\setmainfont{宋体}
-%\setmonofont{Courier New} % 等寬字型
+
 \setCJKmainfont[BoldFont=SimHei,ItalicFont=KaiTi]{宋体}
-\XeTeXlinebreaklocale "zh"
-\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+\setmonofont{宋体}    % 等寬字型
+\setmainfont{Times New Roman}  %缺省英文字体
+
+\XeTeXlinebreaklocale "zh"   % 针对中文进行断行
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt     % 给予TeX断行一定自由度
+%\linespread{1.5}                                  % 1.5倍行距
+
 \newfontfamily{\H}{SimHei}
 \newfontfamily{\K}{KaiTi}
 \newfontfamily{\S}{黑体}
-
-\newfontfamily\youyuan{YouYuan}
-\newfontfamily\hwcaiyun{STCaiyun}
-\newfontfamily\hwhupo{STHupo}
-\newfontfamily\yaoti{FZYaoTi}
-\newfontfamily\kaiti{KaiTi}
-\newfontfamily\xsong{NSimSun}
-\newfontfamily\hwsong{STSong}
-\newfontfamily\yahei{Microsoft YaHei}
-\newfontfamily\fangsong{FangSong}
-\newfontfamily\song{SimSun}
-\newfontfamily\hwfangsong{STFangsong}
-\newfontfamily\weiti{STXinwei}
-\newfontfamily\heiti{SimHei}
-\newfontfamily\hwxingkai{STXingkai}
-\newfontfamily\hwlishu{STLiti}
-\newfontfamily\zhongsong{STZhongsong}
-\newfontfamily\shuti{FZShuTi}
-\newfontfamily\hwhei{STXihei}
-\newfontfamily\lishu{LiSu}
-\newfontfamily\hwkai{STKaiti}
+\setCJKfamilyfont{hwxw}{STXinwei}                    %华文新魏  hwxw
+\newcommand{\hwxw}{\CJKfamily{hwxw}}
+\setCJKfamilyfont{hei}{SimHei}                       %黑体  hei
+\newcommand{\hei}{\CJKfamily{hei}}
+\setCJKfamilyfont{song}{SimSun}                      %宋体 song
+\newcommand{\song}{\CJKfamily{song}}
+\setCJKfamilyfont{kai}{KaiTi}                        %楷体  kai
+\newcommand{\kai}{\CJKfamily{kai}}
+\setCJKfamilyfont{fs}{FangSong}                      %仿宋 fsong
+\newcommand{\fs}{\CJKfamily{fs}}
 
 \captionsetup[figure]{name=图}
 \captionsetup[table]{name=表}
@@ -92,9 +84,40 @@
 }
 
 \usepackage{titlesec}
-\titleformat{\chapter}{\centering\huge\S}{第\,\thechapter\,章}{1em}{}[\vspace{-1cm}]
+\titleformat{\chapter}{\centering\huge\hei}{第\,\thechapter\,章}{1em}{}[\vspace{-1cm}]
 \begin{document}
 \pagestyle{plain}  %取消页码
 \chapter{基本概念}
+\section{图论概述}
+\paragraph{}\textbf{离散数学}是以研究离散量的结构和相互之间的关系为主要目标，其研究对象一般是有限个或可数个元素。离散数学充分契合了计算机科学的特点。离散数学是计算机科学重要的基础理论之一。\\
+离散数学主要包括四个方面:数理逻辑、集合论、图论、代数机构。\\
+\paragraph{}\textbf{图论[Graph Theory]}是数学的一个分支，它以图为研究对象。\\
+\indent 世界上各事物之间,自然界内诸现象之间经常存在着某些必然的联系,需要人们通过研究分析，去揭示这些关系。\\
+\indent 人们常把事物、现象用\textcolor[rgb]{1.00,0.00,0.00}{结点}表示，用有向或无向的\textcolor[rgb]{1.00,0.00,0.00}{边}来表示它们之间的联系。这就构成了图论中所讨论的\textcolor[rgb]{1.00,0.00,0.00}{图}。\\
+\indent 历史上图论曾经被好多位数学家各自独立地建立过。关于图论的文字记载最早出现在欧拉1736年论著中，其原始问题有很强的实际背景。18世纪在哥尼斯堡城（今俄罗斯加里宁格勒）的普莱格尔河上有7座桥\footnote{在第二章欧拉回路中介绍}，将河中的岛屿和河岸连结。\\
+\begin{figure}[H]
+  \centering
+ % \vspace{-10pt}
+  \begin{minipage}[!ht]{.35\linewidth}
+  \includegraphics[width=1.0\linewidth]{2_8.eps}
+  \caption{哥尼斯堡7桥}
+  \end{minipage}
+  \begin{minipage}[!ht]{.35\linewidth}
+   \includegraphics[width=1.0\linewidth]{2.9.png}
+  \caption{}
+  \end{minipage}
+  %\vspace{0pt}
+\end{figure}
+\kai{早期的图论与数学游戏有密切的联系:周游世界问题、渡河问题、三家三井问题...20世纪后，图论的应用渗透到其它学科领域，如物理、化学、运筹学、博弈论、计算机网络、社会学、语言学等等。对于基础图论来说，不要求事先掌握高深的数学工具，只需要有集合论和线性代数的基本概念，即可进行学习。}\\
+
+\section{图的基本概念及定义}
+\begin{defination}
+二元组$G=(V(G),E(G))$称为图。其中$V(G)$是非空集，称为结点集；$E(G)$为$V(G)$各结点之间边的集合，称为边集。\\
+\end{defination}
+\
+常用$G=(V,E)$表示图。\\
+当V,E都是有限集合时，称G为有限图。\\
+当V或E是无限集合时，称G为无限图。\\
+一般情况下，给定$G=（V,E）$,如不加特殊说明，认为$V=\{v_1,v_2,v_3,\cdots,}\$
 
 \end{document}

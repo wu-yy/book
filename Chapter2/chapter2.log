@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.11.3)  23 NOV 2016 10:40
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.11.3)  23 NOV 2016 12:09
 entering extended mode
 **chapter2.tex
 (C:\Users\lenovo\Desktop\bookv_1\book\Chapter2\chapter2.tex
@@ -1079,6 +1079,96 @@ tly
 )
 \Hy@SectionHShift=\skip66
 )
+Requested font "å®^^8bä½^^93" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "å®^^8bä½^^93/ICU" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font 宋体 does not contain any OpenType `Script' information.
+.................................................
+\g_fontspec_family_宋体_int=\count329
+Requested font "å®^^8bä½^^93/ICU" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "å®^^8bä½^^93/ICU" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "å®^^8bä½^^93/B/ICU" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font 宋体/B (it probably doesn't exist).
+.................................................
+Requested font "å®^^8bä½^^93/ICU" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "å®^^8bä½^^93/I/ICU" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font 宋体/I (it probably doesn't exist).
+.................................................
+Requested font "å®^^8bä½^^93/ICU" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "å®^^8bä½^^93/BI/ICU" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font 宋体/BI (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family '宋体(0)' created for font '宋体' with options [Ligatures=TeX
+,].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"宋体/ICU:mapping=tex-text;"
+.................................................
+Requested font "Times New Roman" at 10.0pt
+ -> C:/Windows/Fonts/times.ttf
+Requested font "Times New Roman/ICU" at 10.0pt
+ -> C:/Windows/Fonts/times.ttf
+\g_fontspec_family_Times New Roman_int=\count330
+Requested font "Times New Roman/B/ICU" at 10.0pt
+ -> C:/Windows/Fonts/timesbd.ttf
+Requested font "Times New Roman/B/B/ICU" at 10.0pt
+ -> C:/Windows/Fonts/timesbd.ttf
+Requested font "Times New Roman/I/ICU" at 10.0pt
+ -> C:/Windows/Fonts/timesi.ttf
+Requested font "Times New Roman/I/I/ICU" at 10.0pt
+ -> C:/Windows/Fonts/timesi.ttf
+Requested font "Times New Roman/BI/ICU" at 10.0pt
+ -> C:/Windows/Fonts/timesbi.ttf
+Requested font "Times New Roman/BI/BI/ICU" at 10.0pt
+ -> C:/Windows/Fonts/timesbi.ttf
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'TimesNewRoman(0)' created for font 'Times New Roman' with
+. options [Ligatures=TeX,].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Times New Roman/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Times New Roman/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Times New Roman/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
+.................................................
+Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
+" at 10.0pt
+ -> C:/Windows/Fonts/times.ttf
 Requested font "SimHei" at 10.0pt
  -> C:/Windows/Fonts/simhei.ttf
 Requested font "SimHei/ICU" at 10.0pt
@@ -1088,7 +1178,7 @@ Requested font "SimHei/ICU" at 10.0pt
 . 
 . Font SimHei does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_SimHei_int=\count329
+\g_fontspec_family_SimHei_int=\count331
 Requested font "SimHei/B/ICU" at 10.0pt
  -> C:/Windows/Fonts/simhei.ttf
 .................................................
@@ -1121,7 +1211,7 @@ Requested font "SimHei/BI/ICU" at 10.0pt
 . * 'normal' with NFSS spec.:
 . <->"SimHei/ICU:mapping=tex-text;"
 .................................................
-LaTeX Info: Redefining \H on input line 39.
+LaTeX Info: Redefining \H on input line 42.
 Requested font "KaiTi" at 10.0pt
  -> C:/Windows/Fonts/simkai.ttf
 Requested font "KaiTi/ICU" at 10.0pt
@@ -1131,7 +1221,7 @@ Requested font "KaiTi/ICU" at 10.0pt
 . 
 . Font KaiTi does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_KaiTi_int=\count330
+\g_fontspec_family_KaiTi_int=\count332
 Requested font "KaiTi/B/ICU" at 10.0pt
  -> C:/Windows/Fonts/simkai.ttf
 .................................................
@@ -1173,7 +1263,7 @@ Requested font "é»^^91ä½^^93/ICU" at 10.0pt
 . 
 . Font 黑体 does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_黑体_int=\count331
+\g_fontspec_family_黑体_int=\count333
 Requested font "é»^^91ä½^^93/ICU" at 10.0pt
  -> C:/Windows/Fonts/simhei.ttf
 Requested font "é»^^91ä½^^93/ICU" at 10.0pt
@@ -1214,791 +1304,13 @@ Requested font "é»^^91ä½^^93/BI/ICU" at 10.0pt
 . * 'normal' with NFSS spec.:
 . <->"黑体/ICU:mapping=tex-text;"
 .................................................
-LaTeX Info: Redefining \S on input line 41.
-Requested font "YouYuan" at 10.0pt
- -> C:/Windows/Fonts/SIMYOU.TTF
-Requested font "YouYuan/ICU" at 10.0pt
- -> C:/Windows/Fonts/SIMYOU.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font YouYuan does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_YouYuan_int=\count332
-Requested font "YouYuan/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/SIMYOU.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font YouYuan/B (it probably doesn't exist).
-.................................................
-Requested font "YouYuan/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/SIMYOU.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font YouYuan/I (it probably doesn't exist).
-.................................................
-Requested font "YouYuan/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/SIMYOU.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font YouYuan/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'YouYuan(0)' created for font 'YouYuan' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"YouYuan/ICU:mapping=tex-text;"
-.................................................
-Requested font "STCaiyun" at 10.0pt
- -> C:/Windows/Fonts/STCAIYUN.TTF
-Requested font "STCaiyun/ICU" at 10.0pt
- -> C:/Windows/Fonts/STCAIYUN.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font STCaiyun does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_STCaiyun_int=\count333
-Requested font "STCaiyun/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/STCAIYUN.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STCaiyun/B (it probably doesn't exist).
-.................................................
-Requested font "STCaiyun/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/STCAIYUN.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STCaiyun/I (it probably doesn't exist).
-.................................................
-Requested font "STCaiyun/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/STCAIYUN.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STCaiyun/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STCaiyun(0)' created for font 'STCaiyun' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"STCaiyun/ICU:mapping=tex-text;"
-.................................................
-Requested font "STHupo" at 10.0pt
- -> C:/Windows/Fonts/STHUPO.TTF
-Requested font "STHupo/ICU" at 10.0pt
- -> C:/Windows/Fonts/STHUPO.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font STHupo does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_STHupo_int=\count334
-Requested font "STHupo/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/STHUPO.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STHupo/B (it probably doesn't exist).
-.................................................
-Requested font "STHupo/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/STHUPO.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STHupo/I (it probably doesn't exist).
-.................................................
-Requested font "STHupo/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/STHUPO.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STHupo/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STHupo(0)' created for font 'STHupo' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"STHupo/ICU:mapping=tex-text;"
-.................................................
-Requested font "FZYaoTi" at 10.0pt
- -> C:/Windows/Fonts/FZYTK.TTF
-Requested font "FZYaoTi/ICU" at 10.0pt
- -> C:/Windows/Fonts/FZYTK.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font FZYaoTi does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_FZYaoTi_int=\count335
-Requested font "FZYaoTi/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/FZYTK.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font FZYaoTi/B (it probably doesn't exist).
-.................................................
-Requested font "FZYaoTi/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/FZYTK.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font FZYaoTi/I (it probably doesn't exist).
-.................................................
-Requested font "FZYaoTi/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/FZYTK.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font FZYaoTi/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FZYaoTi(0)' created for font 'FZYaoTi' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"FZYaoTi/ICU:mapping=tex-text;"
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font KaiTi does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'KaiTi(0)' created for font 'KaiTi' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-.................................................
-Requested font "NSimSun" at 10.0pt
- -> C:/Windows/Fonts/simsun.ttc
-Requested font "NSimSun/ICU" at 10.0pt
- -> C:/Windows/Fonts/simsun.ttc
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font NSimSun does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_NSimSun_int=\count336
-Requested font "NSimSun/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/simsun.ttc
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font NSimSun/B (it probably doesn't exist).
-.................................................
-Requested font "NSimSun/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/simsun.ttc
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font NSimSun/I (it probably doesn't exist).
-.................................................
-Requested font "NSimSun/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/simsun.ttc
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font NSimSun/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'NSimSun(0)' created for font 'NSimSun' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"NSimSun/ICU:mapping=tex-text;"
-.................................................
-Requested font "STSong" at 10.0pt
- -> C:/Windows/Fonts/STSONG.TTF
-Requested font "STSong/ICU" at 10.0pt
- -> C:/Windows/Fonts/STSONG.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font STSong does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_STSong_int=\count337
-Requested font "STSong/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/STSONG.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STSong/B (it probably doesn't exist).
-.................................................
-Requested font "STSong/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/STSONG.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STSong/I (it probably doesn't exist).
-.................................................
-Requested font "STSong/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/STSONG.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STSong/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STSong(0)' created for font 'STSong' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"STSong/ICU:mapping=tex-text;"
-.................................................
-Requested font "Microsoft YaHei" at 10.0pt
- -> C:/Windows/Fonts/MSYH.TTC
-Requested font "Microsoft YaHei/ICU" at 10.0pt
- -> C:/Windows/Fonts/MSYH.TTC
-\g_fontspec_family_Microsoft YaHei_int=\count338
-Requested font "Microsoft YaHei/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/msyhbd.ttf
-Requested font "Microsoft YaHei/B/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/msyhbd.ttf
-Requested font "Microsoft YaHei/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/MSYH.TTC
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Microsoft YaHei/I (it probably doesn't exist).
-.................................................
-Requested font "Microsoft YaHei/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/msyhbd.ttf
-Requested font "Microsoft YaHei/BI/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/msyhbd.ttf
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'MicrosoftYaHei(0)' created for font 'Microsoft YaHei' with
-. options [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"Microsoft YaHei/ICU:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'bold' with NFSS spec.:
-. <->"Microsoft YaHei/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'bold italic' with NFSS spec.:
-. <->"Microsoft YaHei/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
-.................................................
-Requested font "FangSong" at 10.0pt
- -> C:/Windows/Fonts/simfang.ttf
-Requested font "FangSong/ICU" at 10.0pt
- -> C:/Windows/Fonts/simfang.ttf
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font FangSong does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_FangSong_int=\count339
-Requested font "FangSong/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/simfang.ttf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font FangSong/B (it probably doesn't exist).
-.................................................
-Requested font "FangSong/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/simfang.ttf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font FangSong/I (it probably doesn't exist).
-.................................................
-Requested font "FangSong/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/simfang.ttf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font FangSong/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FangSong(0)' created for font 'FangSong' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"FangSong/ICU:mapping=tex-text;"
-.................................................
-LaTeX Info: Redefining \fangsong on input line 51.
-Requested font "SimSun" at 10.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-Requested font "SimSun/ICU" at 10.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font SimSun does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_SimSun_int=\count340
-Requested font "SimSun/B/ICU" at 10.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font SimSun/B (it probably doesn't exist).
-.................................................
-Requested font "SimSun/I/ICU" at 10.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font SimSun/I (it probably doesn't exist).
-.................................................
-Requested font "SimSun/BI/ICU" at 10.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font SimSun/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'SimSun(0)' created for font 'SimSun' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"SimSun/ICU:mapping=tex-text;"
-.................................................
-Requested font "STFangsong" at 10.0pt
- -> C:/Windows/Fonts/STFANGSO.TTF
-Requested font "STFangsong/ICU" at 10.0pt
- -> C:/Windows/Fonts/STFANGSO.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font STFangsong does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_STFangsong_int=\count341
-Requested font "STFangsong/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/STFANGSO.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STFangsong/B (it probably doesn't exist).
-.................................................
-Requested font "STFangsong/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/STFANGSO.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STFangsong/I (it probably doesn't exist).
-.................................................
-Requested font "STFangsong/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/STFANGSO.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STFangsong/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STFangsong(0)' created for font 'STFangsong' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"STFangsong/ICU:mapping=tex-text;"
-.................................................
-Requested font "STXinwei" at 10.0pt
- -> C:/Windows/Fonts/STXINWEI.TTF
-Requested font "STXinwei/ICU" at 10.0pt
- -> C:/Windows/Fonts/STXINWEI.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font STXinwei does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_STXinwei_int=\count342
-Requested font "STXinwei/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/STXINWEI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STXinwei/B (it probably doesn't exist).
-.................................................
-Requested font "STXinwei/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/STXINWEI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STXinwei/I (it probably doesn't exist).
-.................................................
-Requested font "STXinwei/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/STXINWEI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STXinwei/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STXinwei(0)' created for font 'STXinwei' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"STXinwei/ICU:mapping=tex-text;"
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font SimHei does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'SimHei(0)' created for font 'SimHei' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-.................................................
-LaTeX Info: Redefining \heiti on input line 55.
-Requested font "STXingkai" at 10.0pt
- -> C:/Windows/Fonts/STXINGKA.TTF
-Requested font "STXingkai/ICU" at 10.0pt
- -> C:/Windows/Fonts/STXINGKA.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font STXingkai does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_STXingkai_int=\count343
-Requested font "STXingkai/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/STXINGKA.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STXingkai/B (it probably doesn't exist).
-.................................................
-Requested font "STXingkai/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/STXINGKA.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STXingkai/I (it probably doesn't exist).
-.................................................
-Requested font "STXingkai/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/STXINGKA.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STXingkai/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STXingkai(0)' created for font 'STXingkai' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"STXingkai/ICU:mapping=tex-text;"
-.................................................
-Requested font "STLiti" at 10.0pt
- -> C:/Windows/Fonts/STLITI.TTF
-Requested font "STLiti/ICU" at 10.0pt
- -> C:/Windows/Fonts/STLITI.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font STLiti does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_STLiti_int=\count344
-Requested font "STLiti/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/STLITI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STLiti/B (it probably doesn't exist).
-.................................................
-Requested font "STLiti/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/STLITI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STLiti/I (it probably doesn't exist).
-.................................................
-Requested font "STLiti/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/STLITI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STLiti/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STLiti(0)' created for font 'STLiti' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"STLiti/ICU:mapping=tex-text;"
-.................................................
-Requested font "STZhongsong" at 10.0pt
- -> C:/Windows/Fonts/STZHONGS.TTF
-Requested font "STZhongsong/ICU" at 10.0pt
- -> C:/Windows/Fonts/STZHONGS.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font STZhongsong does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_STZhongsong_int=\count345
-Requested font "STZhongsong/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/STZHONGS.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STZhongsong/B (it probably doesn't exist).
-.................................................
-Requested font "STZhongsong/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/STZHONGS.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STZhongsong/I (it probably doesn't exist).
-.................................................
-Requested font "STZhongsong/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/STZHONGS.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STZhongsong/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STZhongsong(0)' created for font 'STZhongsong' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"STZhongsong/ICU:mapping=tex-text;"
-.................................................
-Requested font "FZShuTi" at 10.0pt
- -> C:/Windows/Fonts/FZSTK.TTF
-Requested font "FZShuTi/ICU" at 10.0pt
- -> C:/Windows/Fonts/FZSTK.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font FZShuTi does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_FZShuTi_int=\count346
-Requested font "FZShuTi/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/FZSTK.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font FZShuTi/B (it probably doesn't exist).
-.................................................
-Requested font "FZShuTi/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/FZSTK.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font FZShuTi/I (it probably doesn't exist).
-.................................................
-Requested font "FZShuTi/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/FZSTK.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font FZShuTi/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FZShuTi(0)' created for font 'FZShuTi' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"FZShuTi/ICU:mapping=tex-text;"
-.................................................
-Requested font "STXihei" at 10.0pt
- -> C:/Windows/Fonts/STXIHEI.TTF
-Requested font "STXihei/ICU" at 10.0pt
- -> C:/Windows/Fonts/STXIHEI.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font STXihei does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_STXihei_int=\count347
-Requested font "STXihei/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/STXIHEI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STXihei/B (it probably doesn't exist).
-.................................................
-Requested font "STXihei/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/STXIHEI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STXihei/I (it probably doesn't exist).
-.................................................
-Requested font "STXihei/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/STXIHEI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STXihei/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STXihei(0)' created for font 'STXihei' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"STXihei/ICU:mapping=tex-text;"
-.................................................
-Requested font "LiSu" at 10.0pt
- -> C:/Windows/Fonts/SIMLI.TTF
-Requested font "LiSu/ICU" at 10.0pt
- -> C:/Windows/Fonts/SIMLI.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font LiSu does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_LiSu_int=\count348
-Requested font "LiSu/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/SIMLI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font LiSu/B (it probably doesn't exist).
-.................................................
-Requested font "LiSu/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/SIMLI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font LiSu/I (it probably doesn't exist).
-.................................................
-Requested font "LiSu/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/SIMLI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font LiSu/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'LiSu(0)' created for font 'LiSu' with options [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"LiSu/ICU:mapping=tex-text;"
-.................................................
-Requested font "STKaiti" at 10.0pt
- -> C:/Windows/Fonts/STKAITI.TTF
-Requested font "STKaiti/ICU" at 10.0pt
- -> C:/Windows/Fonts/STKAITI.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font STKaiti does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_STKaiti_int=\count349
-Requested font "STKaiti/B/ICU" at 10.0pt
- -> C:/Windows/Fonts/STKAITI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STKaiti/B (it probably doesn't exist).
-.................................................
-Requested font "STKaiti/I/ICU" at 10.0pt
- -> C:/Windows/Fonts/STKAITI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STKaiti/I (it probably doesn't exist).
-.................................................
-Requested font "STKaiti/BI/ICU" at 10.0pt
- -> C:/Windows/Fonts/STKAITI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STKaiti/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STKaiti(0)' created for font 'STKaiti' with options
-. [Ligatures=TeX,].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"STKaiti/ICU:mapping=tex-text;"
-.................................................
-\c@theorem=\count350
-\c@defination=\count351
-\c@lemma=\count352
-\c@coro=\count353
-\c@sample=\count354
-\c@guess=\count355
+LaTeX Info: Redefining \S on input line 44.
+\c@theorem=\count334
+\c@defination=\count335
+\c@lemma=\count336
+\c@coro=\count337
+\c@sample=\count338
+\c@guess=\count339
 
 (D:\CTEX\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip67
@@ -2023,40 +1335,42 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen263
 \titlewidthfirst=\dimen264
 )
-No file chapter2.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 96.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 96.
+(C:\Users\lenovo\Desktop\bookv_1\book\Chapter2\chapter2.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 89.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 89.
+
 (D:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-Requested font "[lmroman10-regular]:mapping=tex-text" at 10.95pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-regular.otf
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
+" at 10.95pt
+ -> C:/Windows/Fonts/times.ttf
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring ON on input line 96.
+Package hyperref Info: Link coloring ON on input line 89.
 
 (D:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -2064,22 +1378,23 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (D:\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count356
+\c@section@level=\count340
 )
-LaTeX Info: Redefining \ref on input line 96.
-LaTeX Info: Redefining \pageref on input line 96.
-LaTeX Info: Redefining \nameref on input line 96.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
+
+(C:\Users\lenovo\Desktop\bookv_1\book\Chapter2\chapter2.out)
+(C:\Users\lenovo\Desktop\bookv_1\book\Chapter2\chapter2.out)
 \@outlinefile=\write3
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 Chapter 1.
 (D:\CTEX\MiKTeX\tex\generic\oberdiek\se-ascii-print.def
 File: se-ascii-print.def 2010/03/01 v1.8 stringenc: Printable ASCII characters
 )
-Requested font "[lmroman17-regular]:mapping=tex-text" at 20.74pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman17-regular.otf
+Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
+" at 20.74pt
+ -> C:/Windows/Fonts/times.ttf
 Requested font "é»^^91ä½^^93/ICU:mapping=tex-text;" at 20.74pt
  -> C:/Windows/Fonts/simhei.ttf
 Requested font "å®^^8bä½^^93" at 20.74pt
@@ -2091,7 +1406,6 @@ Requested font "å®^^8bä½^^93/ICU" at 20.74pt
 . 
 . Font 宋体 does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_宋体_int=\count357
 Requested font "å®^^8bä½^^93/ICU" at 20.74pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 Requested font "SimHei/ICU" at 20.74pt
@@ -2108,7 +1422,7 @@ Requested font "SimHei/I/ICU" at 20.74pt
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family '宋体(0)' created for font '宋体' with options
+. Font family '宋体(1)' created for font '宋体' with options
 . [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
 . 
 . This font family consists of the following shapes:
@@ -2131,10 +1445,12 @@ Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 20.74pt
 
 ]
 Chapter 2.
-Requested font "[lmroman12-regular]:mapping=tex-text" at 14.4pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-regular.otf
-Requested font "[lmroman12-bold]:mapping=tex-text" at 14.4pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-bold.otf
+Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
+" at 14.4pt
+ -> C:/Windows/Fonts/times.ttf
+Requested font "Times New Roman/B/ICU:script=latn;language=DFLT;mapping=tex-tex
+t;" at 14.4pt
+ -> C:/Windows/Fonts/timesbd.ttf
 Requested font "å®^^8bä½^^93" at 14.4pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 Requested font "å®^^8bä½^^93/ICU" at 14.4pt
@@ -2147,17 +1463,19 @@ Requested font "å®^^8bä½^^93/ICU" at 14.4pt
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family '宋体(0)' created for font '宋体' with options
+. Font family '宋体(1)' created for font '宋体' with options
 . [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
 . 
 . This font family consists of the following shapes:
 .................................................
 Requested font "SimHei/ICU:mapping=tex-text;" at 14.4pt
  -> C:/Windows/Fonts/simhei.ttf
-Requested font "[lmroman10-italic]:mapping=tex-text" at 10.95pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-italic.otf
-Requested font "[lmroman10-bold]:mapping=tex-text" at 10.95pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-bold.otf
+Requested font "Times New Roman/I/ICU:script=latn;language=DFLT;mapping=tex-tex
+t;" at 10.95pt
+ -> C:/Windows/Fonts/timesi.ttf
+Requested font "Times New Roman/B/ICU:script=latn;language=DFLT;mapping=tex-tex
+t;" at 10.95pt
+ -> C:/Windows/Fonts/timesbd.ttf
 Requested font "å®^^8bä½^^93" at 10.95pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 Requested font "å®^^8bä½^^93/ICU" at 10.95pt
@@ -2170,7 +1488,7 @@ Requested font "å®^^8bä½^^93/ICU" at 10.95pt
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family '宋体(0)' created for font '宋体' with options
+. Font family '宋体(1)' created for font '宋体' with options
 . [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
 . 
 . This font family consists of the following shapes:
@@ -2179,7 +1497,7 @@ Requested font "SimHei/ICU:mapping=tex-text;" at 10.95pt
  -> C:/Windows/Fonts/simhei.ttf
 
 LaTeX Font Warning: Font shape `EU1/KaiTi(0)/m/it' undefined
-(Font)              using `EU1/KaiTi(0)/m/n' instead on input line 102.
+(Font)              using `EU1/KaiTi(0)/m/n' instead on input line 95.
 
 Requested font "KaiTi/ICU:mapping=tex-text;" at 10.95pt
  -> C:/Windows/Fonts/simkai.ttf
@@ -2195,13 +1513,12 @@ Requested font "å®^^8bä½^^93/ICU" at 10.95pt
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family '宋体(0)' created for font '宋体' with options
+. Font family '宋体(1)' created for font '宋体' with options
 . [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
 . 
 . This font family consists of the following shapes:
 .................................................
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 102.
-
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 95.
 (D:\CTEX\MiKTeX\tex\latex\lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2211,8 +1528,7 @@ Requested font "rm-lmr8" at 8.0pt
  -> rm-lmr8
 Requested font "rm-lmr6" at 6.0pt
  -> rm-lmr6
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 102.
-
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 95.
  (D:\CTEX\MiKTeX\tex\latex\lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2222,8 +1538,8 @@ Requested font "lmmi8" at 8.0pt
  -> lmmi8
 Requested font "lmmi6" at 6.0pt
  -> lmmi6
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 102
-.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 95.
+
 (D:\CTEX\MiKTeX\tex\latex\lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2233,21 +1549,21 @@ Requested font "lmsy8" at 8.0pt
  -> lmsy8
 Requested font "lmsy6" at 6.0pt
  -> lmsy6
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 102
-.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 95.
+
 
 (D:\CTEX\MiKTeX\tex\latex\lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 102.
+(Font)              <10.95> on input line 95.
 Requested font "lmex10" scaled 1000
  -> lmex10
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 102.
+(Font)              <8> on input line 95.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 102.
-LaTeX Font Info:    Try loading font information for U+msa on input line 102.
+(Font)              <6> on input line 95.
+LaTeX Font Info:    Try loading font information for U+msa on input line 95.
 
 (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
@@ -2258,7 +1574,7 @@ Requested font "msam10" at 8.0pt
  -> msam10
 Requested font "msam7" at 6.0pt
  -> msam7
-LaTeX Font Info:    Try loading font information for U+msb on input line 102.
+LaTeX Font Info:    Try loading font information for U+msb on input line 95.
 
 (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -2278,7 +1594,7 @@ Requested font "lasy6" at 6.0pt
 
 
 LaTeX Font Warning: Font shape `EU1/KaiTi(0)/bx/it' undefined
-(Font)              using `EU1/KaiTi(0)/m/n' instead on input line 102.
+(Font)              using `EU1/KaiTi(0)/m/n' instead on input line 95.
 
 Requested font "å®^^8bä½^^93" at 10.95pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
@@ -2292,14 +1608,14 @@ Requested font "å®^^8bä½^^93/ICU" at 10.95pt
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family '宋体(0)' created for font '宋体' with options
+. Font family '宋体(1)' created for font '宋体' with options
 . [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
 . 
 . This font family consists of the following shapes:
 .................................................
 
-LaTeX Font Warning: Font shape `EU1/宋体(0)/bx/it' undefined
-(Font)              using `EU1/宋体(0)/bx/n' instead on input line 102.
+LaTeX Font Warning: Font shape `EU1/宋体(1)/bx/it' undefined
+(Font)              using `EU1/宋体(1)/bx/n' instead on input line 95.
 
 File: 2.1.1.png Graphic file (type QTm)
 <use  "2.1.1.png" >
@@ -2315,7 +1631,7 @@ Requested font "å®^^8bä½^^93/ICU" at 10.95pt
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family '宋体(0)' created for font '宋体' with options
+. Font family '宋体(1)' created for font '宋体' with options
 . [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
 . 
 . This font family consists of the following shapes:
@@ -2327,7 +1643,7 @@ Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.95pt
 
 
 LaTeX Font Warning: Font shape `EU1/SimHei(0)/m/it' undefined
-(Font)              using `EU1/SimHei(0)/m/n' instead on input line 111.
+(Font)              using `EU1/SimHei(0)/m/n' instead on input line 104.
 
 File: 2_1.eps Graphic file (type eps)
 <2_1.eps>
@@ -2336,15 +1652,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [2
 
 ]
-Overfull \hbox (28.51462pt too wide) in paragraph at lines 122--126
-[][]\EU1/SimHei(0)/m/n/10.95 定 义 \EU1/lmr/bx/n/10.95 2.1.2. []\EU1/KaiTi(0)
-/m/it/10.95 无 向 图 G=(V,E) 中，| 若 点 边 交 替 序 列 P=$\OT1/lmr
-/m/n/10.95 (\OML/lmm/m/it/10.95 v[]; e[]; v[]; e[]; [] ; e[]; v[]\OT1/lmr/m/n/1
-0.95 )$
+Overfull \hbox (22.81334pt too wide) in paragraph at lines 115--119
+[][]\EU1/SimHei(0)/m/n/10.95 定 义 \EU1/TimesNewRoman(0)/bx/n/10.95 2.1.2. []
+\EU1/KaiTi(0)/m/it/10.95 无 向 图 G=(V,E) 中，| 若 点 边 交 替 序 �
+� P=$\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 v[]; e[]; v[]; e[]; [] ; e[]; v[]\
+OT1/lmr/m/n/10.95 )$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--126
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
 
  []
 
@@ -2354,31 +1670,31 @@ Missing character: There is no ∈ in font rm-lmr10!
  [3]
 
 LaTeX Font Warning: Font shape `EU1/SimHei(0)/bx/it' undefined
-(Font)              using `EU1/SimHei(0)/m/n' instead on input line 145.
+(Font)              using `EU1/SimHei(0)/m/n' instead on input line 138.
 
 
 LaTeX Font Warning: Font shape `EU1/黑体(0)/m/it' undefined
-(Font)              using `EU1/黑体(0)/m/n' instead on input line 145.
+(Font)              using `EU1/黑体(0)/m/n' instead on input line 138.
 
 Requested font "é»^^91ä½^^93/ICU:mapping=tex-text;" at 10.95pt
  -> C:/Windows/Fonts/simhei.ttf
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--163
+Underfull \hbox (badness 10000) in paragraph at lines 151--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--168
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
+Underfull \hbox (badness 10000) in paragraph at lines 162--164
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 179--182
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
 
  []
 
@@ -2386,12 +1702,12 @@ File: 2.3.png Graphic file (type QTm)
 <use  "2.3.png" >
 File: 2.4.png Graphic file (type QTm)
  <use  "2.4.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 206--208
+Underfull \hbox (badness 10000) in paragraph at lines 199--201
 
  []
 
@@ -2400,7 +1716,7 @@ Missing character: There is no ≤ in font rm-lmr10!
 Missing character: There is no ≠ in font rm-lmr10!
 Missing character: There is no 。 in font rm-lmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--224
+Underfull \hbox (badness 10000) in paragraph at lines 214--217
 
  []
 
@@ -2409,7 +1725,7 @@ File: 2_5.eps Graphic file (type eps)
 Missing character: There is no ∧ in font rm-lmr10!
 Missing character: There is no ， in font rm-lmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--294
+Underfull \hbox (badness 10000) in paragraph at lines 273--287
 
  []
 
@@ -2417,23 +1733,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--294
 Missing character: There is no Γ in font lmmi10!
 File: 2_6.eps Graphic file (type eps)
  <2_6.eps>
-Requested font "[lmroman10-bolditalic]:mapping=tex-text" at 10.95pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-bolditalic.otf
+Requested font "Times New Roman/BI/ICU:script=latn;language=DFLT;mapping=tex-te
+xt;" at 10.95pt
+ -> C:/Windows/Fonts/timesbi.ttf
 File: 2_6BFS.eps Graphic file (type eps)
  <2_6BFS.eps> [9]
 File: 2_6DFS.eps Graphic file (type eps)
  <2_6DFS.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 330--332
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
 
  []
 
 Missing character: There is no ， in font rm-lmr10!
 Missing character: There is no ， in font rm-lmr10!
 [10]
-Requested font "[lmroman12-regular]:mapping=tex-text" at 12.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-regular.otf
-Requested font "[lmroman12-bold]:mapping=tex-text" at 12.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-bold.otf
+Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
+" at 12.0pt
+ -> C:/Windows/Fonts/times.ttf
+Requested font "Times New Roman/B/ICU:script=latn;language=DFLT;mapping=tex-tex
+t;" at 12.0pt
+ -> C:/Windows/Fonts/timesbd.ttf
 Requested font "å®^^8bä½^^93" at 12.0pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 Requested font "å®^^8bä½^^93/ICU" at 12.0pt
@@ -2446,7 +1765,7 @@ Requested font "å®^^8bä½^^93/ICU" at 12.0pt
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family '宋体(0)' created for font '宋体' with options
+. Font family '宋体(1)' created for font '宋体' with options
 . [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
 . 
 . This font family consists of the following shapes:
@@ -2455,7 +1774,7 @@ Requested font "SimHei/ICU:mapping=tex-text;" at 12.0pt
  -> C:/Windows/Fonts/simhei.ttf
 File: 2.3.1.jpg Graphic file (type QTm)
  <use  "2.3.1.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 347--353
+Underfull \hbox (badness 10000) in paragraph at lines 340--346
 
  []
 
@@ -2463,7 +1782,7 @@ File: 2_8.eps Graphic file (type eps)
 <2_8.eps>
 File: 2.9.png Graphic file (type QTm)
  <use  "2.9.png" > [11]
-Underfull \hbox (badness 10000) in paragraph at lines 371--380
+Underfull \hbox (badness 10000) in paragraph at lines 364--373
 
  []
 
@@ -2474,7 +1793,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Missing character: There is no ， in font rm-lmr10!
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 403--406
+Underfull \hbox (badness 10000) in paragraph at lines 396--399
 
  []
 
@@ -2493,7 +1812,7 @@ File: 2_12.eps Graphic file (type eps)
  <2_12.eps>
 Missing character: There is no 或 in font rm-lmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--456
+Underfull \hbox (badness 10000) in paragraph at lines 434--449
 
  []
 
@@ -2504,7 +1823,7 @@ Requested font "lmmi12" at 12.0pt
 Requested font "lmsy10" at 12.0pt
  -> lmsy10
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 457.
+(Font)              <12> on input line 450.
 Requested font "msam10" at 12.0pt
  -> msam10
 Requested font "msbm10" at 12.0pt
@@ -2513,22 +1832,23 @@ Requested font "lasy10" at 12.0pt
  -> lasy10
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 457.
+(hyperref)                removing `math shift' on input line 450.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\centerdot' on input line 457.
+(hyperref)                removing `\centerdot' on input line 450.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 457.
+(hyperref)                removing `math shift' on input line 450.
 
 File: oula1.png Graphic file (type QTm)
 <use  "oula1.png" > [15]
 File: 图0.png Graphic file (type QTm)
  <use  "图0.png" >
-Requested font "[lmroman9-regular]:mapping=tex-text" at 9.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman9-regular.otf
+Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
+" at 9.0pt
+ -> C:/Windows/Fonts/times.ttf
 Requested font "å®^^8bä½^^93" at 9.0pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 Requested font "å®^^8bä½^^93/ICU" at 9.0pt
@@ -2541,7 +1861,7 @@ Requested font "å®^^8bä½^^93/ICU" at 9.0pt
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family '宋体(0)' created for font '宋体' with options
+. Font family '宋体(1)' created for font '宋体' with options
 . [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
 . 
 . This font family consists of the following shapes:
@@ -2555,7 +1875,7 @@ File: 图1.png Graphic file (type QTm)
 File: 图2.png Graphic file (type QTm)
 
 <use  "图2.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 469--483
+Underfull \hbox (badness 10000) in paragraph at lines 462--476
 
  []
 
@@ -2563,7 +1883,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 469--483
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
 
  []
 
@@ -2572,26 +1892,18 @@ File: 图3.png Graphic file (type QTm)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17]
-Overfull \hbox (2.51509pt too wide) in paragraph at lines 504--504
-[]\xeCJK@rm/m/n/10.95 假 设 \EU1/lmr/m/n/10.95 G \xeCJK@rm/m/n/10.95 不 是 
-哈 密 尔 顿 图，| 我 们 找 到 \EU1/lmr/m/n/10.95 G \xeCJK@rm/m/n/10.9
-5 中 的 最 长 道 路 \EU1/lmr/m/n/10.95 P($\OT1/lmr/m/n/10.95 = \OML/lmm/m
-/it/10.95 x[]x[] [] x[]$\EU1/lmr/m/n/10.95 )\xeCJK@rm/m/n/10.95 。|
- []
-
-[18]
+[17] [18]
 File: 图4.png Graphic file (type QTm)
  <use  "图4.png" > [19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 543--547
+Underfull \hbox (badness 10000) in paragraph at lines 536--540
 
  []
 
 [21]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 577.
+put line 570.
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--609
+Underfull \hbox (badness 10000) in paragraph at lines 566--602
 
  []
 
@@ -2605,37 +1917,38 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: 2.17.png Graphic file (type QTm)
 
 <use  "2.17.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 610--616
+Underfull \hbox (badness 10000) in paragraph at lines 603--609
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--618
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
 
  []
 
 
-Overfull \hbox (10.4622pt too wide) in paragraph at lines 621--632
-[]\EU1/KaiTi(0)/m/it/10.95 此 时 栈 中 \EU1/lmr/m/it/10.95 5 \EU1/KaiTi(0)/
-m/it/10.95 条 边 不 构 成 \EU1/lmr/m/it/10.95 H \EU1/KaiTi(0)/m/it/10.95 �
-�� 路。| 接 下 来 我 们 得 到：| $\OML/lmm/m/it/10.95 e[]; e[]; e[]; 
-e[]; e[]$\EU1/KaiTi(0)/m/it/10.95 。| 
+Overfull \hbox (6.96048pt too wide) in paragraph at lines 614--625
+[]\EU1/KaiTi(0)/m/it/10.95 此 时 栈 中 \EU1/TimesNewRoman(0)/m/it/10.95 5 \
+EU1/KaiTi(0)/m/it/10.95 条 边 不 构 成 \EU1/TimesNewRoman(0)/m/it/10.95 H 
+\EU1/KaiTi(0)/m/it/10.95 回 路。| 接 下 来 我 们 得 到：| $\OML/lmm/
+m/it/10.95 e[]; e[]; e[]; e[]; e[]$\EU1/KaiTi(0)/m/it/10.95 。| 
  []
 
 
-Overfull \hbox (5.5233pt too wide) in paragraph at lines 621--632
+Overfull \hbox (3.32237pt too wide) in paragraph at lines 614--625
 []\EU1/KaiTi(0)/m/it/10.95 此 时 栈 中 存 在 回 路，| 我 们 删 去 
-$\OML/lmm/m/it/10.95 e[]$\EU1/lmr/m/it/10.95 , \EU1/KaiTi(0)/m/it/10.95 继 续
- 搜 索 得 到：| $\OML/lmm/m/it/10.95 e[]; e[]; e[]; e[]; e[]$
+$\OML/lmm/m/it/10.95 e[]$\EU1/TimesNewRoman(0)/m/it/10.95 , \EU1/KaiTi(0)/m/it/
+10.95 继 续 搜 索 得 到：| $\OML/lmm/m/it/10.95 e[]; e[]; e[]; e[]; e[]$
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--632
+Underfull \hbox (badness 10000) in paragraph at lines 614--625
 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 634--636
+Underfull \hbox (badness 10000) in paragraph at lines 627--629
 
  []
 
@@ -2644,7 +1957,7 @@ Missing character: There is no − in font rm-lmr10!
 Missing character: There is no − in font rm-lmr10!
 Missing character: There is no − in font rm-lmr10!
 
-Underfull \vbox (badness 5064) has occurred while \output is active []
+Underfull \vbox (badness 4805) has occurred while \output is active []
 
  [25]
 File: 2_19.eps Graphic file (type eps)
@@ -2653,27 +1966,27 @@ File: 2_19.eps Graphic file (type eps)
 Missing character: There is no − in font rm-lmr10!
 File: 2_20.eps Graphic file (type eps)
  <2_20.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 683--694
+Underfull \hbox (badness 10000) in paragraph at lines 676--687
 
  []
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 699--701
+Underfull \hbox (badness 10000) in paragraph at lines 692--694
 
  []
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 714--715
+Underfull \hbox (badness 10000) in paragraph at lines 707--708
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 718--720
+Underfull \hbox (badness 10000) in paragraph at lines 711--713
 
  []
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 725--726
+Underfull \hbox (badness 10000) in paragraph at lines 718--719
 
  []
 
@@ -2681,10 +1994,10 @@ File: 2_6_1.eps Graphic file (type eps)
 <2_6_1.eps>
 
 LaTeX Font Warning: Font shape `EU1/KaiTi(0)/bx/n' undefined
-(Font)              using `EU1/KaiTi(0)/m/n' instead on input line 748.
+(Font)              using `EU1/KaiTi(0)/m/n' instead on input line 741.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 748--750
+Underfull \hbox (badness 10000) in paragraph at lines 741--743
 
  []
 
@@ -2693,44 +2006,44 @@ File: dj1.png Graphic file (type QTm)
  <use  "dj1.png" >
 File: dj2.png Graphic file (type QTm)
  <use  "dj2.png" >
+Underfull \vbox (badness 5548) has occurred while \output is active []
+
+ [30]
 File: dj3.png Graphic file (type QTm)
- <use  "dj3.png" > [30]
+
+<use  "dj3.png" >
 File: dj4.png Graphic file (type QTm)
-
-<use  "dj4.png" >
+ <use  "dj4.png" >
 File: dj5.png Graphic file (type QTm)
- <use  "dj5.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
+ <use  "dj5.png" > [31]
 File: dj6.png Graphic file (type QTm)
-
-<use  "dj6.png" >
+ <use  "dj6.png" >
 File: dj8.png Graphic file (type QTm)
- <use  "dj8.png" >
+
+<use  "dj8.png" >
 File: dj9.png Graphic file (type QTm)
  <use  "dj9.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2735) has occurred while \output is active []
 
  [32]
-Underfull \hbox (badness 10000) in paragraph at lines 813--814
+Underfull \hbox (badness 10000) in paragraph at lines 806--807
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 815--816
+Underfull \hbox (badness 10000) in paragraph at lines 808--809
 
  []
 
 [33]
 File: 2.201.png Graphic file (type QTm)
  <use  "2.201.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 836--842
+Underfull \hbox (badness 10000) in paragraph at lines 829--835
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 852--853
+Underfull \hbox (badness 10000) in paragraph at lines 845--846
 
  []
 
@@ -2738,116 +2051,120 @@ File: 2.211.png Graphic file (type QTm)
 <use  "2.211.png" > [34]
 File: ford.eps Graphic file (type eps)
  <ford.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 862--869
+Underfull \hbox (badness 10000) in paragraph at lines 855--862
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 879--881
+Underfull \hbox (badness 10000) in paragraph at lines 872--874
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 881--883
+Underfull \hbox (badness 10000) in paragraph at lines 874--876
 
  []
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 892--894
+Underfull \hbox (badness 10000) in paragraph at lines 885--887
 
  []
 
 File: 2_22.eps Graphic file (type eps)
 <2_22.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 898--904
+Underfull \hbox (badness 10000) in paragraph at lines 891--897
 
  []
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 915--918
+Underfull \hbox (badness 10000) in paragraph at lines 908--911
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 922--923
+Underfull \hbox (badness 10000) in paragraph at lines 915--916
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--925
+Underfull \hbox (badness 10000) in paragraph at lines 917--918
 
  []
 
 File: pt.png Graphic file (type QTm)
 <use  "pt.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 936--937
+Underfull \vbox (badness 1533) has occurred while \output is active []
+
+ [37]
+Underfull \hbox (badness 10000) in paragraph at lines 929--930
 
  []
 
-[37]
 File: 2_23.eps Graphic file (type eps)
- <2_23.eps> [38]
-Underfull \hbox (badness 10000) in paragraph at lines 985--987
+<2_23.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-
-Overfull \hbox (12.90715pt too wide) in paragraph at lines 996--998
-[][]\EU1/SimHei(0)/bx/it/10.95 引 理 \EU1/lmr/bx/n/10.95 2.8.2. []\EU1/KaiTi(
-0)/bx/n/10.95 设 \EU1/lmr/m/it/10.95 G \EU1/KaiTi(0)/bx/n/10.95 不 存 在 �
-� 向 回 路，| 可 以 将 \EU1/lmr/m/it/10.95 G \EU1/KaiTi(0)/bx/n/10.95 �
-� 结 点 重 新 编 号 为 $\OML/lmm/m/it/10.95 v[]; v[]; []  ; v[]$\EU1/Kai
-Ti(0)/bx/n/10.95 ，|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 996--998
+ [38]
+Underfull \hbox (badness 10000) in paragraph at lines 978--980
 
  []
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 1007--1011
+Overfull \hbox (2.12958pt too wide) in paragraph at lines 989--991
+[][]\EU1/SimHei(0)/bx/it/10.95 引 理 \EU1/TimesNewRoman(0)/bx/n/10.95 2.8.2. 
+[]\EU1/KaiTi(0)/bx/n/10.95 设 \EU1/TimesNewRoman(0)/m/it/10.95 G \EU1/KaiTi(0)
+/bx/n/10.95 不 存 在 有 向 回 路，| 可 以 将 \EU1/TimesNewRoman(0)/m
+/it/10.95 G \EU1/KaiTi(0)/bx/n/10.95 的 结 点 重 新 编 号 为 $\OML/lmm/
+m/it/10.95 v[]; v[]; []  ; v[]$\EU1/KaiTi(0)/bx/n/10.95 ，|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 989--991
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1011--1014
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1004
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1015--1018
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1007
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1019--1020
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1011
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1022--1041
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
 
  []
 
 [40]
-File: 2_24.eps Graphic file (type eps)
- <2_24.eps> [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1067--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1015--1034
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1069.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
+
+ []
+
+File: 2_24.eps Graphic file (type eps)
+<2_24.eps> [41]
+Underfull \hbox (badness 10000) in paragraph at lines 1060--1062
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1062.
 [42]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1069.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1062.
  (C:\Users\lenovo\Desktop\bookv_1\book\Chapter2\chapter2.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1069.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1069.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1062.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1062.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2857,11 +2174,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 24122 strings out of 430478
- 445007 string characters out of 3191502
- 579190 words of memory out of 3000000
- 26692 multiletter control sequences out of 15000+200000
- 21245 words of font info for 116 fonts, out of 3000000 for 9000
+ 23796 strings out of 430478
+ 438640 string characters out of 3191502
+ 576282 words of memory out of 3000000
+ 26474 multiletter control sequences out of 15000+200000
+ 21013 words of font info for 87 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,13n,92p,857b,910s stack positions out of 5000i,500n,10000p,200000b,50000s
 

@@ -4,7 +4,6 @@
 \usepackage{changepage}
 \usepackage{amsmath,amsthm}
 \usepackage{amssymb}
-%\usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage{graphicx}
 \usepackage{epstopdf}
@@ -25,41 +24,35 @@
 \usepackage{algorithm} %format of the algorithm
 \usepackage{algorithmic} %format of the algorithm
 \usepackage{subfigure}
-%\usepackage{xeCJK}
+\usepackage{xeCJK}
 \usepackage{varwidth}
 \usepackage{caption}
 \usepackage{lipsum}
 \usepackage{framed}
 \usepackage[colorlinks]{hyperref}
-%\setmainfont{宋体}
-%\setmonofont{Courier New} % 等寬字型
+
 \setCJKmainfont[BoldFont=SimHei,ItalicFont=KaiTi]{宋体}
-\XeTeXlinebreaklocale "zh"
-\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+\setmonofont{宋体}    % 等寬字型
+\setmainfont{Times New Roman}  %缺省英文字体
+
+\XeTeXlinebreaklocale "zh"   % 针对中文进行断行
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt     % 给予TeX断行一定自由度
+%\linespread{1.5}                                  % 1.5倍行距
+
 \newfontfamily{\H}{SimHei}
 \newfontfamily{\K}{KaiTi}
 \newfontfamily{\S}{黑体}
+\setCJKfamilyfont{hwxw}{STXinwei}                    %华文新魏  hwxw
+\newcommand{\hwxw}{\CJKfamily{hwxw}}
+\setCJKfamilyfont{hei}{SimHei}                       %黑体  hei
+\newcommand{\hei}{\CJKfamily{hei}}
+\setCJKfamilyfont{song}{SimSun}                      %宋体 song
+\newcommand{\song}{\CJKfamily{song}}
+\setCJKfamilyfont{kai}{KaiTi}                        %楷体  kai
+\newcommand{\kai}{\CJKfamily{kai}}
+\setCJKfamilyfont{fs}{FangSong}                      %仿宋 fsong
+\newcommand{\fs}{\CJKfamily{fs}}   
 
-\newfontfamily\youyuan{YouYuan}
-\newfontfamily\hwcaiyun{STCaiyun}
-\newfontfamily\hwhupo{STHupo}
-\newfontfamily\yaoti{FZYaoTi}
-\newfontfamily\kaiti{KaiTi}
-\newfontfamily\xsong{NSimSun}
-\newfontfamily\hwsong{STSong}
-\newfontfamily\yahei{Microsoft YaHei}
-\newfontfamily\fangsong{FangSong}
-\newfontfamily\song{SimSun}
-\newfontfamily\hwfangsong{STFangsong}
-\newfontfamily\weiti{STXinwei}
-\newfontfamily\heiti{SimHei}
-\newfontfamily\hwxingkai{STXingkai}
-\newfontfamily\hwlishu{STLiti}
-\newfontfamily\zhongsong{STZhongsong}
-\newfontfamily\shuti{FZShuTi}
-\newfontfamily\hwhei{STXihei}
-\newfontfamily\lishu{LiSu}
-\newfontfamily\hwkai{STKaiti}
 
 \captionsetup[figure]{name=图}
 \captionsetup[table]{name=表}
