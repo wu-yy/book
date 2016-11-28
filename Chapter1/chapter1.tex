@@ -53,6 +53,9 @@
 \setCJKfamilyfont{fs}{FangSong}                      %仿宋 fsong
 \newcommand{\fs}{\CJKfamily{fs}}
 
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}  %字体大小
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+
 \captionsetup[figure]{name=图}
 \captionsetup[table]{name=表}
 \definecolor{shadecolor}{rgb}{0.92,0.92,0.92}
@@ -68,6 +71,7 @@
 \newtheorem{guess}{\textbf{猜想}}[section]
 \renewcommand{\figurename}{图}
 \floatname{algorithm}{算法}
+\newcommand{\reffig}[1]{\textcolor{red}{图}\ref{#1}}
 
 \usepackage{fancyhdr}
 %\fancyhf{}
@@ -190,6 +194,153 @@ $K_n$中的边数为$\frac{1}{2}n(n-1)$。
 给定$G=(V,E)$,如果存在另一个图$G'=(V',E')$，满足$V'$包含于V,满足$E'$包含于E，则称$G'$是G的一个\textcolor[rgb]{1.00,0.00,0.00}{子图}。\\
 如果$V'=V$，就称$G'$是G的\textcolor[rgb]{1.00,0.00,0.00}{支撑子图}。\\
 如果$V'$包含于V，且$E'$包含了在结点子集$V'$之间的所有边，则称$G'$是G的\textcolor[rgb]{1.00,0.00,0.00}{导出子图}。\\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{1.5.png}\\
+  \caption{B:支撑子图 C:导出子图 D:子图}
+\end{figure}
 \end{defination}
+\begin{coro}
+显然，根据上述的定义，图G是自身的子图，支撑子图，导出子图。\\
+\\
+空图是图G的支撑子图。\\
+\end{coro}
+\begin{defination}
+称原图G和空图都是图G的\textcolor[rgb]{1.00,0.00,0.00}{平凡子图}。\\
+\end{defination}
+\begin{defination}
+给定两个图$G_1=(V_1,E_1),G_2=(V_2,E_2)$。令
+\begin{gather}
+  G_1\bigcup G_2=(V_1\bigcup V_2,E_1\bigcup E_2) \\
+  G_1\bigcap G_2=(V_1\bigcap V_2,E_1\bigcap E_2)\\
+  G_1\bigoplus G_2=(V_1\bigoplus V_2,E_1\bigoplus E_2)
+\end{gather}
+$1.1,1.2,1.3 $分别称为$G_1$和$G_2$的\textcolor[rgb]{1.00,0.00,0.00}{并}、\textcolor[rgb]{1.00,0.00,0.00}{交}、\textcolor[rgb]{1.00,0.00,0.00}{对称差}。\\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{1.6.1.png}\\
+  \caption{$G_1\bigcup G_2$}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{1.6.2.png}\\
+  \caption{$G_1\bigcap G_2$}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{1.6.3.png}\\
+  \caption{$G_1\bigoplus G_2$}\label{fig:163}
+\end{figure}
+\end{defination}
+\song
+{
+在图G中删掉一个子图H，指删掉H中的各条边，记为\textcolor[rgb]{1.00,0.00,0.00}{$G\quad -\quad H$}。\\
+对于简单图G,称$K_n - G$为G的\textcolor[rgb]{1.00,0.00,0.00}{补图}，记做\textcolor[rgb]{1.00,0.00,0.00}{$\bar{G}$}。\\
+从G中删去某个结点$v$及其关联的边所得到的图记做\textcolor[rgb]{1.00,0.00,0.00}{$G-v$}。\\
+从G中删掉某条特定的边e,记做\textcolor[rgb]{1.00,0.00,0.00}{$G-e$}。\\
+显然，$G-v$是图G的导出子图,$G-e$是图G的支撑子图。\\
+}
+\begin{defination}
+如G为无向图，则$$\Gamma(v)=\{u|(v,u)\in E\}$$称为v的\textcolor[rgb]{1.00,0.00,0.00}{邻点集}。\\
+如G为有向图，v是其中一个结点，则$$\Gamma^{+}(v)=\{u|(v,u)\in E\}$$称为v的直接后继或者\textcolor[rgb]{1.00,0.00,0.00}{外邻集};相应的
+$$\Gamma^{-}(v)=\{u|(v,u)\in E\}$$称为v的直接前趋集或内邻集。\\
+\end{defination}
+
+\begin{defination}
+两个图$G_1=(V_1,E_1),G_2=(V_2,E_2)$,如果$V_1$,$V_2$之间存在双射$f$，而且$(u,v)\in E_1$，当且仅当$(f(u),f(v))\in E_2$时，称$G_1$和$G_2$\textcolor[rgb]{1.00,0.00,0.00}{同构}。记做$$G_1\cong G_2$$\\
+\end{defination}
+\begin{shaded}
+\noindent 从定义知，若$G_1\cong G_2$，必须满足:\\
+(1)$|V(G_1)|=|V(G_2)|$,$|E(G_1)|=|E(G_2)|$\\
+(2)$G_1$和$G_2$结点度的非增序列相同\\
+(3)$G_1$和$G_2$存在同构的导出子图\\
+\end{shaded}
+{\xiaosihao\hwxw 思考:如何判定两图同构?}\\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{tonggou.eps}\\
+  \caption*{}
+\end{figure}
+\section{图的代数表示}
+图在计算机中如何表示(拓扑结构、边权值...)？如何对图进行描述或运算？所以我们需要用代数的方法来描述图!\\
+\begin{defination}
+表示了结点间的邻接关系的矩阵称为\textcolor{red}{邻接矩阵}。\\
+\end{defination}
+\begin{shaded}
+\noindent 有向图的邻接矩阵$\mathbf{A}$是一个n 阶方针，其元素为:
+$$\mathbf{A}=[a_{ij}]_{n\times n} \quad a_{ij}=\begin{cases}
+        1& (v_i,v_j)\in E\\
+        0& others
+    \end{cases}$$
+\end{shaded}
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{1.9.png}\\
+  \caption{}
+\end{figure}
+\textcolor{red}{权矩阵:}赋权图常用权矩阵A进行表示。
+\begin{shaded}
+其元素为：
+$$\mathbf{A}=[a_{ij}]_{n\times n} \quad a_{ij}=\begin{cases}
+        w_{ij}& (v_i,v_j)\in E\\
+        0& others
+    \end{cases}$$
+\end{shaded}
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{1.10.png}\\
+  \caption{}
+\end{figure}
+\textcolor{red}{关联矩阵:}关联矩阵表示结点与边之间的关联关系。\\
+\begin{shaded}
+有向图G的关联矩阵$\mathbf{B}$是$n\times m$的矩阵，当给定结点和边的编号之后，其元素
+$$\mathbf{B}=[b_{ij}]_{n \times m} \quad b_{ij}=
+\begin{cases}
+        1& e_j=(v_i,v_k)\in E\\
+        -1& e_j=(v_k,v_i)\in E\\
+        0& others
+    \end{cases}
+$$
+\end{shaded}
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{1.11.png}\\
+  \caption{}
+\end{figure}
+\begin{shaded}
+无向图G的关联矩阵$\mathbf{B}$是$n\times m$的矩阵，当给定结点和边的编号之后，其元素
+$$\mathbf{B}=[b_{ij}]_{n \times m} \quad b_{ij}=
+\begin{cases}
+        1& e_j \text{与}v_i\text{关联}\\
+        0& others
+    \end{cases}
+$$
+\end{shaded}
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{1.12.png}\\
+  \caption{}
+\end{figure}
+\begin{shaded}
+\noindent 关联矩阵的性质（有向图）:\\
+(1)每列只有两个非零元：1、-1\\
+(2)第$i$行非零元的数目恰为结点$v_i$的度，其中1的数目为其正度，-1的数目为其负度\\
+关联矩阵的性质（无向图）:\\
+(1)每列只有一个非零元：1\\
+(2)第i行1的数目恰为结点$v_i$的度\\
+\textbf{关联矩阵能够表示重边，但不能表示自环。}
+\end{shaded}
+
+\textcolor{red}{邻接矩阵、权矩阵、关联矩阵可以表示重边，但无法表示自环}\\
+邻接矩阵、权矩阵、关联矩阵的优点是一旦写出代数表达式，则可得到确定图，且非常直观。缺点是(1)不能表示自环(2)在计算机上存储邻接矩阵与关联矩阵时，将占据较大的存储空间并可能增加计算复杂度。所以需要引入\textbf{边列表}、\textbf{正向表}、\textbf{逆向表}、\textbf{邻接表}。\\
 
 \end{document}
