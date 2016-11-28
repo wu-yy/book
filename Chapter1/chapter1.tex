@@ -342,5 +342,77 @@ $$
 
 \textcolor{red}{邻接矩阵、权矩阵、关联矩阵可以表示重边，但无法表示自环}\\
 邻接矩阵、权矩阵、关联矩阵的优点是一旦写出代数表达式，则可得到确定图，且非常直观。缺点是(1)不能表示自环(2)在计算机上存储邻接矩阵与关联矩阵时，将占据较大的存储空间并可能增加计算复杂度。所以需要引入\textbf{边列表}、\textbf{正向表}、\textbf{逆向表}、\textbf{邻接表}。\\
+\noindent \textbf{边列表}由两个m维向量A和B组成。若$e_k=(v_i,v_j)$,则$$A(k)=i,B(k)=j$$
+如果G为赋权图，则再增加一个m维变量Z，若$e_k$的权值为$w_k$,则令$$Z(k)=w_k$$
+如图1.13所示是边列表，边列表的实质是关联矩阵的压缩形式并克服了其缺点。\\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{1.13.png}\\
+  \caption{}
+\end{figure}
+\indent 赋权图只需增加权值向量，如果G是赋权图，则再增加一个m维向量Z，若$e_k$的权是$w_k$,则令$Z(k)=w_k$。例如图1.14的边列表形式是：
+\begin{align}
+  A:( & 4 \quad 4 \quad 1 \quad 2\quad 2 \quad 2 \quad 4)\\
+  B:( & 1 \quad 1 \quad 2 \quad 2 \quad 4 \quad 3 \quad 3)\\
+  Z:(&  5 \quad 3 \quad 4 \quad 6 \quad 7 \quad 2 \quad 4)
+\end{align}
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.6\textwidth]{1_14.eps}\\
+  \caption{}
+\end{figure}
+类似的可以得到无向图的边列表。\\
+\noindent \textbf{正向表}:当对G的结点与边进行编号后，正向表将每个节点的直接后继集中在一起存放。\\
+\indent \textcolor{red}{有向图的正向表}由一个$(n+1)$维向量A,一个m维向量B组成。$A(i)$表示结点$v_i$的第一个后继在B中的地址，
+B中存放这些后继结点的编号，$A(n+1)=m+1$。\\
+\indent 对赋权图，用m维向量Z存放权，$Z(k)=w_k$。\\
+有向图正向表如图1.15所示:\\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{1.15.png}\\
+  \caption{}
+\end{figure}
+\begin{shaded}
+正向表存在下述关系:\\
+1.$d^{+}(v_i)=A(i+1)-A(i)$\\
+2. $A(i)=\sum^{i-1}_{j=1}d^{+}(v_j)+1$\\
+3.从$B(A(i))$到$B(A(i+1)-1)$的任意一个值，都是$v_i$的直接后继。
+\end{shaded}
+
+\textcolor{red}{无向图的正向表结构:}\\
+B向量中存放的是相应邻结点的编号，因此为2m维。相应地，Z向量也变成2m维。\\
+无向图正向表如图1.16所示:\\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{1.16.png}\\
+  \caption{}
+\end{figure}
+\textcolor{red}{逆向表}：与正向表相反，逆向表是将每个结点的直接前趋集中在一起存放。\\
+逆向表实质是对有向图邻接矩阵的列进行压缩的结果。\\
+{\hwxw 思考：正（逆向表优缺点是什么?）}\\
+例如图1.14的逆向表是:\\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.6\textwidth]{1_17.eps}\\
+  \caption*{}
+\end{figure}
+\textcolor{red}{邻接表}：采用单链表结构表示一个图。其中基本单元为表结点，如下所示：\\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{1.17.1.png}\\
+  \caption*{}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.9\textwidth]{1.18.png}\\
+  \caption*{}
+\end{figure}
 
 \end{document}
