@@ -74,12 +74,17 @@
 \newcommand{\reffig}[1]{\textcolor{red}{图}\ref{#1}}
 
 \usepackage{fancyhdr}
-%\fancyhf{}
-\fancyhead[LO,RE]{\leftmark}
-\fancyhead[LE,RO]{cumtb.iis.ddb}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[ER]{\rightmark} %奇数页与偶数页分别用字母 O，E 表示
+\fancyhead[EL]{\leftmark}
+\fancyhead[OL]{\rightmark}
+\fancyhead[OR]{\leftmark}
 \fancyfoot[LO,RE]{}
 \fancyfoot[LE,RO]{-\,\thepage\,-}
-\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\chaptermark}[1]{\markboth{\small 第\,\thechapter\,章\quad #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\small\thesection\quad #1}{}}
 
 \fancypagestyle{plain}{
      \fancyhf{}
@@ -91,7 +96,7 @@
 \usepackage{titlesec}
 \titleformat{\chapter}{\centering\huge\hei}{第\,\thechapter\,章}{1em}{}[\vspace{-1cm}]
 \begin{document}
-\pagestyle{plain}  %取消页码
+%\pagestyle{plain}  %取消页码
 \chapter{第一章}
 
 \chapter{第二章}
@@ -298,30 +303,388 @@ k_1\cdot b(i_1) +k_2\cdot b(i_2) +\cdots +k_l\cdot b(i_l) =O_m \quad (k_j\neq 0,
   \begin{flushleft}
     否则，该分量最终不可能为$0$。
 \end{flushleft}
--这样，我们可以对矩阵B进行行、列交换，使前$l$行为线性相关的各行\\
--再针对这$l$ 行中，有两个非零元的列换到前$r$列\\
-则此$l$ 行中，其余$(m－r)$列将均为零元\\
--此时矩阵B将变为$B'$
-$\bordermatrix{%
-& 0 & 1 & 2 \cr
-0 & A & B & C \cr
-1 & d & e & f \cr
-2 & 1 & 2 & 3 \cr
-}$
-$\bordermatrix{%
-& 1 & 2 \cr
-1 & x1 & x2 \cr
-2 & x3 & x4 \cr
-3 & x5 & x6
-}$
-$\bordermatrix*[{[]}]{%
-x1 & x2 & 1 \cr
-x3 & x4 & 2 \cr
-x5 & x6 & 3 \cr
-1 & 2
-}$
-
+\quad 这样，我们可以对矩阵B进行行、列交换，使前$l$行为线性相关的各行\\
+\quad 再针对这$l$ 行中，有两个非零元的列换到前$r$列\\
+则此$l$ 行中，其余$(m-r)$列将均为零元\\
+\quad 此时矩阵B将变为
+\begin{align*}
+ B'= \begin{array}{lc}
+\mbox{}&
+\begin{array}{cc}r&m-r \end{array}\\
+\begin{array}{c}l\\n-l\end{array}&
+\left[\begin{array}{cc}
+P&0\\
+0&Q
+\end{array}\right]
+\end{array}
+\quad \quad ran B=ran B'
+\end{align*}
+\quad 若$l <n$，则从$B'$可清楚看出，图G为两个连通支，这与
+图G为连通图矛盾！\\
+因此，一定有$l=n$
 }
 \end{theorem}
+\begin{theorem}
+设B是有向连通图G的关联矩阵，则$$ran B=n-1$$
+\end{theorem}
+\begin{theorem}
+连通图G基本关联矩阵$B_k$的秩$$ran B_k=n-1$$
+\end{theorem}
+\begin{theorem}
+设$B_k$为有向连通图G的基本关联矩阵，C为G中的一个回路。则C中各边所对应$B_k$的各列线性相关。\\
+{\song
+\textbf{证明：}\\
+只需针对C为初级回路进行讨论即可\\
+设C中含$l$个结点与$l$条边$(l<n)$，这$l$条边对应关联矩阵$B$中的$l$列，它们构成子阵$B(G_C)$  \\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.7\textwidth]{3.4.png}\\
+  \caption{}
+\end{figure}
+\noindent C的关联矩阵为$l$ 阶方阵$B(C)$，据定理$3.2.5$ $$ran B(C)=l-1$$
+说明$B(C)$的$l$列线性相关\\
+观察$B(C)$与$B(G_C)$的关系：
+{\hwxw
+\begin{itemize}
+  \item B(C)为$B(G_C)$的子阵，列数相同，行数不同
+  \item C中各边只经过B(C)中的各结点，因此$B(G_C)$中其他结点对应各
+行均为零
+\end{itemize}
+}
+因此， $B(G_C)$的各列也线性相关！\\
+因此，在$B_k$中，C对应各列也线性相关！\\
+}
+\end{theorem}
+\begin{theorem}
+设$B_k$为有向连通图G的基本关联矩阵，C为G中的一个回路。则C中各边所对应$B_k$的各列线性相关。\\
+\end{theorem}
+\begin{coro}
+设H为连通图G的子图，如果H含有回路，
+则H的\textcolor{red}{诸边}对应的G的基本关联矩阵各列线性相关。
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.4\textwidth]{rank.png}\\
+  \caption*{}
+\end{figure}
+\end{coro}
+{\hwxw
+思考：\\
+有向连通图的基本关联矩阵，哪些列线性相关？\\
+有向连通图的基本关联矩阵，哪些列线性不相关？\\
+}
+\begin{theorem}
+令$B_k$是有向连通图G的基本关联矩阵，那么$B_k$的任意$n-1$阶子阵行列式非零的充要条件是其各列所对应的边构成G的一棵支撑树。
+{\song
+证明：\\
+充分性:\\
+设T为G的支撑树\\
+子图T的基本关联矩阵$B_k(T)$是$n-1$阶子方阵,它的秩为$n-1$这意味着其行列式非零。\\
+该子方阵恰好就是$B_k$的某个$n-1$阶子阵\\
+即$B_k$所对应的该$n-1$阶行列式非零。\\
+}
+\end{theorem}
+\begin{shaded}
+{\hwxw
+小结：\\
+(1)有向连通图关联矩阵的秩\\
+(2)有向连通图基本关联矩阵各列的线性相关性\\
+(3)有向连通图基本关联矩阵同支撑树的关系\\
+}
+\end{shaded}
+
+\section{支撑树的计数}
+给定连通图G，其支撑树可以有多少个？\\
+以某结点为根的支撑树可以有多少个？
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.5\textwidth]{3_5.eps}\\
+  \caption*{}
+\end{figure}
+\begin{theorem}
+(Binet-Cauchy定理)已知两个矩阵$A=(a_{ij})_{m\times n}$
+和$B=(b_{ij})_{n\times m}$，满足$m\leq n$，则$$ det(AB)=\sum_{i}(A_iB_i)$$
+{\hwxw
+其中$A_i$，$B_i$都是m阶行列式\\
+$A_i$是从A中取不同的m列所成的行列式；\\
+$B_i$是从B中取相应的m行构成的行列式；\\
+结果为全部组合求和\\
+}
+\end{theorem}
+\begin{sample}
+已知$A=\left[
+       \begin{array}{ccc}
+         4 & 3 & 2 \\
+         -2 & 4 & 3 \\
+       \end{array}
+     \right]
+$\quad $B=\left[
+           \begin{array}{cc}
+             5 & 1 \\
+             0 & 3 \\
+             4 & 2 \\
+           \end{array}
+         \right]
+$求$det(AB)$\\
+解：\\
+$AB=\left[
+      \begin{array}{cc}
+        28 & 17 \\
+        2 & 16 \\
+      \end{array}
+    \right]
+$\\
+因此$det(AB)=28 \times 16-17\times 2=414$\\
+\end{sample}
+\begin{shaded}
+\noindent 采用内比－柯西定理计算矩阵乘积的行列式通常比较复杂\\
+其价值在于：揭示了乘积矩阵的行列式与各矩阵的子阵行列式之间的关系\\
+连通图中不同支撑树的计数恰好利用了这种关系，从而可以用代数的方法很容易解决支撑树的计数问题
+\end{shaded}
+\subsection{支撑树的计数－有向连通图}
+\begin{theorem}
+设$B_k$的是有向连通图$G=(V,E)$的某一
+基本关联矩阵，则G的不同树的数目是$$det(B_kB^T_k)$$
+{\song
+证明：设$B_k=(b_{ij})_{(n-1)\times m}$\\
+由内比-柯西定理$$det(B_k B_k^T)=\sum_{i}|B_i||B_i^T|$$
+其中$|B_i|$是$B_k$的某$n-1$阶子阵的行列式\\
+$|B_i^T|$是对应的$B_i^T$的$n-1$阶阵的行列式\\
+有$|B_i|=|B_i^T|$\\
+因此可以得到$$det(B_k B_k^T)=\sum_{i}|B_i||B_i^T|=\sum_i|B_i|^{2}$$
+由定理$3.2.9$，如果，则其所对应的边构成G的一棵树\\
+再由定理$3.2.3$， $|B_i|$只能为$0,1$或$-1$\\
+因此， $det(B_k b_k^T)$恰恰是G中不同树的数目\\
+}
+\end{theorem}
+\begin{sample}
+如图$3.5$
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.5\textwidth]{3_5_1.eps}\\
+  \caption{}
+\end{figure}
+$
+B=\left[
+    \begin{array}{ccccccc}
+      v_1 & 1 & -1 & 1 & 0 & 0 & 1 \\
+      v_2 & 0 & 0 & -1 & -1 &0 & -1 \\
+      v_3 & -1 & 1 & 0 & 0 & 1 & 0 \\
+      v_4 & 0 & 0 & 0 & 1 & -1 & 0 \\
+      & e_1 & e_2 & e_3 & e_4 & e_5 & e_6 \\
+    \end{array}
+  \right]\quad \Rightarrow \quad
+  B_4=\left[
+    \begin{array}{ccccccc}
+      v_1 & 1 & -1 & 1 & 0 & 0 & 1 \\
+      v_2 & 0 & 0 & -1 & -1 &0 & -1 \\
+      v_3 & -1 & 1 & 0 & 0 & 1 & 0 \\
+      v_4 &  &  &  &  &  & \\
+      & e_1 & e_2 & e_3 & e_4 & e_5 & e_6 \\
+    \end{array}
+  \right]
+$ $$det(B_4 B_4^T=8)$$
+\end{sample}
+\subsection{含特定、不含特定边的计算方法}
+\begin{enumerate}
+  \item 计算G 中不含某特定边$e$ 的树的数目：
+将该边删除即可！
+  \item 计算G 中必定含特定边e 的树的数目：
+将该边收缩即可！
+\end{enumerate}
+\section{无向连通图支撑树的计数}
+{\hwxw 无向连通图的关联矩阵不存在-1 元素, 如何计算其支撑树的数目?}\\
+对无向连通图G 的每边任给一个方向, 得到有向连通图$G'$, 则$G'$的
+支撑树与G 的支撑树一一对应!\\
+\section{有向连通图根树的计数}
+\begin{defination}
+根树：T 为有向树, 若T 中存在某结点v0 的负度为0, 其余结点负
+度为1, 则称T 为以$v_0$ 为根的外向树, 或称根树, 用$\mathop{T}\limits^{\rightharpoonup}$ 表示。
+例：
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.5\textwidth]{3_6.eps}\\
+  \caption*{}
+\end{figure}
+$\Rightarrow \quad B_0=\left[
+                         \begin{array}{ccccc}
+                           v_0 &  &  &  &  \\
+                           v_1& -1 & 0 & 1 & 1\\
+                           v_2 & 0 & 0 & -1 & 0 \\
+                           v_3 & 0 & 0 & 0& -1 \\
+                           v_4 & 0 & -1 & 0 & 0 \\
+                          & e_1  & e_2 & e_3 & e_4 \\
+                         \end{array}
+                       \right]
+$\\
+{\hwxw 特点:除$v_0$外，每行只有一个-1}\\
+\subsection{根树基本关联矩阵的性质和特点}
+如果对根树的结点和边重新进行编号，使
+每条边$e=(v_i,v_j)$都满足$v_i$的编号小于$v_j$的编号，
+同时$e=(v_i,v_j)$的编号为$e_j$
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.5\textwidth]{3_7.eps}\\
+  \caption*{}
+\end{figure}
+$\Rightarrow \quad B_0'=\left[
+                         \begin{array}{ccccc}
+                           v_1& -1 & 0 & 0 & 0\\
+                           v_2 & 0 & -1& 1 & 1 \\
+                           v_3 & 0 & 0 & -1& 0 \\
+                           v_4 & 0 & 0 & 0 & -1 \\
+                          & e_1  & e_2 & e_3 & e_4 \\
+                         \end{array}
+                       \right]
+$\\
+{\hwxw 思考：为什么按照规则编号后，根树中根结点对应的
+基本关联矩阵一定是上三角矩阵？\\}
+\end{defination}
+\begin{shaded}
+特点：按照规则编号后, 根树中根结点对应的基本关联矩阵一定是上三
+角矩阵。\\
+非根树基本关联矩阵可调整为上三角矩阵, 且对角线上将出现“1”元素。\\
+令${\mathop{B}\limits^{\rightharpoonup}}_k$ 表示有向连通图G 的基本关联矩阵$B_k$ 中全部1 元素改为0 后的
+矩阵。相应地,G 的支撑树的基本关联矩阵, 可调整为上三角矩阵, 但原先的
+“1”变为了“0”。\\
+\indent 如果该树为非根树(行列式为零), 则对角线将出现“0”元素\\
+\indent 如果该树为根树(行列式绝对值为“1”), 则对角线全部为“-1”元素
+\end{shaded}
+\subsection{根树的计算方法}
+\textbf{回顾：}定理$3.3.2$\\
+设$B_k$的是有向连通图$G=(V,E)$的某一
+基本关联矩阵，则G的不同树的数目是$$det(B_kB^T_k)$$
+\begin{theorem}
+有向连通图G 中以$v_k$ 为根的根树数目是$$det(\mathop{B_k}\limits^{\rightharpoonup}B_k^T)$$
+{\song
+证明：\\
+由比内-柯西定理$$det(\mathop{B_k}\limits^{\rightharpoonup}B_k^T)=\sum_{i}|\mathop{B_i}\limits^{\rightharpoonup}||B_i^T|$$
+若$|B_i^T|\neq 0$, 说明这$n-1$ 条边构成了G 的一棵树\\
+若$ \mathop{B_i}\limits^{\rightharpoonup} \neq 0$, 说明该树是以$v_k$ 为根的根树。\\
+二者的乘积非零说明存在一棵vk 为根的根树。
+由于遍历了所有$n-1$ 条边的组合, 因此$$det(\mathop{B_k}\limits^{\rightharpoonup}B_k^T)=\sum_{i}|\mathop{B_i}\limits^{\rightharpoonup}||B_i^T|$$
+为以$v_k$ 为根的根树的数目
+}
+\end{theorem}
+\subsection{含特定边、不含特定边的根树计算方法}
+1. 如何计算以v0 为根结点不含某特定边e 的根树的数目?\\
+\indent 作$G'=G-e$，计算$G'$的以$v_0$ 为根结点的根树的数目即可\\
+2. 如何计算以$v_0$ 为根结点必含某特定边e 的根树的数目?\\
+\begin{itemize}
+  \item 将该边收缩为一点\\
+\textcolor{red}{错误！}此方法未必得到根树！
+  \item 先计算以$v_0$ 为根结点的根树数目, 再计算不含边e 的根树数目,
+求差值即可。
+  \item 其他计算方法:
+设$e=(u, v)$, 将除e 之外所有以v 为终点的边都删掉得到$G'$, 然
+后计算$G'$的以$v_0$ 为根结点的根树的数目即可
+\end{itemize}
+\section{回路矩阵与割集矩阵}
+\subsection{回路矩阵及其性质}
+设T是有向连通图$G=(V,E)$的一棵支撑树，对
+任意边$e\in E(G)-E(T)$，$T+e$ 都可构成G的一
+个唯一回路C。给定回路C一个参考方向，
+则C中的边如和方向一致，称之为\textcolor{red}{正向边}，
+否则称之为\textcolor{red}{反向边}。\\
+\begin{defination}
+有向连通图G的全部初级回路构成
+的矩阵，称为G的\textcolor{red}{完全回路矩阵}，记为$C_e$ :
+\begin{equation*}
+  c_{ij}=\begin{cases}
+1 & ,e_j\in C_i \text{且与回路}C_i\text{方向一致}\\
+-1 & ,e_i\in C_i \text{且与回路}C_i \text{方向相反}\\
+0 &,\text{其他}
+\end{cases}
+\end{equation*}
+例：\\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{ce.png}\\
+  \caption*{}
+\end{figure}
+\end{defination}
+\begin{shaded}
+{\hwxw 思考：图G中会有多少个初级回路？}\\
+给定G的一个支撑树T，理论上最多可以生成$2^{m-n+1}-1$个初级回路。
+\begin{itemize}
+  \item T有$n-1$条边，则余树有$m-n+1$条边
+  \item T中加入余树中任意几条边都有可能构成初级回路
+  \item $m-n+1$条边每条边都有两种选择，但不能一条边都没有
+\end{itemize}
+\end{shaded}
+\begin{defination}
+当有向图$G=(V,E)$的支撑树T确定后，每条余树边e所对应的回路称为基本回路，该回路的方向与e的方向一致。由全部基本回路构成的矩阵称为G的\textcolor{red}{基本回路矩阵}，记为$\mathbf{C_f}$\\
+例：
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{cf.png}\\
+  \caption*{}
+\end{figure}
+$C_f=(I,C_{f_{12}})$\\
+\textcolor{red}{显然，基本回路矩阵的秩为$m-n+1$}
+\end{defination}
+\begin{theorem}
+有向连通图$G=(V,E)$的关联矩阵B和
+完全回路矩阵$C_e$的边次序一致时，恒有：$$BC^T_e=0$$
+{\song
+证明：设$D=BC^T_e$,则$$d_{ij}=\sum_{k=1}^{m}b_{ik}\cdot c_{jk}$$
+其中$b_{ik}$是结点$v_i$和边$e_k$的关联情况\\
+$c_{jk}$是回路$c_j$和边$e_k$的关联情况\\
+\textbf{回路$C_j$与结点$v_i$只有两种情况：}\\
+\textcolor{red}{第一种}：$C_j$不经过结点$v_i$:\\
+$\bullet$ 与$v_i$关联的任一边都不是$C_j$中的边\\
+$\bullet$ 此时$b_{ik}$不为零时，$c_{jk}$一定为零\\
+$ \bullet$ $c_{jk}$不为零时，$b_{ik}$一定为零
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.5\textwidth]{f1.png}\\
+  \caption*{}
+\end{figure}
+$$d_{ij}=\sum_{k=1}^{m}b_{ik}\cdot c_{jk}=0$$
+\textcolor{red}{第二种}：$C_j$经过结点$v_i$\\
+$\bullet$ 则$C_j$必定经过与$v_i$关联的两条边$e_p$和$e_q$\\
+$\bullet$ 若$e_p$和$e_q$同向，则$C_{jp}$和$C_{jq}$同正负，$b_{ip}$和$b_{iq}$一正一负\\
+$\bullet$ 若$e_p$和$e_q$反向，则$c_{jp}$和$c_{jq}$一正一负，$b_{ip}$和$b_{iq}$同正负
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.5\textwidth]{f2.png}\\
+  \caption*{}
+\end{figure}
+$$d_{ij}=\sum_{k=1}^{m}b_{ik}\cdot c_{jk}=0$$
+$$BC_{e}^{T}=0$$
+}
+\end{theorem}
+\begin{coro}
+有向连通图的基本关联矩阵$B_k$，基本回路矩阵$C_f$ ，在边次序一致的情况下，有$$B_kC_f^T=0$$
+\end{coro}
+\begin{theorem}
+若有向连通图$G=(V,E)的$基本关联
+矩阵$B_k$是和基本回路矩阵$C_f$ 的边次序一致，并设$C_f=(I \quad C_{f_{12}}) \quad ,B_k=(B_{11} \quad B_{12}),$
+$$ C_{f_{12}}=-B_{11}^T\cdot(B_{12}^{-1})^T$$
+{\song
+证明：\\
+由推论知$B_kC^T_f=0$,写成块矩阵形式
+\begin{equation*}
+(B_{11},B_{12})\left[
+                 \begin{array}{c}
+                   I \\
+                   C_{f_{12}}^T \\
+                 \end{array}
+               \right]=0\quad \quad \Rightarrow \quad B_{12}\cdot  C_{f_{12}}^T=-B_{11}
+\end{equation*}
+}
+\end{theorem}
+
+
+
 
 \end{document}

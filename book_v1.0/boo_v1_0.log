@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.11.3)  1 DEC 2016 21:32
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.11.3)  1 DEC 2016 20:25
 entering extended mode
-**chapter3.tex
-(C:\Users\lenovo\Desktop\bookv_1\book\Chapter3\chapter3.tex
+**boo_v1_0.tex
+(C:\Users\lenovo\Desktop\bookv_1\book\book_v1.0\boo_v1_0.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (D:\CTEX\MiKTeX\tex\latex\base\book.cls
@@ -1336,7 +1336,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen263
 \titlewidthfirst=\dimen264
 )
-(C:\Users\lenovo\Desktop\bookv_1\book\Chapter3\chapter3.aux)
+(C:\Users\lenovo\Desktop\bookv_1\book\book_v1.0\boo_v1_0.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
 LaTeX Font Info:    ... okay on input line 98.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
@@ -1385,8 +1385,8 @@ LaTeX Info: Redefining \ref on input line 98.
 LaTeX Info: Redefining \pageref on input line 98.
 LaTeX Info: Redefining \nameref on input line 98.
 
-(C:\Users\lenovo\Desktop\bookv_1\book\Chapter3\chapter3.out)
-(C:\Users\lenovo\Desktop\bookv_1\book\Chapter3\chapter3.out)
+(C:\Users\lenovo\Desktop\bookv_1\book\book_v1.0\boo_v1_0.out)
+(C:\Users\lenovo\Desktop\bookv_1\book\book_v1.0\boo_v1_0.out)
 \@outlinefile=\write3
 
 Chapter 1.
@@ -1435,15 +1435,6 @@ Requested font "SimHei/I/ICU" at 20.74pt
 .................................................
 Requested font "SimHei/ICU:mapping=tex-text;" at 20.74pt
  -> C:/Windows/Fonts/simhei.ttf
- [1
-
-
-]
-Chapter 2.
-[2
-
-]
-Chapter 3.
 Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
 " at 14.4pt
  -> C:/Windows/Fonts/times.ttf
@@ -1491,34 +1482,6 @@ Requested font "SimHei/I/ICU" at 14.4pt
 .................................................
 Requested font "SimHei/ICU:mapping=tex-text;" at 14.4pt
  -> C:/Windows/Fonts/simhei.ttf
-Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
-" at 12.0pt
- -> C:/Windows/Fonts/times.ttf
-Requested font "Times New Roman/B/ICU:script=latn;language=DFLT;mapping=tex-tex
-t;" at 12.0pt
- -> C:/Windows/Fonts/timesbd.ttf
-Requested font "å®^^8bä½^^93" at 12.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-Requested font "å®^^8bä½^^93/ICU" at 12.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font 宋体 does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family '宋体(1)' created for font '宋体' with options
-. [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
-. 
-. This font family consists of the following shapes:
-.................................................
-Requested font "SimHei/ICU:mapping=tex-text;" at 12.0pt
- -> C:/Windows/Fonts/simhei.ttf
-Requested font "Times New Roman/I/ICU:script=latn;language=DFLT;mapping=tex-tex
-t;" at 10.95pt
- -> C:/Windows/Fonts/timesi.ttf
 Requested font "Times New Roman/B/ICU:script=latn;language=DFLT;mapping=tex-tex
 t;" at 10.95pt
  -> C:/Windows/Fonts/timesbd.ttf
@@ -1558,9 +1521,18 @@ Requested font "å®^^8bä½^^93/ICU" at 10.95pt
 . 
 . This font family consists of the following shapes:
 .................................................
-Requested font "KaiTi/ICU:mapping=tex-text;" at 10.95pt
- -> C:/Windows/Fonts/simkai.ttf
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 114.
+Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.95pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.95pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+
+ []
+
+Requested font "Times New Roman/ICU:script=latn;language=DFLT;" at 10.95pt
+ -> C:/Windows/Fonts/times.ttf
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 107.
 
 (D:\CTEX\MiKTeX\tex\latex\lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1571,7 +1543,7 @@ Requested font "rm-lmr8" at 8.0pt
  -> rm-lmr8
 Requested font "rm-lmr6" at 6.0pt
  -> rm-lmr6
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 114.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 107.
 
  (D:\CTEX\MiKTeX\tex\latex\lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1582,7 +1554,7 @@ Requested font "lmmi8" at 8.0pt
  -> lmmi8
 Requested font "lmmi6" at 6.0pt
  -> lmmi6
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 114
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 107
 .
 (D:\CTEX\MiKTeX\tex\latex\lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1593,21 +1565,21 @@ Requested font "lmsy8" at 8.0pt
  -> lmsy8
 Requested font "lmsy6" at 6.0pt
  -> lmsy6
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 114
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 107
 .
 
 (D:\CTEX\MiKTeX\tex\latex\lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 114.
+(Font)              <10.95> on input line 107.
 Requested font "lmex10" scaled 1000
  -> lmex10
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 114.
+(Font)              <8> on input line 107.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 114.
-LaTeX Font Info:    Try loading font information for U+msa on input line 114.
+(Font)              <6> on input line 107.
+LaTeX Font Info:    Try loading font information for U+msa on input line 107.
 
 (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
@@ -1618,7 +1590,7 @@ Requested font "msam10" at 8.0pt
  -> msam10
 Requested font "msam7" at 6.0pt
  -> msam7
-LaTeX Font Info:    Try loading font information for U+msb on input line 114.
+LaTeX Font Info:    Try loading font information for U+msb on input line 107.
 
 (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -1635,11 +1607,48 @@ Requested font "lasy8" at 8.0pt
  -> lasy8
 Requested font "lasy6" at 6.0pt
  -> lasy6
-File: 3_1.eps Graphic file (type eps)
- <3_1.eps>
-Requested font "å®^^8bä½^^93" at 10.95pt
+Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
+" at 8.0pt
+ -> C:/Windows/Fonts/times.ttf
+Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
+" at 9.0pt
+ -> C:/Windows/Fonts/times.ttf
+Requested font "Times New Roman/ICU:script=latn;language=DFLT;" at 9.0pt
+ -> C:/Windows/Fonts/times.ttf
+Requested font "rm-lmr9" at 9.0pt
+ -> rm-lmr9
+Requested font "rm-lmr5" at 5.0pt
+ -> rm-lmr5
+Requested font "lmmi9" at 9.0pt
+ -> lmmi9
+Requested font "lmmi5" at 5.0pt
+ -> lmmi5
+Requested font "lmsy9" at 9.0pt
+ -> lmsy9
+Requested font "lmsy5" at 5.0pt
+ -> lmsy5
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 107.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 107.
+Requested font "msam10" at 9.0pt
+ -> msam10
+Requested font "msam5" at 5.0pt
+ -> msam5
+Requested font "msbm10" at 9.0pt
+ -> msbm10
+Requested font "msbm5" at 5.0pt
+ -> msbm5
+Requested font "lasy9" at 9.0pt
+ -> lasy9
+Requested font "lasy5" at 5.0pt
+ -> lasy5
+Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
+" at 6.0pt
+ -> C:/Windows/Fonts/times.ttf
+Requested font "å®^^8bä½^^93" at 9.0pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-Requested font "å®^^8bä½^^93/ICU" at 10.95pt
+Requested font "å®^^8bä½^^93/ICU" at 9.0pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 .................................................
 . fontspec info: "no-scripts"
@@ -1654,101 +1663,186 @@ Requested font "å®^^8bä½^^93/ICU" at 10.95pt
 . 
 . This font family consists of the following shapes:
 .................................................
-Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.95pt
+Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 9.0pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.95pt
+Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 9.0pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--120
+File: 2_8.eps Graphic file (type eps)
+ <2_8.eps>
+File: 2.9.png Graphic file (type QTm)
+ <use  "2.9.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 104--120
 
  []
 
-Requested font "Times New Roman/BI/ICU:script=latn;language=DFLT;mapping=tex-te
-xt;" at 10.95pt
- -> C:/Windows/Fonts/timesbi.ttf
-Requested font "å®^^8bä½^^93" at 10.95pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-Requested font "å®^^8bä½^^93/ICU" at 10.95pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "KaiTi" at 10.95pt
+ -> C:/Windows/Fonts/simkai.ttf
+Requested font "KaiTi/ICU" at 10.95pt
+ -> C:/Windows/Fonts/simkai.ttf
 .................................................
 . fontspec info: "no-scripts"
 . 
-. Font 宋体 does not contain any OpenType `Script' information.
+. Font KaiTi does not contain any OpenType `Script' information.
+.................................................
+Requested font "KaiTi/I/ICU" at 10.95pt
+ -> C:/Windows/Fonts/simkai.ttf
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font KaiTi/I (it probably doesn't exist).
+.................................................
+Requested font "KaiTi/I/ICU" at 10.95pt
+ -> C:/Windows/Fonts/simkai.ttf
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font KaiTi/I (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family '宋体(1)' created for font '宋体' with options
-. [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
-. 
-. This font family consists of the following shapes:
-.................................................
-
-LaTeX Font Warning: Font shape `EU1/宋体(1)/bx/it' undefined
-(Font)              using `EU1/宋体(1)/bx/n' instead on input line 124.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
-
- []
-
-[3
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-
- []
-
-Requested font "STXinwei" at 10.95pt
- -> C:/Windows/Fonts/STXINWEI.TTF
-Requested font "STXinwei/ICU" at 10.95pt
- -> C:/Windows/Fonts/STXINWEI.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font STXinwei does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_STXinwei_int=\count342
-Requested font "STXinwei/I/ICU" at 10.95pt
- -> C:/Windows/Fonts/STXINWEI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STXinwei/I (it probably doesn't exist).
-.................................................
-Requested font "STXinwei/I/ICU" at 10.95pt
- -> C:/Windows/Fonts/STXINWEI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STXinwei/I (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STXinwei(0)' created for font 'STXinwei' with options
-. [Ligatures=TeX,BoldFont={STXinwei},BoldFeatures={RawFeature={embolden=4}}].
+. Font family 'KaiTi(1)' created for font 'KaiTi' with options
+. [Ligatures=TeX,BoldFont={KaiTi},BoldFeatures={RawFeature={embolden=4}}].
 . 
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"STXinwei/ICU:mapping=tex-text;"
+. <->"KaiTi/ICU:mapping=tex-text;"
 . 
 . * 'bold' with NFSS spec.:
-. <->"STXinwei/ICU:mapping=tex-text;embolden=4;"
+. <->"KaiTi/ICU:mapping=tex-text;embolden=4;"
+.................................................
+Requested font "KaiTi/ICU:mapping=tex-text;" at 10.95pt
+ -> C:/Windows/Fonts/simkai.ttf
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+[1
+
+
+]
+Requested font "Times New Roman/I/ICU:script=latn;language=DFLT;mapping=tex-tex
+t;" at 10.95pt
+ -> C:/Windows/Fonts/timesi.ttf
+Requested font "å®^^8bä½^^93" at 10.95pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "å®^^8bä½^^93/ICU" at 10.95pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font 宋体 does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family '宋体(1)' created for font '宋体' with options
+. [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
+. 
+. This font family consists of the following shapes:
 .................................................
 
-LaTeX Font Warning: Font shape `EU1/STXinwei(0)/m/it' undefined
-(Font)              using `EU1/STXinwei(0)/m/n' instead on input line 152.
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
-Requested font "STXinwei/ICU:mapping=tex-text;" at 10.95pt
- -> C:/Windows/Fonts/STXINWEI.TTF
+ []
+
+Missing character: There is no （ in font rm-lmr10!
+Missing character: There is no ） in font rm-lmr10!
+File: 1_3.eps Graphic file (type eps)
+<1_3.eps>
+Overfull \hbox (3.12752pt too wide) in paragraph at lines 127--140
+\xeCJK@rm/m/it/10.95 一 般 情 况 下，| 给 定 $\OML/lmm/m/it/10.95 G \OT
+1/lmr/m/n/10.95 = \OML/lmm/m/it/10.95 V; E$\EU1/TimesNewRoman(0)/m/n/10.95 , \x
+eCJK@rm/m/it/10.95 如 不 加 特 殊 说 明，| 认 为 $\OML/lmm/m/it/10.95
+ V \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95 f\OML/lmm/m/it/10.95 v[]; v[]; v[];
+ []  ; v[]\OMS/lmsy/m/n/10.95 g$\xeCJK@rm/m/it/10.95 ，|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--140
+
+ []
+
+Requested font "å®^^8bä½^^93" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "å®^^8bä½^^93/ICU" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font 宋体 does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family '宋体(1)' created for font '宋体' with options
+. [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+File: 1_4.eps Graphic file (type eps)
+ <1_4.eps> [3]
+File: 1.5.png Graphic file (type QTm)
+ <use  "1.5.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 199--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--213
+
+ []
+
+
+Underfull \vbox (badness 4291) has occurred while \output is active []
+
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+File: 1.6.1.png Graphic file (type QTm)
+<use  "1.6.1.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 223--230
+
+ []
+
+File: 1.6.2.png Graphic file (type QTm)
+<use  "1.6.2.png" >
+File: 1.6.3.png Graphic file (type QTm)
+ <use  "1.6.3.png" >
+Underfull \vbox (badness 4328) has occurred while \output is active []
+
+ [5]
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font SimSun does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_SimSun_int=\count343
+\g_fontspec_family_SimSun_int=\count342
 Requested font "SimSun/I/ICU" at 10.95pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 .................................................
@@ -1778,8 +1872,811 @@ Requested font "SimSun/I/ICU" at 10.95pt
 . <->"SimSun/ICU:mapping=tex-text;embolden=4;"
 .................................................
 
+Underfull \hbox (badness 10000) in paragraph at lines 246--252
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--266
+
+ []
+
+Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
+" at 12.0pt
+ -> C:/Windows/Fonts/times.ttf
+Requested font "STXinwei" at 12.0pt
+ -> C:/Windows/Fonts/STXINWEI.TTF
+Requested font "STXinwei/ICU" at 12.0pt
+ -> C:/Windows/Fonts/STXINWEI.TTF
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font STXinwei does not contain any OpenType `Script' information.
+.................................................
+\g_fontspec_family_STXinwei_int=\count343
+Requested font "STXinwei/I/ICU" at 12.0pt
+ -> C:/Windows/Fonts/STXINWEI.TTF
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font STXinwei/I (it probably doesn't exist).
+.................................................
+Requested font "STXinwei/I/ICU" at 12.0pt
+ -> C:/Windows/Fonts/STXINWEI.TTF
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font STXinwei/I (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'STXinwei(0)' created for font 'STXinwei' with options
+. [Ligatures=TeX,BoldFont={STXinwei},BoldFeatures={RawFeature={embolden=4}}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"STXinwei/ICU:mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"STXinwei/ICU:mapping=tex-text;embolden=4;"
+.................................................
+Requested font "STXinwei/ICU:mapping=tex-text;" at 12.0pt
+ -> C:/Windows/Fonts/STXINWEI.TTF
+File: tonggou.eps Graphic file (type eps)
+<tonggou.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 267--273
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+Requested font "rm-lmbx10" at 10.95pt
+ -> rm-lmbx10
+Requested font "rm-lmbx8" at 8.0pt
+ -> rm-lmbx8
+Requested font "rm-lmbx6" at 6.0pt
+ -> rm-lmbx6
+File: 1.9.png Graphic file (type QTm)
+<use  "1.9.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+File: 1.10.png Graphic file (type QTm)
+
+<use  "1.10.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+[9]
+File: 1.11.png Graphic file (type QTm)
+ <use  "1.11.png" >
+Requested font "SimSun" at 8.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "SimSun/ICU" at 8.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font SimSun does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SimSun(0)' created for font 'SimSun' with options
+. [Ligatures=TeX,BoldFont={SimSun},BoldFeatures={RawFeature={embolden=4}}].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "SimSun/ICU:mapping=tex-text;" at 8.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "SimSun" at 6.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "SimSun/ICU" at 6.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font SimSun does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SimSun(0)' created for font 'SimSun' with options
+. [Ligatures=TeX,BoldFont={SimSun},BoldFeatures={RawFeature={embolden=4}}].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "SimSun/ICU:mapping=tex-text;" at 6.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+File: 1.12.png Graphic file (type QTm)
+ <use  "1.12.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font SimSun does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SimSun(0)' created for font 'SimSun' with options
+. [Ligatures=TeX,BoldFont={SimSun},BoldFeatures={RawFeature={embolden=4}}].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "SimSun/ICU:mapping=tex-text;embolden=4;" at 10.95pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+File: 1.13.png Graphic file (type QTm)
+
+<use  "1.13.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 351--358
+
+ []
+
+File: 1_14.eps Graphic file (type eps)
+<1_14.eps> [12]
+File: 1.15.png Graphic file (type QTm)
+ <use  "1.15.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 371--382
+
+ []
+
+[13]
+File: 1.16.png Graphic file (type QTm)
+ <use  "1.16.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 390--398
+
+ []
+
+Requested font "STXinwei" at 10.95pt
+ -> C:/Windows/Fonts/STXINWEI.TTF
+Requested font "STXinwei/ICU" at 10.95pt
+ -> C:/Windows/Fonts/STXINWEI.TTF
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font STXinwei does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'STXinwei(0)' created for font 'STXinwei' with options
+. [Ligatures=TeX,BoldFont={STXinwei},BoldFeatures={RawFeature={embolden=4}}].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "STXinwei/ICU:mapping=tex-text;" at 10.95pt
+ -> C:/Windows/Fonts/STXINWEI.TTF
+File: 1_17.eps Graphic file (type eps)
+<1_17.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 399--408
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+File: 1.17.1.png Graphic file (type QTm)
+
+<use  "1.17.1.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 409--415
+
+ []
+
+File: 1.18.png Graphic file (type QTm)
+<use  "1.18.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+[16]
+Chapter 2.
+
+LaTeX Font Warning: Font shape `EU1/KaiTi(0)/m/it' undefined
+(Font)              using `EU1/KaiTi(0)/m/n' instead on input line 425.
+
+
+LaTeX Font Warning: Font shape `EU1/KaiTi(0)/bx/it' undefined
+(Font)              using `EU1/KaiTi(0)/m/n' instead on input line 425.
+
+Requested font "å®^^8bä½^^93" at 10.95pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "å®^^8bä½^^93/ICU" at 10.95pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font 宋体 does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family '宋体(1)' created for font '宋体' with options
+. [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
+. 
+. This font family consists of the following shapes:
+.................................................
+
+LaTeX Font Warning: Font shape `EU1/宋体(1)/bx/it' undefined
+(Font)              using `EU1/宋体(1)/bx/n' instead on input line 425.
+
+File: 2.1.1.png Graphic file (type QTm)
+<use  "2.1.1.png" >
+
+LaTeX Font Warning: Font shape `EU1/SimHei(0)/m/it' undefined
+(Font)              using `EU1/SimHei(0)/m/n' instead on input line 434.
+
+File: 2_1.eps Graphic file (type eps)
+<2_1.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17
+
+]
+Overfull \hbox (22.81334pt too wide) in paragraph at lines 445--449
+[][]\EU1/SimHei(0)/m/n/10.95 定 义 \EU1/TimesNewRoman(0)/bx/n/10.95 2.1.2. []
+\EU1/KaiTi(0)/m/it/10.95 无 向 图 G=(V,E) 中，| 若 点 边 交 替 序 �
+� P=$\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 v[]; e[]; v[]; e[]; [] ; e[]; v[]\
+OT1/lmr/m/n/10.95 )$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--449
+
+ []
+
+File: 2_2.eps Graphic file (type eps)
+<2_2.eps>
+Missing character: There is no ∈ in font rm-lmr10!
+ [18]
+
+LaTeX Font Warning: Font shape `EU1/SimHei(0)/bx/it' undefined
+(Font)              using `EU1/SimHei(0)/m/n' instead on input line 468.
+
+
+LaTeX Font Warning: Font shape `EU1/黑体(0)/m/it' undefined
+(Font)              using `EU1/黑体(0)/m/n' instead on input line 468.
+
+Requested font "é»^^91ä½^^93/ICU:mapping=tex-text;" at 10.95pt
+ -> C:/Windows/Fonts/simhei.ttf
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--486
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--491
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--494
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 502--505
+
+ []
+
+File: 2.3.png Graphic file (type QTm)
+<use  "2.3.png" >
+File: 2.4.png Graphic file (type QTm)
+ <use  "2.4.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 529--531
+
+ []
+
+Missing character: There is no ≤ in font rm-lmr10!
+[21]
+Missing character: There is no ≠ in font rm-lmr10!
+Missing character: There is no 。 in font rm-lmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--547
+
+ []
+
+File: 2_5.eps Graphic file (type eps)
+<2_5.eps> [22]
+Missing character: There is no ∧ in font rm-lmr10!
+Missing character: There is no ， in font rm-lmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--617
+
+ []
+
+[23]
+Missing character: There is no Γ in font lmmi10!
+File: 2_6.eps Graphic file (type eps)
+ <2_6.eps>
+Requested font "Times New Roman/BI/ICU:script=latn;language=DFLT;mapping=tex-te
+xt;" at 10.95pt
+ -> C:/Windows/Fonts/timesbi.ttf
+File: 2_6BFS.eps Graphic file (type eps)
+ <2_6BFS.eps> [24]
+File: 2_6DFS.eps Graphic file (type eps)
+ <2_6DFS.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 653--655
+
+ []
+
+Missing character: There is no ， in font rm-lmr10!
+Missing character: There is no ， in font rm-lmr10!
+[25]
+Requested font "Times New Roman/B/ICU:script=latn;language=DFLT;mapping=tex-tex
+t;" at 12.0pt
+ -> C:/Windows/Fonts/timesbd.ttf
+Requested font "å®^^8bä½^^93" at 12.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "å®^^8bä½^^93/ICU" at 12.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font 宋体 does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family '宋体(1)' created for font '宋体' with options
+. [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "SimHei/ICU:mapping=tex-text;" at 12.0pt
+ -> C:/Windows/Fonts/simhei.ttf
+File: 2.3.1.jpg Graphic file (type QTm)
+ <use  "2.3.1.jpg" >
+Underfull \hbox (badness 10000) in paragraph at lines 670--676
+
+ []
+
+File: 2_8.eps Graphic file (type eps)
+<2_8.eps>
+File: 2.9.png Graphic file (type QTm)
+ <use  "2.9.png" > [26]
+Underfull \hbox (badness 10000) in paragraph at lines 694--703
+
+ []
+
+File: 2.10.png Graphic file (type QTm)
+<use  "2.10.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no ， in font rm-lmr10!
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 726--729
+
+ []
+
+File: 2.f1.png Graphic file (type QTm)
+<use  "2.f1.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: 2.f2.png Graphic file (type QTm)
+<use  "2.f2.png" > [28]
+File: mayi.png Graphic file (type QTm)
+ <use  "mayi.png" > [29]
+File: 2.11.png Graphic file (type QTm)
+ <use  "2.11.png" >
+File: 2_12.eps Graphic file (type eps)
+ <2_12.eps>
+Missing character: There is no 或 in font rm-lmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 764--779
+
+ []
+
+Requested font "rm-lmr12" at 12.0pt
+ -> rm-lmr12
+Requested font "lmmi12" at 12.0pt
+ -> lmmi12
+Requested font "lmsy10" at 12.0pt
+ -> lmsy10
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 780.
+Requested font "rm-lmbx12" at 12.0pt
+ -> rm-lmbx12
+Requested font "msam10" at 12.0pt
+ -> msam10
+Requested font "msbm10" at 12.0pt
+ -> msbm10
+Requested font "lasy10" at 12.0pt
+ -> lasy10
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 780.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\centerdot' on input line 780.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 780.
+
+File: oula1.png Graphic file (type QTm)
+<use  "oula1.png" > [30]
+File: 图0.png Graphic file (type QTm)
+ <use  "图0.png" >
+File: 图1.png Graphic file (type QTm)
+ <use  "图1.png" >
+File: 图2.png Graphic file (type QTm)
+
+<use  "图2.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 792--806
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Underfull \hbox (badness 10000) in paragraph at lines 807--808
+
+ []
+
+File: 图3.png Graphic file (type QTm)
+<use  "图3.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32] [33]
+File: 图4.png Graphic file (type QTm)
+ <use  "图4.png" > [34] [35]
+Underfull \hbox (badness 10000) in paragraph at lines 866--870
+
+ []
+
+[36]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 900.
+
+Underfull \hbox (badness 10000) in paragraph at lines 896--932
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+File: 2.17.png Graphic file (type QTm)
+
+<use  "2.17.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 933--939
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 940--941
+
+ []
+
+
+Overfull \hbox (6.96048pt too wide) in paragraph at lines 944--955
+[]\EU1/KaiTi(0)/m/it/10.95 此 时 栈 中 \EU1/TimesNewRoman(0)/m/it/10.95 5 \
+EU1/KaiTi(0)/m/it/10.95 条 边 不 构 成 \EU1/TimesNewRoman(0)/m/it/10.95 H 
+\EU1/KaiTi(0)/m/it/10.95 回 路。| 接 下 来 我 们 得 到：| $\OML/lmm/
+m/it/10.95 e[]; e[]; e[]; e[]; e[]$\EU1/KaiTi(0)/m/it/10.95 。| 
+ []
+
+
+Overfull \hbox (3.32237pt too wide) in paragraph at lines 944--955
+[]\EU1/KaiTi(0)/m/it/10.95 此 时 栈 中 存 在 回 路，| 我 们 删 去 
+$\OML/lmm/m/it/10.95 e[]$\EU1/TimesNewRoman(0)/m/it/10.95 , \EU1/KaiTi(0)/m/it/
+10.95 继 续 搜 索 得 到：| $\OML/lmm/m/it/10.95 e[]; e[]; e[]; e[]; e[]$
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 944--955
+
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 957--959
+
+ []
+
+Missing character: There is no − in font rm-lmr10!
+Missing character: There is no − in font rm-lmr10!
+Missing character: There is no − in font rm-lmr10!
+Missing character: There is no − in font rm-lmr10!
+
+Underfull \vbox (badness 4805) has occurred while \output is active []
+
+ [40]
+File: 2_19.eps Graphic file (type eps)
+
+<2_19.eps>
+Missing character: There is no − in font rm-lmr10!
+File: 2_20.eps Graphic file (type eps)
+ <2_20.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 1006--1017
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1024
+
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1038
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1043
+
+ []
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
+
+ []
+
+File: 2_6_1.eps Graphic file (type eps)
+<2_6_1.eps>
+
+LaTeX Font Warning: Font shape `EU1/KaiTi(0)/bx/n' undefined
+(Font)              using `EU1/KaiTi(0)/m/n' instead on input line 1071.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1073
+
+ []
+
+[44]
+File: dj1.png Graphic file (type QTm)
+ <use  "dj1.png" >
+File: dj2.png Graphic file (type QTm)
+ <use  "dj2.png" >
+Underfull \vbox (badness 5548) has occurred while \output is active []
+
+ [45]
+File: dj3.png Graphic file (type QTm)
+
+<use  "dj3.png" >
+File: dj4.png Graphic file (type QTm)
+ <use  "dj4.png" >
+File: dj5.png Graphic file (type QTm)
+ <use  "dj5.png" > [46]
+File: dj6.png Graphic file (type QTm)
+ <use  "dj6.png" >
+File: dj8.png Graphic file (type QTm)
+
+<use  "dj8.png" >
+File: dj9.png Graphic file (type QTm)
+ <use  "dj9.png" >
+Underfull \vbox (badness 2735) has occurred while \output is active []
+
+ [47]
+Underfull \hbox (badness 10000) in paragraph at lines 1136--1137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1138--1139
+
+ []
+
+[48]
+File: 2.201.png Graphic file (type QTm)
+ <use  "2.201.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 1159--1165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1175--1176
+
+ []
+
+File: 2.211.png Graphic file (type QTm)
+<use  "2.211.png" > [49]
+File: ford.eps Graphic file (type eps)
+ <ford.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 1185--1192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1206
+
+ []
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1217
+
+ []
+
+File: 2_22.eps Graphic file (type eps)
+<2_22.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1227
+
+ []
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 1238--1241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1245--1246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1247--1248
+
+ []
+
+File: pt.png Graphic file (type QTm)
+<use  "pt.png" >
+Underfull \vbox (badness 1533) has occurred while \output is active []
+
+ [52]
+Underfull \hbox (badness 10000) in paragraph at lines 1259--1260
+
+ []
+
+File: 2_23.eps Graphic file (type eps)
+<2_23.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+Underfull \hbox (badness 10000) in paragraph at lines 1308--1310
+
+ []
+
+[54]
+Overfull \hbox (2.12958pt too wide) in paragraph at lines 1319--1321
+[][]\EU1/SimHei(0)/bx/it/10.95 引 理 \EU1/TimesNewRoman(0)/bx/n/10.95 2.8.2. 
+[]\EU1/KaiTi(0)/bx/n/10.95 设 \EU1/TimesNewRoman(0)/m/it/10.95 G \EU1/KaiTi(0)
+/bx/n/10.95 不 存 在 有 向 回 路，| 可 以 将 \EU1/TimesNewRoman(0)/m
+/it/10.95 G \EU1/KaiTi(0)/bx/n/10.95 的 结 点 重 新 编 号 为 $\OML/lmm/
+m/it/10.95 v[]; v[]; []  ; v[]$\EU1/KaiTi(0)/bx/n/10.95 ，|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1319--1321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1334
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1334--1337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1338--1341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1342--1343
+
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 1345--1364
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1365--1366
+
+ []
+
+File: 2_24.eps Graphic file (type eps)
+<2_24.eps> [56]
+Underfull \hbox (badness 10000) in paragraph at lines 1390--1392
+
+ []
+
+[57]
+Chapter 3.
+Requested font "KaiTi/ICU:mapping=tex-text;" at 20.74pt
+ -> C:/Windows/Fonts/simkai.ttf
+File: 3_1.eps Graphic file (type eps)
+<3_1.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1412--1414
+
+ []
+
+[58
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1422--1423
+
+ []
+
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font STXinwei does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'STXinwei(0)' created for font 'STXinwei' with options
+. [Ligatures=TeX,BoldFont={STXinwei},BoldFeatures={RawFeature={embolden=4}}].
+. 
+. This font family consists of the following shapes:
+.................................................
+
+LaTeX Font Warning: Font shape `EU1/STXinwei(0)/m/it' undefined
+(Font)              using `EU1/STXinwei(0)/m/n' instead on input line 1441.
+
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font SimSun does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SimSun(0)' created for font 'SimSun' with options
+. [Ligatures=TeX,BoldFont={SimSun},BoldFeatures={RawFeature={embolden=4}}].
+. 
+. This font family consists of the following shapes:
+.................................................
+
 LaTeX Font Warning: Font shape `EU1/SimSun(0)/m/it' undefined
-(Font)              using `EU1/SimSun(0)/m/n' instead on input line 155.
+(Font)              using `EU1/SimSun(0)/m/n' instead on input line 1444.
 
 .................................................
 . fontspec info: "no-scripts"
@@ -1796,39 +2693,10 @@ LaTeX Font Warning: Font shape `EU1/SimSun(0)/m/it' undefined
 .................................................
 
 LaTeX Font Warning: Font shape `EU1/SimSun(0)/bx/it' undefined
-(Font)              using `EU1/SimSun(0)/bx/n' instead on input line 156.
+(Font)              using `EU1/SimSun(0)/bx/n' instead on input line 1445.
 
-Requested font "SimSun/ICU:mapping=tex-text;embolden=4;" at 10.95pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-Requested font "å®^^8bä½^^93" at 10.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-Requested font "å®^^8bä½^^93/ICU" at 10.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font 宋体 does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family '宋体(1)' created for font '宋体' with options
-. [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
-. 
-. This font family consists of the following shapes:
-.................................................
-Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-Requested font "å®^^8bä½^^93/ICU:mapping=tex-text;" at 10.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4]
-Overfull \hbox (47.8496pt too wide) detected at line 165
+[59]
+Overfull \hbox (47.8496pt too wide) detected at line 1454
 \OML/lmm/m/it/10.95 m\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 T[]\OT1/lmr/m/n/10
 .95 ) = \OML/lmm/m/it/10.95 n\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 T[]\OT1/lm
 r/m/n/10.95 ) \OMS/lmsy/m/n/10.95 ^^@ \OT1/lmr/m/n/10.95 1\OML/lmm/m/it/10.95 ;
@@ -1844,7 +2712,7 @@ r/m/n/10.95 ) \OMS/lmsy/m/n/10.95 ^^@ \OT1/lmr/m/n/10.95 1
 
 File: 3.2.png Graphic file (type QTm)
 <use  "3.2.png" >
-Overfull \hbox (4.64421pt too wide) in paragraph at lines 171--186
+Overfull \hbox (4.64421pt too wide) in paragraph at lines 1460--1475
 \xeCJK@song/m/it/10.95 如 图 $\OT1/lmr/m/n/10.95 3\OML/lmm/m/it/10.95 :\OT1/l
 mr/m/n/10.95 2$\EU1/TimesNewRoman(0)/m/it/10.95 , \xeCJK@song/m/it/10.95 若 �
 � 在 两 条 不 同 的 道 路 $\OML/lmm/m/it/10.95 P\OT1/lmr/m/n/10.95 (\OM
@@ -1858,43 +2726,29 @@ u; v\OT1/lmr/m/n/10.95 )$
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-Underfull \hbox (badness 10000) in paragraph at lines 187--197
+ [60]
+Underfull \hbox (badness 10000) in paragraph at lines 1476--1486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--217
+Underfull \hbox (badness 10000) in paragraph at lines 1503--1506
 
  []
 
-[6]
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font STXinwei does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STXinwei(0)' created for font 'STXinwei' with options
-. [Ligatures=TeX,BoldFont={STXinwei},BoldFeatures={RawFeature={embolden=4}}].
-. 
-. This font family consists of the following shapes:
-.................................................
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 1516--1517
 
  []
 
 Missing character: There is no − in font rm-lmr10!
 File: 3_3.eps Graphic file (type eps)
 <3_3.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 1535--1536
 
  []
 
-[7]
+[62]
 Missing character: There is no ＝ in font rm-lmr10!
 Missing character: There is no ＝ in font rm-lmr10!
 Missing character: There is no ＝ in font rm-lmr10!
@@ -1902,78 +2756,79 @@ Missing character: There is no ＝ in font rm-lmr10!
 Missing character: There is no ＝ in font rm-lmr10!
 Missing character: There is no ＝ in font rm-lmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--286
+Underfull \hbox (badness 10000) in paragraph at lines 1570--1575
 
  []
 
-[8]
+[63]
 File: 3.4.png Graphic file (type QTm)
  <use  "3.4.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 334--344
+Underfull \hbox (badness 10000) in paragraph at lines 1623--1633
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
-Underfull \hbox (badness 10000) in paragraph at lines 355--358
+ [64]
+Underfull \hbox (badness 10000) in paragraph at lines 1644--1647
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
+Underfull \hbox (badness 10000) in paragraph at lines 1649--1650
 
  []
 
 File: rank.png Graphic file (type QTm)
-<use  "rank.png" > [10]
-Underfull \hbox (badness 10000) in paragraph at lines 373--377
+<use  "rank.png" > [65]
+Underfull \hbox (badness 10000) in paragraph at lines 1662--1666
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--387
+Underfull \hbox (badness 10000) in paragraph at lines 1667--1676
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--395
+Underfull \hbox (badness 10000) in paragraph at lines 1679--1684
 
  []
 
 File: 3_5.eps Graphic file (type eps)
-<3_5.eps> [11]
-Overfull \hbox (0.30074pt too wide) in paragraph at lines 407--408
-[][]\xeCJK@rm/bx/it/10.95 定 理 \EU1/TimesNewRoman(0)/bx/n/10.95 3.3.1. []\EU
-1/TimesNewRoman(0)/m/it/10.95 (Binet-Cauchy \xeCJK@rm/m/it/10.95 定 理\EU1/Ti
-mesNewRoman(0)/m/it/10.95 ) \xeCJK@rm/m/it/10.95 已 知 两 个 矩 阵 $\OML/
-lmm/m/it/10.95 A \OT1/lmr/m/n/10.95 = (\OML/lmm/m/it/10.95 a[]\OT1/lmr/m/n/10.9
-5 )[]$ \xeCJK@rm/m/it/10.95 和 $\OML/lmm/m/it/10.95 B \OT1/lmr/m/n/10.95 = (\O
-ML/lmm/m/it/10.95 b[]\OT1/lmr/m/n/10.95 )[]$\xeCJK@rm/m/it/10.95 ，|
+<3_5.eps> [66]
+Overfull \hbox (0.30074pt too wide) in paragraph at lines 1696--1697
+[][]\EU1/SimHei(0)/bx/it/10.95 定 理 \EU1/TimesNewRoman(0)/bx/n/10.95 3.3.1. 
+[]\EU1/TimesNewRoman(0)/m/it/10.95 (Binet-Cauchy \EU1/KaiTi(0)/bx/n/10.95 定 �
+��\EU1/TimesNewRoman(0)/m/it/10.95 ) \EU1/KaiTi(0)/bx/n/10.95 已 知 两 个 �
+�� 阵 $\OML/lmm/m/it/10.95 A \OT1/lmr/m/n/10.95 = (\OML/lmm/m/it/10.95 a[]\OT1
+/lmr/m/n/10.95 )[]$ \EU1/KaiTi(0)/bx/n/10.95 和 $\OML/lmm/m/it/10.95 B \OT1/lm
+r/m/n/10.95 = (\OML/lmm/m/it/10.95 b[]\OT1/lmr/m/n/10.95 )[]$\EU1/KaiTi(0)/bx/n
+/10.95 ，|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--415
+Underfull \hbox (badness 10000) in paragraph at lines 1697--1704
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--440
+Underfull \hbox (badness 10000) in paragraph at lines 1706--1729
 
  []
 
 
 Underfull \vbox (badness 1590) has occurred while \output is active []
 
- [12]
-Underfull \hbox (badness 10000) in paragraph at lines 456--461
+ [67]
+Underfull \hbox (badness 10000) in paragraph at lines 1745--1750
 
  []
 
 File: 3_5_1.eps Graphic file (type eps)
 <3_5_1.eps>
-Overfull \hbox (102.48349pt too wide) in paragraph at lines 470--489
+Overfull \hbox (102.48349pt too wide) in paragraph at lines 1759--1778
 []$\OML/lmm/m/it/10.95 B \OT1/lmr/m/n/10.95 = []  \OMS/lmsy/m/n/10.95 )  \OML/l
 mm/m/it/10.95 B[] \OT1/lmr/m/n/10.95 = []$ 
  []
@@ -1981,136 +2836,54 @@ mm/m/it/10.95 B[] \OT1/lmr/m/n/10.95 = []$
 
 Underfull \vbox (badness 3460) has occurred while \output is active []
 
- [13]
-Underfull \hbox (badness 10000) in paragraph at lines 499--502
+ [68]
+Underfull \hbox (badness 10000) in paragraph at lines 1788--1791
 
  []
 
 File: 3_6.eps Graphic file (type eps)
 <3_6.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 513--525
+Underfull \hbox (badness 10000) in paragraph at lines 1802--1814
 
  []
 
-[14]
+[69]
 File: 3_7.eps Graphic file (type eps)
  <3_7.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 535--547
+Underfull \hbox (badness 10000) in paragraph at lines 1824--1836
 
  []
 
 
 Underfull \vbox (badness 2213) has occurred while \output is active []
 
- [15]
-Underfull \hbox (badness 10000) in paragraph at lines 575--578
+ [70]
+Underfull \hbox (badness 10000) in paragraph at lines 1864--1867
 
  []
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 589--594
-
- []
-
-Requested font "Times New Roman/I/ICU:script=latn;language=DFLT;mapping=tex-tex
-t;" at 8.0pt
- -> C:/Windows/Fonts/timesi.ttf
-Requested font "å®^^8bä½^^93" at 8.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-Requested font "å®^^8bä½^^93/ICU" at 8.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font 宋体 does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family '宋体(1)' created for font '宋体' with options
-. [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
-. 
-. This font family consists of the following shapes:
-.................................................
-Requested font "KaiTi/ICU:mapping=tex-text;" at 8.0pt
- -> C:/Windows/Fonts/simkai.ttf
-Requested font "Times New Roman/I/ICU:script=latn;language=DFLT;mapping=tex-tex
-t;" at 6.0pt
- -> C:/Windows/Fonts/timesi.ttf
-Requested font "å®^^8bä½^^93" at 6.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-Requested font "å®^^8bä½^^93/ICU" at 6.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font 宋体 does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family '宋体(1)' created for font '宋体' with options
-. [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
-. 
-. This font family consists of the following shapes:
-.................................................
-Requested font "KaiTi/ICU:mapping=tex-text;" at 6.0pt
- -> C:/Windows/Fonts/simkai.ttf
-File: ce.png Graphic file (type QTm)
-<use  "ce.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 603--610
-
- []
-
-
-Underfull \vbox (badness 6641) has occurred while \output is active []
-
- [17]
-Requested font "rm-lmbx10" at 10.95pt
- -> rm-lmbx10
-Requested font "rm-lmbx8" at 8.0pt
- -> rm-lmbx8
-Requested font "rm-lmbx6" at 6.0pt
- -> rm-lmbx6
-File: cf.png Graphic file (type QTm)
-
-<use  "cf.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
-File: f1.png Graphic file (type QTm)
-
-<use  "f1.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
-File: f2.png Graphic file (type QTm)
-
-<use  "f2.png" >
-Missing character: There is no 的 in font rm-lmr10!
- [20]
-
-Package caption Warning: Unused \captionsetup[table] on input line 60.
-See the caption package documentation for explanation.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 690.
-[21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 690.
- (C:\Users\lenovo\Desktop\bookv_1\book\Chapter3\chapter3.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 690.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 690.
+[71]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1881.
+ [72]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1881.
+ (C:\Users\lenovo\Desktop\bookv_1\book\book_v1.0\boo_v1_0.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1881.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1881.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 23676 strings out of 430478
- 438286 string characters out of 3191502
- 565500 words of memory out of 3000000
- 26369 multiletter control sequences out of 15000+200000
- 25782 words of font info for 92 fonts, out of 3000000 for 9000
+ 24157 strings out of 430478
+ 445974 string characters out of 3191502
+ 576500 words of memory out of 3000000
+ 26765 multiletter control sequences out of 15000+200000
+ 41172 words of font info for 123 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,19n,92p,857b,629s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,19n,92p,857b,908s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on chapter3.pdf (21 pages).
+Output written on boo_v1_0.pdf (72 pages).
