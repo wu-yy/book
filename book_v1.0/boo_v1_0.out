@@ -39,3 +39,6 @@
 \BOOKMARK [2][-]{subsection.3.5.2}{根树的计算方法}{section.3.5}% 39
 \BOOKMARK [2][-]{subsection.3.5.3}{含特定边、不含特定边的根树计算方法}{section.3.5}% 40
 \BOOKMARK [1][-]{section.3.6}{回路矩阵与割集矩阵}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.6.1}{回路矩阵及其性质}{section.3.6}% 42
+\BOOKMARK [2][-]{subsection.3.6.2}{割集矩阵及其性质}{section.3.6}% 43
+\BOOKMARK [2][-]{subsection.3.6.3}{基本割集矩阵的计算}{section.3.6}% 44

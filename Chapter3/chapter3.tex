@@ -687,8 +687,239 @@ $$ C_{f_{12}}=-B_{11}^T\cdot(B_{12}^{-1})^T$$
 定理$3.6.2$说明了基本关联矩阵和基本回路矩阵之间的关系\\
 \indent 说明根据基本关联矩阵，可以通过计算得到基本回路矩阵
 \end{shaded}
+\begin{theorem}
+有向连通图$G=(V,E)$完全回路矩阵
+的秩为$(m-n+1)$\\
+{\song
+基本回路矩阵为完全回路矩阵的子阵（列数相
+等，行数不等）。\\
+基本回路矩阵秩为$m-n+1$\\
+则完全回路矩阵的秩不小于$m-n+1$\\
+即：$$ran(C_e)\geq m-n+1$$
+sylvester定理： 设A,B分别为$n\times m$与$m\times s$的
+矩阵，则$ran (AB) \geq ran (A)+ran (B)-m$
+\begin{gather*}
+                                       B:n\times m \quad ran(B)=n-1 \\
+                                       C_e^T:m \times s \quad ran(C_e^T)=?\\
+                                       BC_e^T=0 \quad \Rightarrow \quad ran(BC_e^T)=0
+                                     \end{gather*}
+ 即:$ran(C_e^T)\leq m-n+1$\\
+ 故：$ran(C_e)=m=n+1$
 
+}
+\end{theorem}
+\begin{defination}
+有向连通图G中$(m-n+1)$个互相独立的回路组成的矩阵，称为G的\textcolor{red}{回路矩阵}，
+记为C。
+\end{defination}
+\begin{shaded}
+\noindent 回路矩阵C具有以下几个简单性质：\\
+(1).基本回路矩阵$C_f$ 是回路矩阵\\
+(2).$BC^T=0$，其中B与C的边次序一致\\
+(3). $C=P\cdot C_f$，其中P为非奇异方阵，C与$C_f$ 边次序
+一致
+\end{shaded}
 
+\begin{theorem}
+连通图$G=(V,E)$的回路矩阵C的任一$(m-n+1)$阶子阵行列式非零，当且仅当这些列对应于G的某一棵余树\\
+{\song
+证明：\\
+\textcolor{red}{充分性}：已知余树$\bar{T}$ $\quad \Rightarrow \quad $对应行列式非零\\
+可构造出G的基本回路矩阵$C_f=(I \quad C_{f_{12}})$。\\
+ 对给定的回路矩阵C进行列交换，使其边序与$C_f$
+一致，这样可写为$C=(C_{11} \quad C_{12})$，其中$C_{11}$对应
+余树$\bar{T}$\\
+由性质(3)$C=P\cdot C_f$ ，即$$ (C_{11} \quad C_{12})=P(I \quad C_{f_{12}})=(P \quad P\cdot C_{f_{12}})$$
+因此，$C_{11}=P$，P非奇异，即$C_{11}$行列式非零\\
+\\
+\textcolor{red}{必要性：}已知回路矩阵C的某($m-n+1)$阶子阵行列式非零。\\
+将这$(m-n+1)$列放在前面，写为$C=(C_{11} \quad C_{12})$\\
+求证$C_{11}$对应的是一棵余树（反证法）：\\
+假设$C_{12}$对应的不是一棵树，则$C_{12}$中必含回路，不妨设为$C_x$\\
+由于回路矩阵的各行线性无关，且完全回路矩阵秩为$m-n+1$\\
+{\hwxw \textcolor{red}{任意一个回路都可以由回路矩阵各行向量线性表示！}}\\
+因此，$C_x$一定可以由C中各行线性表示，即C经
+过行初等变换，可以得到表示$C_x$的行向量
+\begin{equation*}
+  C=(C_{11}\quad C_{12}) \quad \Rightarrow \quad C'=\left[
+                                                      \begin{array}{cc}
+                                                        C_{11}' & C_{12}' \\
+                                                       \qquad  \quad C_x \\
+                                                      \end{array}
+                                                    \right]\quad \Rightarrow \quad
+                                                    C'=\left[
+                                                      \begin{array}{cc}
+                                                        C_{11}' & C_{12}' \\
+                                                        0 & C_{12}'' \\
+                                                      \end{array}
+                                                    \right]
+\end{equation*}
+即$C_{11}$可经过行初等变换，可得到\\
+说明$C_{11}$行列式为零，与前提矛盾。\\
+因此$C_{12}$对应的是一棵树，$C_{11}$对应其余树!\\
+}
+\end{theorem}
+
+\begin{theorem}
+令$B_k$是有向连通图G的基本关联矩阵，那么$B_k$的任意$n-1$阶子阵行列式非零的充要条件是其各列所对应的边构成G的一棵支撑树。\\
+\end{theorem}
+
+\subsection{割集矩阵及其性质}
+\begin{defination}
+设S为有向图$G=(V,E)$的边子集，若:\\
+$1.$ $G'=(V,E-S)$比G的连通支数多$1$\\
+$2.$ 对任意S的真子集$S'$，$G''=(V,E-S')$与G的连通支数相同\\
+则称S为G的一个\textcolor{red}{割集}\\
+一般给割集S一个方向，称它为\textcolor{red}{有向割集}\\
+\end{defination}
+
+\begin{defination}
+有向连通图G的全部割集构成的矩
+阵，称为G的完全割集矩阵，记为$S_e$:
+$$S_{ij}=\begin{cases}
+1 &,e_j\in S_i \text{且与割集}S_i \text{方向一致}\\
+-1&,e_j\in S_i \text{且与割集}S_i \text{方向相反}\\
+0&,\text{其他}
+\end{cases}
+$$
+例:\\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{f3.png}\\
+  \caption*{}
+\end{figure}
+\end{defination}
+
+\begin{shaded}
+{\hwxw 思考:图G中会有多少个割集？}\\\begin{itemize}
+                          \item[-]一个割集可将连通图分为两个部分，连通图的一个划分就对应一个割集
+                          \item[-] n个结点划分为两个部分，有多少种分法？
+                          \item[-]设想将n个不同的球放入两个盒子$$\frac{2^n-2}{2}=2^{n-1}-1$$
+                        \end{itemize}
+\textbf{完全割集矩阵规模为$(2^{n-1}-1)\times m$}
+\end{shaded}
+
+\begin{defination}
+设T是连通图G 的一棵树，$e_i$ 是树枝。对应$e_i$ 存在G的割集$S_i$，$S_i$只包括一条树枝$e_i$ 及某些余树枝，且与$e_i$ 的方向一致。此时称$S_i$ 为G的对应树T 的一个\textcolor{red}{基本割集}\\
+\end{defination}
+
+\begin{defination}
+给定有向连通图G的一棵树T，由对应T的全部基本割集组成的矩阵称为\textcolor{red}{基本割集矩阵}，记为
+$\mathbf{S_f}$\\
+例:
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.8\textwidth]{f4.png}\\
+  \caption*{}
+\end{figure}
+
+\end{defination}
+
+\begin{theorem}
+当有向连通图G的完全回路矩阵$C_e$和完全割集矩阵$S_e$的边次序一致时，有
+$$S_eC_e^T=0$$
+{\song
+证明：设$D=S_eC_e^T$,则$$d_{ij}=\sum_{k=1}^{m}s_{ik}\cdot c_{jk}$$
+其中$S_{ik}$是第i 个割集$S_i$中的情况\\
+\indent $c_{jk}$是第j个回路$c_j$中的情况\\
+\textcolor{red}{回路$C_j$与割集$S_i$只有两种情况：\\}
+\textbf{第一种情况:}$C_j$与割集$S_i$无公共边（不相交）：\\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.5\textwidth]{f5.png}\\
+  \caption*{}
+\end{figure}
+\noindent $\bullet$此时$S_i$中的任一边都不是$C_j$中的边\\
+$\bullet$此时$s_{ik}$不为零时，$c_{jk}$一定为零\\
+$\bullet$ $c_{jk}$ 不为零时， $s_{ik}$一定为零\\
+$$d_{ij}=\sum_{k=1}^{m}s_{ik}\cdot c_{jk}=0$$
+\textbf{第二种情况:}$C_j$与割集$S_i$有公共边（相交）:\\
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.5\textwidth]{f6.png}\\
+  \caption*{}
+\end{figure}
+\noindent $\bullet$则$C_j$必定与$S_i$\textcolor{red}{有成对出现的}偶数条公共边$e_p$和$e_q$\\
+$\bullet$若$e_p$和$e_q$同向，则$c_{jp}$和$c_{jq}$一正一负，$s_{ip}$和$s_{iq}$同正负\\
+$\bullet$ 若$e_p$和$e_q$反向，则$c_{jp}$和$c_{jq}$同正负，$s_{ip}$和$s_{iq}$一正一负\\
+$$d_{ij}=\sum_{k=1}^{m}s_{ik}\cdot c_{jk}=0$$
+$$S_eC_e^T=0$$
+}
+\end{theorem}
+
+\begin{theorem}
+当有向连通图G的完全回路矩阵$C_e$和完全割集矩阵$S_e$的边次序一致时，有$$S_eC_e^T=0$$
+\begin{shaded}
+{\hwxw 思考:}\\
+完全割集矩阵的任一行，与完全回路矩阵的任一行的转置乘积，是否为零？\\
+基本割集矩阵、基本回路矩阵是什么关系？\\
+\end{shaded}
+\end{theorem}
+
+\begin{theorem}
+有向连通图$G=(V,E)$完全割集矩阵的秩为$(n-1)$\\
+{\song
+证明：\\
+由于基本割集矩阵(秩为$n-1$)是完全割集矩阵的行子阵，所以完全割集矩阵的秩不小于$n-1$\\
+由于$S_eC_e^T=0$，根据sylvester定理
+sylvester定理： 设A,B分别为$n\times m$与$m\times s$的
+矩阵，则$ran (AB) \geq ran (A)+ran (B)-m$
+\begin{gather*}
+                                       S_e:p\times m \quad ran(S_e)=? \\
+                                       C_e^T:m \times q \quad ran(C_e^T)=m-n+1\\
+                                       S_eC_e^T=0 \quad \Rightarrow \quad ran(S_eC_e^T)=0
+                                     \end{gather*}
+ 即:$ran(S_e)\leq n-1$\\
+ 故：$ran(S_e)=n-1$
+}
+\end{theorem}
+
+\begin{theorem}
+有向连通图G中$(n-1)$个互相独立
+的割集组成的矩阵，称为G的割集矩阵，记
+为S。
+\begin{shaded}
+\noindent 割集矩阵S具有以下几个简单性质：\\
+$1.$ 基本割集矩阵$S_f$是割集矩阵\\
+$2.$ $SC^T=0$其中S与C的边次序一致\\
+$3.$ $S=P\cdot S_f$其中P为非奇异方阵，S与$S_f$边次序
+一致\\
+\indent 这里说明最后一点。因为S与$S_f$中都由$n-1$个线性无关的行向量组成，它们都是
+完全割集矩阵$S_e$的行向量的极大线性无关组。因此S与$S_f$的行向量是等价向量组，
+对$S_f$进行初等行变换一定可以得到S,这在线性代数上对应于左乘可逆矩阵P。
+\end{shaded}
+\end{theorem}
+
+\subsection{基本割集矩阵的计算}
+
+\begin{theorem}
+有向连通图$G=(V,E)$的割集矩阵S的任一$(n-1$)阶子阵行列式非零，当且仅当这些列对应于G的某棵树。\\
+{\song
+证明：\\
+\textbf{充分性}：已知G的树T $\quad \Rightarrow \quad$ 其对应子阵行列式非零\\
+构造基本割集矩阵$S_f=(S_{f_{11}} \quad I)$。\\
+对给定的割集矩阵S进行列交换，使其边序与$S_f$一致，这样可写为$S=(S_{11} \quad S_{12})$，其中$S_{12}$对应树T\\
+由性质3，$S=P\cdot S_f$ ，即$$(S_{11} \quad S_{12})=P(S_{f_{11}} \quad I)=(P\cdot S_{f_{11}} \quad P)$$
+因此,$S_{12}=P$，P非奇异，即$S_{12}$行列式非零\\
+\textbf{必要性：}采用反证法\\
+调整S的这$n-1$列构成$S_{12}$，使得$S=(S_{11}\quad S_{12})$。假定$S_{12}$各列对应的不是树，则一定含有$s(<n)$
+条边和s个顶点的初级回路C,如图$3.6$(否则，这$n-1$条边中不存在回路，故而它们构成一棵树，与假设矛盾)。
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.3\textwidth]{3_61.eps}\\
+  \caption{回路C中，含有s条边和s个顶点。注意在初级回路中边数和顶点数总是相等的}
+\end{figure}
+由于C是G 的连通子图，因此C的割集矩阵的秩是$s-1$,亦即$S_{12}$对应的这s列线性相关，故$|s_{12}|=0$矛盾。
+}
+\end{theorem}
+{\hwxw 思考：基本回路矩阵，基本割集矩阵，基本关联矩阵她们的关系是什么?}\\
+
+\indent 接下来将给出计算基本割集矩阵的算法。从中读者可以感受基本关联矩阵$B_k$、基本回路矩阵$C_f$、基本割集矩阵$S_f$三者的联系。\\
 
 
 \end{document}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.11.3)  1 DEC 2016 21:32
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.11.3)  2 DEC 2016 01:56
 entering extended mode
 **chapter3.tex
 (C:\Users\lenovo\Desktop\bookv_1\book\Chapter3\chapter3.tex
@@ -1389,6 +1389,9 @@ LaTeX Info: Redefining \nameref on input line 98.
 (C:\Users\lenovo\Desktop\bookv_1\book\Chapter3\chapter3.out)
 \@outlinefile=\write3
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 Chapter 1.
 (D:\CTEX\MiKTeX\tex\generic\oberdiek\se-ascii-print.def
 File: se-ascii-print.def 2010/03/01 v1.8 stringenc: Printable ASCII characters
@@ -2088,29 +2091,114 @@ File: f2.png Graphic file (type QTm)
 
 <use  "f2.png" >
 Missing character: There is no 的 in font rm-lmr10!
- [20]
+ [20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 732--743
+
+ []
+
+
+Overfull \hbox (9.3317pt too wide) detected at line 756
+\OML/lmm/m/it/10.95 C \OT1/lmr/m/n/10.95 = (\OML/lmm/m/it/10.95 C[] C[]\OT1/lmr
+/m/n/10.95 )  \OMS/lmsy/m/n/10.95 )  \OML/lmm/m/it/10.95 C[] \OT1/lmr/m/n/10.95
+ = []  \OMS/lmsy/m/n/10.95 )  \OML/lmm/m/it/10.95 C[] \OT1/lmr/m/n/10.95 = []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 756--761
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 764--765
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 769--774
+
+ []
+
+[22]
+File: f3.png Graphic file (type QTm)
+ <use  "f3.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 784--791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 795--795
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 804--805
+
+ []
+
+[23]
+File: f4.png Graphic file (type QTm)
+ <use  "f4.png" >
+File: f5.png Graphic file (type QTm)
+ <use  "f5.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 824--834
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 835--838
+
+ []
+
+File: f6.png Graphic file (type QTm)
+<use  "f6.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 838--845
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 846--849
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 857--860
+
+ []
+
+[26]
+File: 3_61.eps Graphic file (type eps)
+ <3_61.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 920--921
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 922--923
+
+ []
+
 
 Package caption Warning: Unused \captionsetup[table] on input line 60.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 690.
-[21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 690.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 925.
+[28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 925.
  (C:\Users\lenovo\Desktop\bookv_1\book\Chapter3\chapter3.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 690.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 690.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 925.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 925.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23676 strings out of 430478
- 438286 string characters out of 3191502
- 565500 words of memory out of 3000000
- 26369 multiletter control sequences out of 15000+200000
+ 23712 strings out of 430478
+ 439002 string characters out of 3191502
+ 565385 words of memory out of 3000000
+ 26400 multiletter control sequences out of 15000+200000
  25782 words of font info for 92 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,19n,92p,857b,629s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on chapter3.pdf (21 pages).
+Output written on chapter3.pdf (28 pages).

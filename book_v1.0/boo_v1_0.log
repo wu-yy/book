@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.11.3)  1 DEC 2016 20:25
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.11.3)  2 DEC 2016 01:58
 entering extended mode
 **boo_v1_0.tex
 (C:\Users\lenovo\Desktop\bookv_1\book\book_v1.0\boo_v1_0.tex
@@ -2863,27 +2863,184 @@ Underfull \hbox (badness 10000) in paragraph at lines 1864--1867
  []
 
 [71]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1881.
+Underfull \hbox (badness 10000) in paragraph at lines 1878--1883
+
+ []
+
+Requested font "Times New Roman/I/ICU:script=latn;language=DFLT;mapping=tex-tex
+t;" at 8.0pt
+ -> C:/Windows/Fonts/timesi.ttf
+Requested font "å®^^8bä½^^93" at 8.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "å®^^8bä½^^93/ICU" at 8.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font 宋体 does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family '宋体(1)' created for font '宋体' with options
+. [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "KaiTi/ICU:mapping=tex-text;" at 8.0pt
+ -> C:/Windows/Fonts/simkai.ttf
+Requested font "Times New Roman/I/ICU:script=latn;language=DFLT;mapping=tex-tex
+t;" at 6.0pt
+ -> C:/Windows/Fonts/timesi.ttf
+Requested font "å®^^8bä½^^93" at 6.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "å®^^8bä½^^93/ICU" at 6.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font 宋体 does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family '宋体(1)' created for font '宋体' with options
+. [Ligatures=TeX,BoldFont=SimHei,ItalicFont=KaiTi].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "KaiTi/ICU:mapping=tex-text;" at 6.0pt
+ -> C:/Windows/Fonts/simkai.ttf
+File: ce.png Graphic file (type QTm)
+<use  "ce.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 1892--1899
+
+ []
+
+
+Underfull \vbox (badness 6641) has occurred while \output is active []
+
  [72]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1881.
+File: cf.png Graphic file (type QTm)
+
+<use  "cf.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73]
+File: f1.png Graphic file (type QTm)
+
+<use  "f1.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74]
+File: f2.png Graphic file (type QTm)
+
+<use  "f2.png" >
+Missing character: There is no 的 in font rm-lmr10!
+ [75] [76]
+Underfull \hbox (badness 10000) in paragraph at lines 2021--2032
+
+ []
+
+
+Overfull \hbox (9.3317pt too wide) detected at line 2045
+\OML/lmm/m/it/10.95 C \OT1/lmr/m/n/10.95 = (\OML/lmm/m/it/10.95 C[] C[]\OT1/lmr
+/m/n/10.95 )  \OMS/lmsy/m/n/10.95 )  \OML/lmm/m/it/10.95 C[] \OT1/lmr/m/n/10.95
+ = []  \OMS/lmsy/m/n/10.95 )  \OML/lmm/m/it/10.95 C[] \OT1/lmr/m/n/10.95 = []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2045--2050
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2053--2054
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2058--2063
+
+ []
+
+[77]
+File: f3.png Graphic file (type QTm)
+ <use  "f3.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 2073--2080
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2084--2084
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2094
+
+ []
+
+[78]
+File: f4.png Graphic file (type QTm)
+ <use  "f4.png" >
+File: f5.png Graphic file (type QTm)
+ <use  "f5.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2123
+
+ []
+
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2127
+
+ []
+
+File: f6.png Graphic file (type QTm)
+<use  "f6.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 2127--2134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2135--2138
+
+ []
+
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 2146--2149
+
+ []
+
+[81]
+File: 3_61.eps Graphic file (type eps)
+ <3_61.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 2209--2210
+
+ []
+
+[82]
+Underfull \hbox (badness 10000) in paragraph at lines 2211--2212
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2217.
+[83]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2217.
  (C:\Users\lenovo\Desktop\bookv_1\book\book_v1.0\boo_v1_0.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1881.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1881.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2217.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2217.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 24157 strings out of 430478
- 445974 string characters out of 3191502
- 576500 words of memory out of 3000000
- 26765 multiletter control sequences out of 15000+200000
- 41172 words of font info for 123 fonts, out of 3000000 for 9000
+ 24208 strings out of 430478
+ 446868 string characters out of 3191502
+ 577281 words of memory out of 3000000
+ 26803 multiletter control sequences out of 15000+200000
+ 41204 words of font info for 127 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,19n,92p,857b,908s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on boo_v1_0.pdf (72 pages).
+Output written on boo_v1_0.pdf (83 pages).
