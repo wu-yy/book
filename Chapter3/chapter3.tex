@@ -161,9 +161,9 @@ $e=(u,v)$是割边，当且仅当e不属于G的任何回路。\\
   设m(T) 为树T 的边数，n(T) 为树T 的结点数。\\
   n=2 时, 结论显然成立;\\
   设$n\leq k$ 时,$m(T)=n(T)-1$ 成立。\\
-  当n=k+1 时, 由于每条边都是割边, 因此图$G'=G - e$ 有两个连通支$T_1$和$T_2$。\\
-  根据假设,$$ m(T_1)=n(T_1)-1,\quad m(T_2)=n(T_2)-1 \Rightarrow m(T)=m(T_1)=m(T_2)+1=n(T)-1$$
-  \item (3)T 连通且有n-1条边$\Rightarrow$(4)T 有n-1 条边且无回路 \\
+  当$n=k+1$ 时, 由于每条边都是割边, 因此图$G'=G - e$ 有两个连通支$T_1$和$T_2$。\\
+  根据假设,$$ m(T_1)=n(T_1)-1,\quad m(T_2)=n(T_2)-1 \Rightarrow $$ $$m(T)=m(T_1)=m(T_2)+1=n(T)-1$$
+  \item (3)T 连通且有$n-1$条边$\Rightarrow$(4)T 有$n-1$ 条边且无回路 \\
   \textbf{证明:}\\
   反证法: 假定T 有回路。\\
     设C 为其中一条含有k 个结点的初级回路，故回路内有k 条边。考察C 以外的$n-k $个结点, 为保持T 的连通性, 至少需要C 以外的n-k 条
@@ -521,7 +521,7 @@ $\Rightarrow \quad B_0=\left[
                          \end{array}
                        \right]
 $\\
-{\hwxw 特点:除$v_0$外，每行只有一个-1}\\
+{\hwxw 特点:除$v_0$外，每行只有一个$-1$}\\
 \subsection{根树基本关联矩阵的性质和特点}
 如果对根树的结点和边重新进行编号，使
 每条边$e=(v_i,v_j)$都满足$v_i$的编号小于$v_j$的编号，
@@ -686,7 +686,82 @@ $$ C_{f_{12}}=-B_{11}^T\cdot(B_{12}^{-1})^T$$
 \begin{shaded}
 定理$3.6.2$说明了基本关联矩阵和基本回路矩阵之间的关系\\
 \indent 说明根据基本关联矩阵，可以通过计算得到基本回路矩阵
+如果$B_k$已知，而且确定了一棵树，则可以直接经过计算求出G的基本回路矩阵$C_f$。
 \end{shaded}
+\begin{sample}
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.5\textwidth]{dianlu.png}\\
+  \caption*{一个电路网络}
+\end{figure}
+已知上图基本关联矩阵\\
+$B_4=
+\begin{array}{c}
+%\mbox{}&
+\begin{array}{cccccc}e_1&e_2&e_3&e_4&e_5&e_6 \end{array}\\
+%\begin{array}{c}\\ \end{array}&
+\left[\begin{array}{cccccc}
+1&-1&1&0&0&0\\
+0&1&0&-1&0&-1\\
+-1&0&0&1&1&0
+\end{array}\right]
+\end{array}
+$
+其中$e_1,e_5,e_6$所对应的子阵行列式非零，求$C_f$。\\
+解：由$e_1,e_5,e_6$可以构成G的一棵树。对$B_4$进行行列式交换得到\\
+$
+B_4=
+\begin{array}{c}
+%\mbox{}&
+\begin{array}{cccccc}e_1&e_2&e_3&e_4&e_5&e_6 \end{array}\\
+%\begin{array}{c}\\ \end{array}&
+\left[\begin{array}{cccccc}
+-1&1&0&1&0&0\\
+1&0&-1&0&0&-1\\
+0&0&1&-1&1&0
+\end{array}\right]
+\end{array}=(B_{11} \quad B_{12})
+$\\
+因此$C_{f_{12}}=-B_{11}^TB_{12}^{-T}=\left[
+                                     \begin{array}{ccc}
+                                       1 & 1 & 1 \\
+                                       -1 & -1 & 0 \\
+                                       0 & -1 & -1 \\
+                                     \end{array}
+                                   \right]
+$\\
+$B_{11}=\left[
+        \begin{array}{ccc}
+          -1 & 1 & 0 \\
+          1 & 0 & -1 \\
+          0 & 0 & 1 \\
+        \end{array}
+      \right] \quad B_{12}=\left[
+        \begin{array}{ccc}
+          1 & 0 & 0 \\
+          0 & 0 & -1 \\
+          -1 & 1 & 0 \\
+        \end{array}
+         \right] \quad B_{12}^{-1}=\left[
+        \begin{array}{ccc}
+          1 & 0 & 0 \\
+          1 & 0 & -1 \\
+          0 & 1 & 0 \\
+        \end{array}
+         \right]
+$\\
+即$$C_f=\begin{array}{c}
+%\mbox{}&
+\begin{array}{cccccc}e_1&e_2&e_3&e_4&e_5&e_6 \end{array}\\
+%\begin{array}{c}\\ \end{array}&
+\left[\begin{array}{cccccc}
+1&0&0&1&1&1\\
+0&1&0&-1&-1&0\\
+0&0&1&0&-1&1
+\end{array}\right]
+\end{array}$$
+\end{sample}
 \begin{theorem}
 有向连通图$G=(V,E)$完全回路矩阵
 的秩为$(m-n+1)$\\
@@ -897,7 +972,7 @@ $3.$ $S=P\cdot S_f$其中P为非奇异方阵，S与$S_f$边次序
 \subsection{基本割集矩阵的计算}
 
 \begin{theorem}
-有向连通图$G=(V,E)$的割集矩阵S的任一$(n-1$)阶子阵行列式非零，当且仅当这些列对应于G的某棵树。\\
+有向连通图$G=(V,E)$的割集矩阵S的任一$(n-1)$阶子阵行列式非零，当且仅当这些列对应于G的某棵树。\\
 {\song
 证明：\\
 \textbf{充分性}：已知G的树T $\quad \Rightarrow \quad$ 其对应子阵行列式非零\\
@@ -920,6 +995,116 @@ $3.$ $S=P\cdot S_f$其中P为非奇异方阵，S与$S_f$边次序
 {\hwxw 思考：基本回路矩阵，基本割集矩阵，基本关联矩阵她们的关系是什么?}\\
 
 \indent 接下来将给出计算基本割集矩阵的算法。从中读者可以感受基本关联矩阵$B_k$、基本回路矩阵$C_f$、基本割集矩阵$S_f$三者的联系。\\
+\begin{theorem}
+设$S_f$和$C_f$分别是连通图G中关于某
+棵树T的基本割集矩阵和基本回路矩阵，且
+边次序一致。并设$S_f=(S_{f_{11}}\quad I),\quad C_f=(I \quad C_{f_{12}})$则
+$$S_{f_{11}}=-C^T_{f_{12}}$$
+{\song
+证明：由推论有$S_f\cdot C_f^T=0$\\
+即$(S_{f_{11}}\quad I)\left[
+                       \begin{array}{c}
+                        I\\
+                           C^T_{f_{12}}  \\
+                       \end{array}
+                     \right] =0
+$
+}
+\end{theorem}
+\indent 再加上回路矩阵所证明的定理$3.6.2$
+容易导出当割集矩阵$S_f$与基本关联矩阵$B_k$的边次序一致时，有$$S_{f_{11}}=B^{-1}_{12}B_{11}$$
+这就是基本关联矩阵$B_k$计算基本割集矩阵$S_f$的算法。\\
+{\hwxw \indent 本定理说明，如果$B_k$已知，而且确定了一棵树，则可以
+直接经过计算求得G的基本割集矩阵$S_f$。\\
+}
+
+\begin{coro}
+当连通图G的基本关联矩阵$B_k$与基
+本割集矩阵$S_f$的边次序一致，并设：
+$$B_k=(B_{11}\quad B_{12})\quad S_f=(S_{f_{11}}\quad I)$$
+则：$S_{f_{11}}=B_{12}^{-1}\cdot B_{11}$
+{\song
+证明：$$S_{f_{11}}=-C_{f_{12}}^{T}=-(-B_{11}^T\cdot(B_{12}^{-1})^T)^T=B_{12}^{-1}\cdot B_{11}$$
+}
+\end{coro}
+
+\begin{sample}
+已知图$3.7$的基本关联矩阵
+\begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.3\textwidth]{3.7.png}\\
+  \caption{求$S_f$}
+\end{figure}
+$B_1=\begin{array}{c}
+\begin{array}{cccccc}e_1&e_2&e_3&e_4&e_5&e_6 \end{array}\\
+\left[\begin{array}{cccccc}
+-1&0&0&-1&0&1\\
+0&1&0&1&1&0\\
+0&0&-1&0&-1&-1
+\end{array}\right]
+\end{array}$其中$T=\{e_2,e_3,e_4\}$构成的树，求对应的基本割集矩阵。\\
+解:对$B_1$的列重新调整如下:\\
+$B_1=\begin{array}{c}
+\begin{array}{cccccc}e_1&e_5&e_6&e_2&e_3&e_4 \end{array}\\
+\left[\begin{array}{cccccc}
+-1&0&1&0&0&-1\\
+0&1&0&1&0&1\\
+0&-1&-1&0&-1&0
+\end{array}\right]
+\end{array}
+$\\
+$B_{11}=\left[
+          \begin{array}{ccc}
+            -1 & 0 & 1 \\
+            0 & 1 & 0 \\
+            0 & -1 & -1 \\
+          \end{array}
+        \right]\quad B_{12}=\left[
+          \begin{array}{ccc}
+            0 & 0 & -1 \\
+            1 & 0 & 1 \\
+            0 & -1 & 0 \\
+          \end{array}
+          \right]
+          \quad B_{12}^{-1}=\left[
+          \begin{array}{ccc}
+            1 & 1 & 0 \\
+            0 & 0 & -1 \\
+            -1 & 0 & 0 \\
+          \end{array}
+        \right]
+$\\
+因此$$S_f=(B_{12}^{-1}B_{11}\quad I)=\begin{array}{c}
+\begin{array}{cccccc}e_1&e_5&e_6&e_2&e_3&e_4 \end{array}\\
+\left[\begin{array}{cccccc}
+-1&1&1&1&0&0\\
+0&1&1&0&1&0\\
+1&0&-1&0&0&1
+\end{array}\right]
+\end{array}
+$$
+\end{sample}
+
+\section{支撑树的生成}
+
+
+\section{Huffman树}
+\section{最短树}
+\section{最大分枝}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \end{document}

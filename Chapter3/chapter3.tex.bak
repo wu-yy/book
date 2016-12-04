@@ -161,9 +161,9 @@ $e=(u,v)$是割边，当且仅当e不属于G的任何回路。\\
   设m(T) 为树T 的边数，n(T) 为树T 的结点数。\\
   n=2 时, 结论显然成立;\\
   设$n\leq k$ 时,$m(T)=n(T)-1$ 成立。\\
-  当n=k+1 时, 由于每条边都是割边, 因此图$G'=G - e$ 有两个连通支$T_1$和$T_2$。\\
-  根据假设,$$ m(T_1)=n(T_1)-1,\quad m(T_2)=n(T_2)-1 \Rightarrow m(T)=m(T_1)=m(T_2)+1=n(T)-1$$
-  \item (3)T 连通且有n-1条边$\Rightarrow$(4)T 有n-1 条边且无回路 \\
+  当$n=k+1$ 时, 由于每条边都是割边, 因此图$G'=G - e$ 有两个连通支$T_1$和$T_2$。\\
+  根据假设,$$ m(T_1)=n(T_1)-1,\quad m(T_2)=n(T_2)-1 \Rightarrow $$ $$m(T)=m(T_1)=m(T_2)+1=n(T)-1$$
+  \item (3)T 连通且有$n-1$条边$\Rightarrow$(4)T 有$n-1$ 条边且无回路 \\
   \textbf{证明:}\\
   反证法: 假定T 有回路。\\
     设C 为其中一条含有k 个结点的初级回路，故回路内有k 条边。考察C 以外的$n-k $个结点, 为保持T 的连通性, 至少需要C 以外的n-k 条
@@ -521,7 +521,7 @@ $\Rightarrow \quad B_0=\left[
                          \end{array}
                        \right]
 $\\
-{\hwxw 特点:除$v_0$外，每行只有一个-1}\\
+{\hwxw 特点:除$v_0$外，每行只有一个$-1$}\\
 \subsection{根树基本关联矩阵的性质和特点}
 如果对根树的结点和边重新进行编号，使
 每条边$e=(v_i,v_j)$都满足$v_i$的编号小于$v_j$的编号，
@@ -897,7 +897,7 @@ $3.$ $S=P\cdot S_f$其中P为非奇异方阵，S与$S_f$边次序
 \subsection{基本割集矩阵的计算}
 
 \begin{theorem}
-有向连通图$G=(V,E)$的割集矩阵S的任一$(n-1$)阶子阵行列式非零，当且仅当这些列对应于G的某棵树。\\
+有向连通图$G=(V,E)$的割集矩阵S的任一$(n-1)$阶子阵行列式非零，当且仅当这些列对应于G的某棵树。\\
 {\song
 证明：\\
 \textbf{充分性}：已知G的树T $\quad \Rightarrow \quad$ 其对应子阵行列式非零\\
@@ -912,19 +912,29 @@ $3.$ $S=P\cdot S_f$其中P为非奇异方阵，S与$S_f$边次序
   \centering
   % Requires \usepackage{graphicx}
   \includegraphics[width=0.3\textwidth]{3_61.eps}\\
-  \caption{}
+  \caption{回路C中，含有s条边和s个顶点。注意在初级回路中边数和顶点数总是相等的}
 \end{figure}
-$$S=
-\begin{array}{lc}
-\mbox{}&
-\begin{array}{cc}s&s \end{array}&
-\left[\begin{array}{cc}
-P&Q
-\end{array}\right]
-\end{array}
-$$
+由于C是G 的连通子图，因此C的割集矩阵的秩是$s-1$,亦即$S_{12}$对应的这s列线性相关，故$|s_{12}|=0$矛盾。
+}
+\end{theorem}
+{\hwxw 思考：基本回路矩阵，基本割集矩阵，基本关联矩阵她们的关系是什么?}\\
+
+\indent 接下来将给出计算基本割集矩阵的算法。从中读者可以感受基本关联矩阵$B_k$、基本回路矩阵$C_f$、基本割集矩阵$S_f$三者的联系。\\
+\begin{theorem}
+设$S_f$和$C_f$分别是连通图G中关于某
+棵树T的基本割集矩阵和基本回路矩阵，且
+边次序一致。并设$S_f=(S_{f_{11}}\quad I),\quad C_f=(I \quad C_{f_{12}})$则
+$$S_{f_{11}}=-C^T_{f_{12}}$$
+{\song
+证明：由推论有$S_f\cdot C_f^T=0$\\
+即$(S_{f_{11}}\quad I)\begin{array}{c}
+                         I \\
+                         C^T_{f_{12}} 
+                       \end{array}=0
+$
 
 }
+
 \end{theorem}
 
 \end{document}
